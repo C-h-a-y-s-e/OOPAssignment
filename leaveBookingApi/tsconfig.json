@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src/**/*", "src/routes/index.ts"],
+  "exclude": ["node_modules"]
+}
