@@ -1,3 +1,4 @@
-◇ injected env (7) from .env.development // tip: ⌘ custom filepath { path: '/custom/path/.env' }
-Data Source initialised
-Server running on http://localhost:8900
+
+> leaveBookingApi@0.0.1 start
+> ts-node src/index.ts
+

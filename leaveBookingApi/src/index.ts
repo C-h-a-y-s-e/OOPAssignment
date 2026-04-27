@@ -1,5 +1,6 @@
 import { Server } from './Server';
 import { Router } from 'express';
+import { Logger } from './helpers/Logger';
 import { AppDataSource } from './data-source';
 import { RoleRouter } from './routes/RoleRouter';
 import { RoleController } from './controllers/RoleController';
@@ -8,7 +9,7 @@ import { Role } from './entity/Roles';
 const DEFAULT_PORT = 8900;
 const port = process.env.SERVER_PORT || DEFAULT_PORT;
 if (!process.env.SERVER_PORT) {
-  console.log(
+  Logger.info(
     'PORT environment variable is not set, defaulting to ' + DEFAULT_PORT,
   );
 }

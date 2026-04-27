@@ -15,11 +15,11 @@ export class LeaveBalances {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
-  totalDays: Float16Array;
+  @Column({ type: 'decimal', precision: 5, scale: 2 })
+  totalDays: number;
 
-  @Column()
-  usedDays: Float16Array; //TODO: find what's best for decimal
+  @Column({ type: 'decimal', precision: 5, scale: 2 })
+  usedDays: number;
 
   @ManyToOne(() => Employees, (employee) => employee.leaveBalances, {
     nullable: false,
@@ -27,6 +27,6 @@ export class LeaveBalances {
   @JoinColumn({ name: 'employee_id', referencedColumnName: 'id' })
   employees: Employees;
 
-  @RelationId((employee: Employees) => employee.role)
-  role_id: number;
+  @RelationId((leaveBalance: LeaveBalances) => leaveBalance.employees)
+  employee_id: number;
 }

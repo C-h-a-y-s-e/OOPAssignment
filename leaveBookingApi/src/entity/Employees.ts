@@ -9,7 +9,7 @@ import {
 } from 'typeorm';
 import { Role } from './Roles';
 import { LeaveBalances } from './LeaveBalances';
-import { LeaveRequests } from './leaveRequests';
+import { LeaveRequests } from './LeaveRequests';
 
 @Entity({ name: 'employees' })
 export class Employees {

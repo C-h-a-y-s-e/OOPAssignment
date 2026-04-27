@@ -11,7 +11,10 @@ export class RoleRouter {
     return this.router;
   }
   private addRoutes() {
-    this.router.get(['', '/'], this.roleController.getAll);
+    this.router.get('/', this.roleController.getAll);
     this.router.get('/:id', this.roleController.getById);
+    this.router.post('/', this.roleController.create);
+    this.router.delete('/:id', this.roleController.delete);
+    this.router.patch('/:id', this.roleController.update);
   }
 }

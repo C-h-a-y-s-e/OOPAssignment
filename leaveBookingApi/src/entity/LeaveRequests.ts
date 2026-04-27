@@ -3,26 +3,22 @@ import {
   PrimaryGeneratedColumn,
   Column,
   ManyToOne,
-  OneToMany,
   JoinColumn,
   RelationId,
 } from 'typeorm';
 import { Employees } from './Employees';
 import { LeaveTypes } from './LeaveTypes';
 
-@Entity({ name: 'leave_balances' })
+@Entity({ name: 'leave_requests' })
 export class LeaveRequests {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @OneToMany(() => LeaveTypes, (leaveType) => leaveType.leaveRequests, {
-    nullable: false,
-  })
-  @Column()
-  endDate: Float16Array;
+  @Column({ type: 'date' })
+  endDate: Date;
 
-  @Column()
-  startDate: Float16Array; //TODO: find what's best for decimal
+  @Column({ type: 'date' })
+  startDate: Date;
 
   @Column()
   status: string; //TODO: Add foreign key for managerin emp table?
@@ -39,6 +35,6 @@ export class LeaveRequests {
   @JoinColumn({ name: 'employee_id', referencedColumnName: 'id' })
   employees: Employees;
 
-  @RelationId((employee: Employees) => employee.role)
-  role_id: number;
+  @RelationId((leaveRequest: LeaveRequests) => leaveRequest.employees)
+  employee_id: number;
 }

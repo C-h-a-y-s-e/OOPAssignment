@@ -1,0 +1,64 @@
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-22 15:16:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-22 15:16:06"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-22 15:16:06"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-22 15:16:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-22 16:43:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-22 16:43:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-22 16:43:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-22 16:43:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-22 16:44:11"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-22 16:44:11"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 12:46:54"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 12:46:54"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 12:46:54"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 12:46:54"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 13:22:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 13:22:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 13:22:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 13:22:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 15:33:01"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 15:33:01"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 15:33:01"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 15:33:01"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 15:34:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 15:34:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 15:56:55"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 15:56:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 15:56:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 15:56:55"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"8","16":":","17":"2","18":"0","19":".","2":"2","20":"3","21":"2","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"7","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/4 not found","timestamp":"2026-04-27 15:58:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:00:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:00:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:00:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:00:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:01:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:01:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:01:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:01:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:20:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:20:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:20:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:20:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:21:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:21:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:21:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:21:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:21:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:21:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:21:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:21:34"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"2","15":"3","16":":","17":"2","18":"3","19":".","2":"2","20":"5","21":"0","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"7","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/ not found","timestamp":"2026-04-27 16:23:23"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:32:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:32:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:37:30"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:37:30"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:38:03"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:38:03"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:40:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:40:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:41:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:41:14"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:49:37"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:49:37"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-27 16:49:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-27 16:49:43"}

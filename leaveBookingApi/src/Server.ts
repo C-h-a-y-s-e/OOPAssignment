@@ -1,6 +1,8 @@
 import express, { Request, Response } from 'express';
 import { DataSource } from 'typeorm';
 import { RoleRouter } from './routes/RoleRouter';
+import Logger from './helpers/Logger';
+import { ResponseHandler } from './helpers/ResponseHandler';
 import { StatusCodes } from 'http-status-codes';
 export class Server {
   private readonly app: express.Application;
@@ -26,23 +28,26 @@ export class Server {
   private initialiseErrorHandling() {
     this.app.use((req: Request, res: Response) => {
       const requestedUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
-      res
-        .status(StatusCodes.NOT_FOUND)
-        .send('Route ' + requestedUrl + ' not found');
+      ResponseHandler.sendErrorResponse(
+        res,
+        StatusCodes.NOT_FOUND,
+        'Route ' + requestedUrl + ' not found',
+      );
     });
   }
   public async start() {
     await this.initialiseDataSource();
     this.app.listen(this.port, () => {
-      console.log(`Server running on http://localhost:${this.port}`);
+      Logger.info(`Server running on http://localhost:${this.port}`);
     });
   }
+
   private async initialiseDataSource() {
     try {
       await this.appDataSource.initialize();
-      console.log('Data Source initialised');
+      Logger.info('Data Source initialised');
     } catch (error) {
-      console.log('Error during initialisation:', error);
+      Logger.error('Error during initialisation:', error);
       throw error;
     }
   }
