@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { IsNotEmpty, MaxLength } from 'class-validator';
-import { Employees } from './Employees';
+import { User } from './User';
 
 @Entity({ name: 'role' })
 export class Role {
@@ -12,6 +12,6 @@ export class Role {
   @MaxLength(30, { message: 'Name must be 30 characters or less' })
   name: string;
 
-  @OneToMany(() => Employees, (employee) => employee.role)
-  employees: Employees[];
+  @OneToMany(() => User, (user) => user.role)
+  User: User[];
 }

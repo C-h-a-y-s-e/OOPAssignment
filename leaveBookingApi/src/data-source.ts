@@ -1,7 +1,6 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import { Role } from './entity/Roles';
-import { Employees } from './entity/Employees';
 import { LeaveBalances } from './entity/LeaveBalances';
 import { LeaveRequests } from './entity/LeaveRequests';
 import { LeaveTypes } from './entity/LeaveTypes';
@@ -33,5 +32,5 @@ export const AppDataSource = new DataSource({
   database: requireEnv('DB_DATABASE'),
   synchronize: process.env.DB_SYNCHRONIZE === 'true',
   logging: false,
-  entities: [Role, Employees, LeaveBalances, LeaveRequests, LeaveTypes, User],
+  entities: [Role, LeaveBalances, LeaveRequests, LeaveTypes, User],
 });

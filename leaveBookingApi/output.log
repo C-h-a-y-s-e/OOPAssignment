@@ -52,3 +52,7 @@
 {"level":"info","message":"::1 - - [29/Apr/2026:11:43:46 +0000] \"GET /api/roles HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-29 12:43:46"}
 {"level":"info","message":"::1 - - [29/Apr/2026:11:43:47 +0000] \"GET /api/roles HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-29 12:43:47"}
 {"level":"info","message":"::1 - - [29/Apr/2026:11:43:48 +0000] \"GET /api/roles HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-29 12:43:48"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 13:40:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 13:40:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:35:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:35:16"}

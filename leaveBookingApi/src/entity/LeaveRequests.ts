@@ -6,7 +6,7 @@ import {
   JoinColumn,
   RelationId,
 } from 'typeorm';
-import { Employees } from './Employees';
+import { User } from './User';
 import { LeaveTypes } from './LeaveTypes';
 
 @Entity({ name: 'leave_requests' })
@@ -29,12 +29,12 @@ export class LeaveRequests {
   @JoinColumn({ name: 'leave_type_id', referencedColumnName: 'id' })
   leaveTypes: LeaveTypes;
 
-  @ManyToOne(() => Employees, (employee) => employee.leaveRequests, {
+  @ManyToOne(() => User, (user) => user.leaveRequests, {
     nullable: false,
   })
-  @JoinColumn({ name: 'employee_id', referencedColumnName: 'id' })
-  employees: Employees;
+  @JoinColumn({ name: 'user_id', referencedColumnName: 'id' })
+  User: User;
 
-  @RelationId((leaveRequest: LeaveRequests) => leaveRequest.employees)
-  employee_id: number;
+  @RelationId((leaveRequest: LeaveRequests) => leaveRequest.User)
+  user_id: number;
 }
