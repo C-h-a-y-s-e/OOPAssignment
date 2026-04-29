@@ -2,8 +2,9 @@ import express, { Request, Response } from 'express';
 import { DataSource } from 'typeorm';
 import { RoleRouter } from './routes/RoleRouter';
 import Logger from './helpers/Logger';
-import { ResponseHandler } from './helpers/ResponseHandler';
 import { StatusCodes } from 'http-status-codes';
+import { ResponseHandler } from './helpers/ResponseHandler';
+import morgan, { StreamOptions } from 'morgan';
 export class Server {
   private readonly app: express.Application;
   constructor(
@@ -12,12 +13,19 @@ export class Server {
     private readonly appDataSource: DataSource,
   ) {
     this.app = express();
-    this.initialiseMiddlewares();
+    this.initialiseMiddleWares();
     this.initialiseRoutes();
     this.initialiseErrorHandling();
   }
-  private initialiseMiddlewares() {
+  private initialiseMiddleWares() {
+    const morganStream: StreamOptions = {
+      write: (message: string): void => {
+        Logger.info(message.trim());
+      },
+    };
+
     this.app.use(express.json());
+    this.app.use(morgan('combined', { stream: morganStream }));
   }
   private initialiseRoutes() {
     this.app.get(['/api', '/api/'], (req: Request, res: Response) => {

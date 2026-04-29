@@ -1,5 +1,6 @@
 import * as winston from 'winston';
 import morgan, { StreamOptions } from 'morgan';
+import { Express } from 'express';
 export class Logger {
   private static instance: winston.Logger = winston.createLogger({
     level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
@@ -14,16 +15,6 @@ export class Logger {
       new winston.transports.File({ filename: 'output.log' }),
     ],
   });
-
-  public static initialiseMiddleware() {
-    const morganStream: StreamOptions = {
-      write: (message: string): void => {
-        Logger.info(message.trim());
-      },
-    };
-
-    return morgan('combined', { stream: morganStream });
-  }
 
   static info(message: string, meta?: any) {
     this.instance.info(message, meta);

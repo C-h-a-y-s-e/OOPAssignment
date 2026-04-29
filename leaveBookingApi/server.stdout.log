@@ -2,3 +2,4 @@
 > leaveBookingApi@0.0.1 start
 > ts-node src/index.ts
 
+◇ injected env (7) from .env.development // tip: ⌘ enable debugging { debug: true }

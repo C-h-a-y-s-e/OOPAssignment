@@ -1,5 +1,7 @@
 import { Router } from 'express';
+import morgan, { StreamOptions } from 'morgan';
 import { RoleController } from '../controllers/RoleController';
+import Logger from '../helpers/Logger';
 export class RoleRouter {
   constructor(
     private router: Router,
@@ -10,6 +12,7 @@ export class RoleRouter {
   public getRouter(): Router {
     return this.router;
   }
+
   private addRoutes() {
     this.router.get('/', this.roleController.getAll);
     this.router.get('/:id', this.roleController.getById);
