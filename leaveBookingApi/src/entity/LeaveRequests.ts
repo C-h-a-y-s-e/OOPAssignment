@@ -32,7 +32,7 @@ export class LeaveRequests {
   @ManyToOne(() => User, (user) => user.leaveRequests, {
     nullable: false,
   })
-  @JoinColumn({ name: 'user_id', referencedColumnName: 'id' })
+  @JoinColumn({ name: 'user_id', referencedColumnName: 'userId' })
   User: User;
 
   @RelationId((leaveRequest: LeaveRequests) => leaveRequest.User)

@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express';
 import { DataSource } from 'typeorm';
 import { RoleRouter } from './routes/RoleRouter';
 import Logger from './helpers/Logger';
+import { UserRouter } from './routes/UserRouter';
 import { StatusCodes } from 'http-status-codes';
 import { ResponseHandler } from './helpers/ResponseHandler';
 import morgan, { StreamOptions } from 'morgan';
@@ -10,6 +11,7 @@ export class Server {
   constructor(
     private readonly port: string | number,
     private readonly roleRouter: RoleRouter,
+    private readonly userRouter: UserRouter,
     private readonly appDataSource: DataSource,
   ) {
     this.app = express();
@@ -32,6 +34,7 @@ export class Server {
       res.status(StatusCodes.OK).send('API is running');
     });
     this.app.use('/api/roles', this.roleRouter.getRouter());
+    this.app.use('/api/user', this.userRouter.getRouter());
   }
   private initialiseErrorHandling() {
     this.app.use((req: Request, res: Response) => {

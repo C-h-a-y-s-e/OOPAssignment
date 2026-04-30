@@ -56,3 +56,412 @@
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 13:40:20"}
 {"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:35:16"}
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:35:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:35:44"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:35:44"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:28 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:28"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"3","15":"7","16":":","17":"3","18":"3","19":".","2":"2","20":"5","21":"0","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"9","level":"error","message":"[Error]: Route http://localhost:8900/user not found","timestamp":"2026-04-29 16:37:33"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:33 +0000] \"GET /user HTTP/1.1\" 404 118 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:33"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"3","15":"7","16":":","17":"3","18":"5","19":".","2":"2","20":"1","21":"6","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"9","level":"error","message":"[Error]: Route http://localhost:8900/users not found","timestamp":"2026-04-29 16:37:35"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:35 +0000] \"GET /users HTTP/1.1\" 404 119 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:35"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"3","15":"7","16":":","17":"3","18":"6","19":".","2":"2","20":"9","21":"2","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"9","level":"error","message":"[Error]: Route http://localhost:8900/user not found","timestamp":"2026-04-29 16:37:36"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:36 +0000] \"GET /user HTTP/1.1\" 404 118 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:36"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"3","15":"7","16":":","17":"4","18":"6","19":".","2":"2","20":"1","21":"3","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"9","level":"error","message":"[Error]: Route http://localhost:8900/ not found","timestamp":"2026-04-29 16:37:46"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:46 +0000] \"GET / HTTP/1.1\" 404 114 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:46"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:37:53 +0000] \"GET /api/roles HTTP/1.1\" 200 138 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-29 16:37:53"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"3","15":"8","16":":","17":"0","18":"9","19":".","2":"2","20":"9","21":"3","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"2","9":"9","level":"error","message":"[Error]: Role not found","timestamp":"2026-04-29 16:38:09"}
+{"level":"info","message":"::1 - - [29/Apr/2026:15:38:09 +0000] \"DELETE /api/roles/4 HTTP/1.1\" 404 90 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-29 16:38:09"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:39:45"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:39:45"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:40:37"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:40:37"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:40:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:40:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:42:22"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:42:22"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-29 16:42:59"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-29 16:42:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 08:59:01"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 08:59:01"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 08:59:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 08:59:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 08:59:52"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 08:59:52"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:00:02"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:00:02"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:03:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:03:42"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:03:53"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:03:53"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:07:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:07:56"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:10:30"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:10:30"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:13:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:13:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:13:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:13:40"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"1","15":"6","16":":","17":"2","18":"0","19":".","2":"2","20":"2","21":"7","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users not found","timestamp":"2026-04-30 09:16:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:16:20 +0000] \"GET /api/users HTTP/1.1\" 404 123 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:16:20"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"1","15":"6","16":":","17":"2","18":"6","19":".","2":"2","20":"3","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 09:16:26"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:16:26 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:16:26"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:16:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:16:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:24:53"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:24:53"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:25:02"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:25:02"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:25:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:25:12"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"3","15":"2","16":":","17":"2","18":"5","19":".","2":"2","20":"5","21":"4","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users not found","timestamp":"2026-04-30 09:32:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:32:25 +0000] \"GET /api/users HTTP/1.1\" 404 123 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.119.0-insider Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","timestamp":"2026-04-30 09:32:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:36:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:36:56"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"3","15":"7","16":":","17":"0","18":"2","19":".","2":"2","20":"2","21":"5","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user not found","timestamp":"2026-04-30 09:37:02"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:37:02 +0000] \"GET /api/user HTTP/1.1\" 404 122 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.119.0-insider Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","timestamp":"2026-04-30 09:37:02"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"3","15":"7","16":":","17":"0","18":"3","19":".","2":"2","20":"9","21":"4","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user not found","timestamp":"2026-04-30 09:37:03"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:37:03 +0000] \"GET /api/user HTTP/1.1\" 404 122 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.119.0-insider Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","timestamp":"2026-04-30 09:37:03"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"3","15":"7","16":":","17":"0","18":"8","19":".","2":"2","20":"1","21":"1","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users not found","timestamp":"2026-04-30 09:37:08"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:37:08 +0000] \"GET /api/users HTTP/1.1\" 404 123 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.119.0-insider Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","timestamp":"2026-04-30 09:37:08"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"3","15":"7","16":":","17":"1","18":"8","19":".","2":"2","20":"6","21":"5","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles not found","timestamp":"2026-04-30 09:37:18"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:37:18 +0000] \"GET /api/roles HTTP/1.1\" 404 123 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:37:18"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:39:02"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:39:02"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:40:17 +0000] \"GET /api HTTP/1.1\" 200 14 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 09:40:17"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:40:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:40:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:41:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:41:43"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:42:09 +0000] \"GET /api HTTP/1.1\" 200 14 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 09:42:09"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:43:17 +0000] \"GET /api/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:43:17"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"4","15":"3","16":":","17":"2","18":"1","19":".","2":"2","20":"4","21":"6","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/1 not found","timestamp":"2026-04-30 09:43:21"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:43:21 +0000] \"GET /api/roles/1 HTTP/1.1\" 404 125 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:43:21"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"4","15":"3","16":":","17":"3","18":"4","19":".","2":"2","20":"6","21":"1","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/1 not found","timestamp":"2026-04-30 09:43:34"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:43:34 +0000] \"GET /api/roles/1 HTTP/1.1\" 404 125 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:43:34"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"4","15":"3","16":":","17":"3","18":"6","19":".","2":"2","20":"3","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/1 not found","timestamp":"2026-04-30 09:43:36"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:43:36 +0000] \"GET /api/roles/1 HTTP/1.1\" 404 125 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:43:36"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"5","15":"2","16":":","17":"0","18":"6","19":".","2":"2","20":"3","21":"6","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/1 not found","timestamp":"2026-04-30 09:52:06"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:52:06 +0000] \"GET /api/roles/1 HTTP/1.1\" 404 125 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:52:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:52:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:52:16"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"5","15":"2","16":":","17":"1","18":"7","19":".","2":"2","20":"0","21":"3","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/roles/1 not found","timestamp":"2026-04-30 09:52:17"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:52:17 +0000] \"GET /api/roles/1 HTTP/1.1\" 404 125 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:52:17"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:54:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:54:43"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:54:43 +0000] \"GET /api/roles/ HTTP/1.1\" 200 138 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:54:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 09:55:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 09:55:05"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:55:05 +0000] \"GET /api/user/ HTTP/1.1\" 200 138 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:05"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:55:11 +0000] \"GET /api/user/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:11"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"5","15":"5","16":":","17":"1","18":"4","19":".","2":"2","20":"4","21":"5","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/role/ not found","timestamp":"2026-04-30 09:55:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:55:14 +0000] \"GET /api/role/ HTTP/1.1\" 404 123 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:55:16 +0000] \"GET /api/roles/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:16"}
+{"0":"2","1":"0","10":"T","11":"0","12":"8","13":":","14":"5","15":"5","16":":","17":"2","18":"1","19":".","2":"2","20":"4","21":"9","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 09:55:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:08:55:21 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:21"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:55:29 +0000] \"GET /api/roles HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:29"}
+{"level":"info","message":"::1 - - [30/Apr/2026:08:55:34 +0000] \"GET /api/user/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 09:55:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 10:50:00"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 10:50:00"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"0","16":":","17":"0","18":"1","19":".","2":"2","20":"5","21":"2","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Failed to retrieve users: Unknown column 'User.id' in 'field list'","timestamp":"2026-04-30 10:50:01"}
+{"level":"info","message":"::1 - - [30/Apr/2026:09:50:01 +0000] \"GET /api/user/ HTTP/1.1\" 500 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 10:50:01"}
+{"level":"error","message":"Error during initialisation: Referenced column id was not found in entity User","stack":"TypeORMError: Referenced column id was not found in entity User\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:152:27\n    at Array.map (<anonymous>)\n    at RelationJoinColumnBuilder.collectReferencedColumns (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:144:32)\n    at RelationJoinColumnBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:63:40)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:182:60\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:175:22\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:168:14)\n    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\connection\\ConnectionMetadataBuilder.ts:106:11)","timestamp":"2026-04-30 10:53:09"}
+{"level":"error","message":"Error during initialisation: Referenced column id was not found in entity User","stack":"TypeORMError: Referenced column id was not found in entity User\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:152:27\n    at Array.map (<anonymous>)\n    at RelationJoinColumnBuilder.collectReferencedColumns (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:144:32)\n    at RelationJoinColumnBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\RelationJoinColumnBuilder.ts:63:40)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:182:60\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:175:22\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:168:14)\n    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\connection\\ConnectionMetadataBuilder.ts:106:11)","timestamp":"2026-04-30 10:57:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 10:58:37"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 10:58:37"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 10:59:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 10:59:27"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"9","16":":","17":"3","18":"1","19":".","2":"2","20":"8","21":"8","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 10:59:31"}
+{"level":"info","message":"::1 - - [30/Apr/2026:09:59:31 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 10:59:31"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"9","16":":","17":"3","18":"4","19":".","2":"2","20":"1","21":"4","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 10:59:34"}
+{"level":"info","message":"::1 - - [30/Apr/2026:09:59:34 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 10:59:34"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"9","16":":","17":"3","18":"5","19":".","2":"2","20":"2","21":"5","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 10:59:35"}
+{"level":"info","message":"::1 - - [30/Apr/2026:09:59:35 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 10:59:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 10:59:41"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 10:59:41"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"9","16":":","17":"4","18":"4","19":".","2":"2","20":"0","21":"6","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/users/ not found","timestamp":"2026-04-30 10:59:44"}
+{"level":"info","message":"::1 - - [30/Apr/2026:09:59:44 +0000] \"GET /api/users/ HTTP/1.1\" 404 124 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 10:59:44"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"0","15":"5","16":":","17":"0","18":"5","19":".","2":"2","20":"7","21":"3","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Failed to retrieve users: Unknown column 'User.role_id' in 'field list'","timestamp":"2026-04-30 11:05:05"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:05:05 +0000] \"GET /api/user/ HTTP/1.1\" 500 147 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:05:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:07:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:07:43"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:07:56 +0000] \"GET /api/user/ HTTP/1.1\" 200 12 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:07:56"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:09:35 +0000] \"GET /api/user/ HTTP/1.1\" 200 135 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:09:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:22:26"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:22:26"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"3","16":":","17":"2","18":"1","19":".","2":"2","20":"0","21":"1","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email not found","timestamp":"2026-04-30 11:23:21"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:23:21 +0000] \"GET /api/user/email HTTP/1.1\" 404 128 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:23:21"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"3","16":":","17":"3","18":"0","19":".","2":"2","20":"3","21":"3","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:23:30"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:23:30 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:23:30"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:24:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:24:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"4","16":":","17":"2","18":"4","19":".","2":"2","20":"6","21":"9","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:24:24"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:24:24 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:24:24"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"4","16":":","17":"2","18":"5","19":".","2":"2","20":"4","21":"7","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:24:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:24:25 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:24:25"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"4","16":":","17":"2","18":"5","19":".","2":"2","20":"6","21":"3","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:24:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:24:25 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:24:25"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"4","16":":","17":"2","18":"5","19":".","2":"2","20":"7","21":"9","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:24:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:24:25 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:24:25"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"4","16":":","17":"2","18":"5","19":".","2":"2","20":"9","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:24:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:24:25 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:24:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:25:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:25:13"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"1","18":"9","19":".","2":"2","20":"2","21":"6","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:19"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:19 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:19"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"2","18":"0","19":".","2":"2","20":"0","21":"7","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:20 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"2","18":"0","19":".","2":"2","20":"2","21":"3","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:20 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"2","18":"0","19":".","2":"2","20":"4","21":"0","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:20 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:25:36"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:25:36"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"1","19":".","2":"2","20":"0","21":"1","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:41 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:41"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"1","19":".","2":"2","20":"4","21":"6","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:41 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:41"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"1","19":".","2":"2","20":"6","21":"4","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:41 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:41"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"1","19":".","2":"2","20":"8","21":"0","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:41 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:41"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"1","19":".","2":"2","20":"9","21":"5","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:41 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:41"}
+{"0":"2","1":"0","10":"T","11":"1","12":"0","13":":","14":"2","15":"5","16":":","17":"4","18":"2","19":".","2":"2","20":"1","21":"0","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/email/harmanmaan@capula.com not found","timestamp":"2026-04-30 11:25:42"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:25:42 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:25:42"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:26:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:26:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:28:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:28:46"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:54 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 200 133 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:54"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:55 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:55"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:56 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:56"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:56 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:56"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:56 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:56"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:56 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:56"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:28:58 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:28:58"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:00 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:00"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 11:29:11"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 11:29:11"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:11 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:11"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:12 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:12"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:12 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:12"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:13 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:13"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:14 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:14"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:14 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:14"}
+{"level":"info","message":"::1 - - [30/Apr/2026:10:29:14 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 11:29:14"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"1","15":"9","16":":","17":"5","18":"4","19":".","2":"2","20":"3","21":"8","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: harmanmaancapula.com not found","timestamp":"2026-04-30 12:19:54"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:19:54 +0000] \"GET /api/user/email/harmanmaancapula.com HTTP/1.1\" 404 106 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:19:54"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:19:57 +0000] \"GET /api/user/email/harmanmaan@capula.com HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:19:57"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:23:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:23:55"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:24:54"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:24:54"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"2","15":"5","16":":","17":"0","18":"2","19":".","2":"2","20":"6","21":"1","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Email is required","timestamp":"2026-04-30 12:25:02"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:25:02 +0000] \"GET /api/user/1 HTTP/1.1\" 400 93 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:25:02"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"2","15":"5","16":":","17":"0","18":"5","19":".","2":"2","20":"8","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Email is required","timestamp":"2026-04-30 12:25:05"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:25:05 +0000] \"GET /api/user/1 HTTP/1.1\" 400 93 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:25:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:25:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:25:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:25:20 +0000] \"GET /api/user/1 HTTP/1.1\" 200 133 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:25:20"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:25:21 +0000] \"GET /api/user/1 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:25:21"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:25:21 +0000] \"GET /api/user/1 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:25:21"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:28:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:28:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:28:28 +0000] \"GET /api/user/1 HTTP/1.1\" 200 156 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 12:28:28"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"0","16":":","17":"5","18":"8","19":".","2":"2","20":"7","21":"2","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:30:58"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:30:58 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:30:58"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:31:37 +0000] \"GET /api/user HTTP/1.1\" 200 158 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:31:37"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"2","16":":","17":"0","18":"6","19":".","2":"2","20":"2","21":"5","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/2 not found","timestamp":"2026-04-30 12:32:06"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:32:06 +0000] \"POST /api/user/2 HTTP/1.1\" 404 124 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:32:06"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"4","16":":","17":"1","18":"1","19":".","2":"2","20":"4","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:34:11"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:34:11 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:34:11"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"7","16":":","17":"0","18":"5","19":".","2":"2","20":"8","21":"9","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user not found","timestamp":"2026-04-30 12:37:05"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:37:05 +0000] \"POST /api/user HTTP/1.1\" 404 122 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:37:05"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"7","16":":","17":"0","18":"7","19":".","2":"2","20":"9","21":"8","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:37:07"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:37:07 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:37:07"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:37:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:37:47"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"7","16":":","17":"5","18":"0","19":".","2":"2","20":"0","21":"5","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:37:50"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:37:50 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:37:50"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"9","16":":","17":"3","18":"8","19":".","2":"2","20":"4","21":"2","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:39:38"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:39:38 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:39:38"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:41:36 +0000] \"GET /api/user/ HTTP/1.1\" 200 158 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:41:36"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:45:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:45:48"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"4","15":"5","16":":","17":"5","18":"8","19":".","2":"2","20":"9","21":"8","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:45:58"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:45:59 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:45:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 12:46:07"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 12:46:07"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"4","15":"6","16":":","17":"1","18":"9","19":".","2":"2","20":"7","21":"0","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 12:46:19"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:46:19 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 12:46:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:33:30"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:33:30"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"3","15":"4","16":":","17":"2","18":"2","19":".","2":"2","20":"9","21":"1","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 13:34:22"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:34:22 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:34:22"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:34:30"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:34:30"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"3","15":"4","16":":","17":"3","18":"1","19":".","2":"2","20":"3","21":"2","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 13:34:31"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:34:31 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:34:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:34:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:34:48"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"3","15":"8","16":":","17":"4","18":"1","19":".","2":"2","20":"6","21":"4","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user not found","timestamp":"2026-04-30 13:38:41"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:38:41 +0000] \"POST /api/user HTTP/1.1\" 404 122 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 13:38:41"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:39:41"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:39:41"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:39:41"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:39:41"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:40:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:40:35"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:40:35"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:40:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:40:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:40:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:40:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:40:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:40:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:40:46"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"4","15":"0","16":":","17":"4","18":"9","19":".","2":"2","20":"5","21":"7","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/ not found","timestamp":"2026-04-30 13:40:49"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:40:49 +0000] \"POST /api/user/ HTTP/1.1\" 404 123 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:40:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:41:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:41:08"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:44:58 +0000] \"POST /api/roles HTTP/1.1\" 201 34 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 13:44:58"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:46:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:46:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:12"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"🔍 UserRouter: Registering routes","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"✓ UserRouter: Registered GET /","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"✓ UserRouter: Registered GET /email/:emailAddress","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"✓ UserRouter: Registered GET /:id","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"✓ UserRouter: Registered POST /","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:43"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:12:47:43 +0000] \"GET /api/user/1 HTTP/1.1\" 200 120 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 13:47:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:50"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:51"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:56"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:47:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:47:56"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:48:01"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:48:01"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:49:00 +0000] \"GET /api HTTP/1.1\" 200 14 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 13:49:00"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:49:10 +0000] \"POST /api/user HTTP/1.1\" 201 142 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-04-30 13:49:10"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"4","15":"9","16":":","17":"4","18":"0","19":".","2":"2","20":"1","21":"0","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Duplicate entry 'Testmanmaan@capula.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'","timestamp":"2026-04-30 13:49:40"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:49:40 +0000] \"POST /api/user/ HTTP/1.1\" 400 157 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:49:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:51:14"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:51:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:51:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:51:14"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"5","15":"1","16":":","17":"1","18":"6","19":".","2":"2","20":"7","21":"8","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Duplicate entry 'Testmanmaan@capula.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'","timestamp":"2026-04-30 13:51:16"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:51:16 +0000] \"POST /api/user/ HTTP/1.1\" 400 157 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:51:16"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:51:35 +0000] \"GET /api/user/ HTTP/1.1\" 200 266 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","timestamp":"2026-04-30 13:51:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:53:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:53:27"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"5","15":"3","16":":","17":"3","18":"4","19":".","2":"2","20":"3","21":"7","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Duplicate entry 'Testmanmaan@capula.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'","timestamp":"2026-04-30 13:53:34"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:53:34 +0000] \"POST /api/user/ HTTP/1.1\" 400 157 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:53:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:54:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:54:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:54:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:54:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:55:14"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 13:55:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:55:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 13:55:14"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:57:21 +0000] \"DELETE /api/user/2 HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:57:21"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:57:27 +0000] \"GET /api/user/ HTTP/1.1\" 200 122 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:57:27"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:57:42 +0000] \"DELETE /api/user/1 HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:57:42"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:57:45 +0000] \"GET /api/user/ HTTP/1.1\" 200 12 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:57:45"}
+{"level":"info","message":"::1 - - [30/Apr/2026:12:57:55 +0000] \"POST /api/user/ HTTP/1.1\" 201 138 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 13:57:55"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:02:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:02:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:02:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:02:40"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"0","15":"4","16":":","17":"0","18":"9","19":".","2":"2","20":"3","21":"7","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/1 not found","timestamp":"2026-04-30 14:04:09"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:04:09 +0000] \"PATCH /api/user/1 HTTP/1.1\" 404 124 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:04:09"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:04:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:04:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"0","15":"5","16":":","17":"0","18":"2","19":".","2":"2","20":"0","21":"6","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Route http://localhost:8900/api/user/1 not found","timestamp":"2026-04-30 14:05:02"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:05:02 +0000] \"PATCH /api/user/1 HTTP/1.1\" 404 124 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:05:02"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:05:15"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:05:15"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:05:15"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:05:15"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"0","15":"5","16":":","17":"1","18":"6","19":".","2":"2","20":"0","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: User not found","timestamp":"2026-04-30 14:05:16"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:05:16 +0000] \"PATCH /api/user/1 HTTP/1.1\" 404 90 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:05:16"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:05:22 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:05:22"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:05:29 +0000] \"GET /api/user/ HTTP/1.1\" 200 150 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:05:29"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:06:07 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:06:07"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:06:18 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:06:18"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:06:25 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:06:25"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:06:31 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:06:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:29:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:29:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:29:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:29:19"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:29:31 +0000] \"GET /api/user/ HTTP/1.1\" 200 129 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:29:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:31:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:31:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:31:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:31:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:33:24"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:33:24"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:33:52"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:33:52"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:34:21"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:34:21"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:40:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:40:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:41:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:41:04"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"4","15":"1","16":":","17":"5","18":"3","19":".","2":"2","20":"8","21":"0","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"4","7":"-","8":"3","9":"0","level":"error","message":"[Error]: Password must be at least 10 characters,password must be a string","timestamp":"2026-04-30 14:41:53"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:41:53 +0000] \"PATCH /api/user/6 HTTP/1.1\" 400 141 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:41:53"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:42:18 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 157 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:42:18"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:42:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:42:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:42:44"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:42:44"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-04-30 14:42:44"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-04-30 14:42:44"}
+{"level":"info","message":"::1 - - [30/Apr/2026:13:42:49 +0000] \"PATCH /api/user/6 HTTP/1.1\" 200 157 \"-\" \"PostmanRuntime/7.53.0\"","timestamp":"2026-04-30 14:42:49"}

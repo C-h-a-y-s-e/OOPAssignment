@@ -24,7 +24,7 @@ export class LeaveBalances {
   @ManyToOne(() => User, (user) => user.leaveBalances, {
     nullable: false,
   })
-  @JoinColumn({ name: 'user_id', referencedColumnName: 'id' })
+  @JoinColumn({ name: 'user_id', referencedColumnName: 'userId' })
   User: User;
 
   @RelationId((leaveBalance: LeaveBalances) => leaveBalance.User)
