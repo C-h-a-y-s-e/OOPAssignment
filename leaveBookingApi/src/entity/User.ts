@@ -7,7 +7,7 @@ import {
   JoinColumn,
   RelationId,
 } from 'typeorm';
-import { IsEmail, IsString, MinLength } from 'class-validator';
+import { IsEmail, IsString, Matches, MinLength } from 'class-validator';
 import { Role } from './Roles';
 import { Exclude } from 'class-transformer';
 import { LeaveBalances } from './LeaveBalances';
@@ -25,8 +25,9 @@ export class User {
   surname: string;
 
   @Column({ select: false })
-  @IsString()
   @Exclude()
+  @IsString()
+  @Matches(/\S/, { message: 'Password cannot be empty or whitespace' })
   @MinLength(10, { message: 'Password must be at least 10 characters' })
   password: string;
 

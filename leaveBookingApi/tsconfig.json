@@ -9,7 +9,8 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "types": ["node", "jest"]
   },
   "include": ["src/**/*", "src/routes/index.ts"],
   "exclude": ["node_modules"]
