@@ -40,7 +40,7 @@ export class Server {
     this.app.get(['/api', '/api/'], (req: Request, res: Response) => {
       res.status(StatusCodes.OK).send('API is running');
     });
-    this.app.use('/api/roles', this.loginRouter.getRouter());
+    this.app.use('/api/login', this.loginRouter.getRouter());
     this.app.use('/api/roles', this.roleRouter.getRouter());
     this.app.use('/api/user', this.userRouter.getRouter());
   }

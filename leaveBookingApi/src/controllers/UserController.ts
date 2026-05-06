@@ -112,7 +112,6 @@ export class UserController {
           errors.map((err) => Object.values(err.constraints || {})).join(', '),
         );
       }
-      user.hashPassword();
       const newUser = await this.userRepository.save(user); // Save and return the created object
       ResponseHandler.sendSuccessResponse(
         res,

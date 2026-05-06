@@ -72,6 +72,6 @@ export class User {
       this.password,
     );
     this.password = hashedPassword;
-    this.salt = hashedPassword;
+    this.salt = salt;
   }
 }
