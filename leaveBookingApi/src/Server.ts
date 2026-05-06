@@ -6,10 +6,13 @@ import { UserRouter } from './routes/UserRouter';
 import { StatusCodes } from 'http-status-codes';
 import { ResponseHandler } from './helpers/ResponseHandler';
 import morgan, { StreamOptions } from 'morgan';
+import { Jwt } from 'jsonwebtoken';
+import { LoginRouter } from './routes/LoginRouter';
 export class Server {
   private readonly app: express.Application;
   constructor(
     private readonly port: string | number,
+    private readonly loginRouter: LoginRouter,
     private readonly roleRouter: RoleRouter,
     private readonly userRouter: UserRouter,
     private readonly appDataSource: DataSource,
@@ -26,6 +29,10 @@ export class Server {
       },
     };
 
+    this.app.use((req: Request, res: Response, next) => {
+      Logger.info(`Incoming request: ${req.method} ${req.originalUrl}`);
+      next();
+    });
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: morganStream }));
   }
@@ -33,6 +40,7 @@ export class Server {
     this.app.get(['/api', '/api/'], (req: Request, res: Response) => {
       res.status(StatusCodes.OK).send('API is running');
     });
+    this.app.use('/api/roles', this.loginRouter.getRouter());
     this.app.use('/api/roles', this.roleRouter.getRouter());
     this.app.use('/api/user', this.userRouter.getRouter());
   }

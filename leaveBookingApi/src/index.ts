@@ -8,6 +8,8 @@ import { Role } from './entity/Roles';
 import { UserRouter } from './routes/UserRouter';
 import { UserController } from './controllers/UserController';
 import { User } from './entity/User';
+import { LoginController } from './controllers/LoginController';
+import { LoginRouter } from './routes/LoginRouter';
 // Initialise the port
 const DEFAULT_PORT = 8900;
 const port = process.env.SERVER_PORT || DEFAULT_PORT;
@@ -17,8 +19,14 @@ if (!process.env.SERVER_PORT) {
   );
 }
 // Initialise the data source
+
 const appDataSource = AppDataSource;
 // Initialise routers
+const loginRouter = new LoginRouter(
+  Router(),
+  new LoginController(AppDataSource.getRepository(User)),
+);
+
 const roleRouter = new RoleRouter(
   Router(),
   new RoleController(AppDataSource.getRepository(Role)),
@@ -30,5 +38,11 @@ const userRouter = new UserRouter(
 );
 
 // Instantiate/start the server
-const server = new Server(port, roleRouter, userRouter, appDataSource);
+const server = new Server(
+  port,
+  loginRouter,
+  roleRouter,
+  userRouter,
+  appDataSource,
+);
 server.start();

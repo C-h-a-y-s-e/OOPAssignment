@@ -6,6 +6,7 @@ import { ResponseHandler } from '../helpers/ResponseHandler';
 import { StatusCodes } from 'http-status-codes';
 import { validate } from 'class-validator';
 import { instanceToPlain } from 'class-transformer';
+import Logger from '../helpers/Logger';
 
 export class UserController {
   constructor(private userRepository: Repository<User>) {}
@@ -96,6 +97,7 @@ export class UserController {
   };
   public create = async (req: Request, res: Response): Promise<void> => {
     try {
+      Logger.info('UserController.create hit', req.body);
       const { firstname, surname, password, email, roleId } = req.body;
       var user = new User();
       user.firstname = firstname;
@@ -110,6 +112,7 @@ export class UserController {
           errors.map((err) => Object.values(err.constraints || {})).join(', '),
         );
       }
+      user.hashPassword();
       const newUser = await this.userRepository.save(user); // Save and return the created object
       ResponseHandler.sendSuccessResponse(
         res,
