@@ -21,6 +21,7 @@ import { PasswordHandler } from '../helpers/PasswordHandler';
 import { Exclude } from 'class-transformer';
 import { LeaveRequests } from './LeaveRequests';
 import { LeaveBalances } from './LeaveBalances';
+import { UserManagement } from './UserManagement';
 @Entity({ name: 'user' })
 export class User {
   @PrimaryGeneratedColumn()
@@ -59,6 +60,9 @@ export class User {
 
   @OneToMany(() => LeaveBalances, (leaveBalances) => leaveBalances.User)
   leaveBalances: LeaveBalances[];
+
+  @OneToMany(() => UserManagement, (userManagement) => userManagement.User)
+  userManagement: UserManagement[];
 
   @OneToMany(() => LeaveRequests, (leaveRequests) => leaveRequests.User)
   leaveRequests: LeaveRequests[];
