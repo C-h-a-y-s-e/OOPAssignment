@@ -1,6 +1,7 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { DataSource } from 'typeorm';
 import { RoleRouter } from './routes/RoleRouter';
+import { IRouter } from './types/IRouter';
 import Logger from './helpers/Logger';
 import { UserRouter } from './routes/UserRouter';
 import { StatusCodes } from 'http-status-codes';
@@ -9,7 +10,6 @@ import morgan, { StreamOptions } from 'morgan';
 import jwt from 'jsonwebtoken';
 import helmet from 'helmet';
 import requestIP, { rateLimit } from 'express-rate-limit';
-import { LoginRouter } from './routes/LoginRouter';
 import { IAuthenticatedJWTRequest } from './types/IAuthenticatedJWTRequest';
 export class Server {
   public static readonly ERROR_TOKEN_IS_INVALID =
@@ -39,9 +39,7 @@ export class Server {
   });
   constructor(
     private readonly port: string | number,
-    private readonly loginRouter: LoginRouter,
-    private readonly roleRouter: RoleRouter,
-    private readonly userRouter: UserRouter,
+    private readonly routers: IRouter[],
     private readonly appDataSource: DataSource,
   ) {
     this.app = express();
@@ -66,26 +64,17 @@ export class Server {
   }
 
   private initialiseRoutes() {
-    this.app.use(
-      '/api/login',
-      this.loginLimiter,
-      this.logRouteAccess('Login route'),
-      this.loginRouter.getRouter(),
-    );
-    this.app.use(
-      '/api/roles',
-      this.authenticateToken,
-      this.logRouteAccess('Roles route'),
-      this.jwtRateLimiter,
-      this.roleRouter.getRouter(),
-    );
-    this.app.use(
-      '/api/users',
-      this.authenticateToken,
-      this.logRouteAccess('Users route'),
-      this.jwtRateLimiter,
-      this.userRouter.getRouter(),
-    );
+    for (const route of this.routers) {
+      const middlewares: express.RequestHandler[] = [];
+      if (route.authenticate) {
+        middlewares.push(this.authenticateToken);
+      }
+      if (route.limiter) {
+        middlewares.push(route.limiter);
+      }
+      middlewares.push(this.logRouteAccess(route.routeName));
+      this.app.use(route.basePath, ...middlewares, route.getRouter());
+    }
   }
   private initialiseErrorHandling() {
     this.app.use((req: Request, res: Response) => {

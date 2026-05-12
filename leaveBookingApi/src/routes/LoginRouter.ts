@@ -1,9 +1,15 @@
 import { Router } from 'express';
-import { LoginController } from '../controllers/LoginController';
-export class LoginRouter {
+import { ILoginController } from '../types/ILoginController';
+import { IRouter } from '../types/IRouter';
+import { Server } from '../Server';
+export class LoginRouter implements IRouter {
+  authenticate: boolean = false;
+  routeName: string = 'login';
+  limiter: any = (Server as any).jwtRateLimiter;
+  basePath: string = '/api/login';
   constructor(
     private router: Router,
-    private loginController: LoginController,
+    private loginController: ILoginController,
   ) {
     this.addRoutes();
   }

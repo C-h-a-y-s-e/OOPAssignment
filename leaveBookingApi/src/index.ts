@@ -22,27 +22,20 @@ if (!process.env.SERVER_PORT) {
 
 const appDataSource = AppDataSource;
 // Initialise routers
-const loginRouter = new LoginRouter(
-  Router(),
-  new LoginController(AppDataSource.getRepository(User)),
-);
-
-const roleRouter = new RoleRouter(
-  Router(),
-  new RoleController(AppDataSource.getRepository(Role)),
-);
-
-const userRouter = new UserRouter(
-  Router(),
-  new UserController(AppDataSource.getRepository(User)),
-);
-
+const routers = [
+  new LoginRouter(
+    Router(),
+    new LoginController(AppDataSource.getRepository(User)),
+  ),
+  new RoleRouter(
+    Router(),
+    new RoleController(AppDataSource.getRepository(Role)),
+  ),
+  new UserRouter(
+    Router(),
+    new UserController(AppDataSource.getRepository(User)),
+  ),
+];
 // Instantiate/start the server
-const server = new Server(
-  port,
-  loginRouter,
-  roleRouter,
-  userRouter,
-  appDataSource,
-);
+const server = new Server(port, routers, appDataSource);
 server.start();

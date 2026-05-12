@@ -2,8 +2,14 @@ import { Router } from 'express';
 import morgan, { StreamOptions } from 'morgan';
 import { UserController } from '../controllers/UserController';
 import Logger from '../helpers/Logger';
+import { IRouter } from '../types/IRouter';
+import { Server } from '../Server';
 import { User } from '../entity/User';
-export class UserRouter {
+export class UserRouter implements IRouter {
+  authenticate: boolean = true;
+  routeName: string = 'users';
+  limiter: any = (Server as any).jwtRateLimiter; //TODO: look further into as any
+  basePath: string = '/api/users';
   constructor(
     private router: Router,
     private userController: UserController,
