@@ -5,14 +5,17 @@ import Logger from '../helpers/Logger';
 import { IRouter } from '../types/IRouter';
 import { Server } from '../Server';
 import { User } from '../entity/User';
+import { MiddlewareFactory } from '../middleware/MiddlewareFactory';
+import { IEntityController } from '../types/IEntityController';
+import { IGetByEmail } from '../types/IGetByEmail';
 export class UserRouter implements IRouter {
   authenticate: boolean = true;
   routeName: string = 'users';
-  limiter: any = (Server as any).jwtRateLimiter; //TODO: look further into as any
+  limiter: any = MiddlewareFactory.jwtRateLimiter; //TODO: look further into as any
   basePath: string = '/api/users';
   constructor(
     private router: Router,
-    private userController: UserController,
+    private userController: IEntityController & IGetByEmail,
   ) {
     this.addRoutes();
   }

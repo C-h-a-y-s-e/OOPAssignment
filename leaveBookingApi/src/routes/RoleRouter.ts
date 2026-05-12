@@ -4,14 +4,16 @@ import { RoleController } from '../controllers/RoleController';
 import Logger from '../helpers/Logger';
 import { IRouter } from '../types/IRouter';
 import { Server } from '../Server';
+import { MiddlewareFactory } from '../middleware/MiddlewareFactory';
+import { IEntityController } from '../types/IEntityController';
 export class RoleRouter implements IRouter {
   authenticate: boolean = true;
   routeName: string = 'roles';
-  limiter: any = (Server as any).jwtRateLimiter;
+  limiter: any = MiddlewareFactory.jwtRateLimiter;
   basePath: string = '/api/roles';
   constructor(
     private router: Router,
-    private roleController: RoleController,
+    private roleController: IEntityController,
   ) {
     this.addRoutes();
   }

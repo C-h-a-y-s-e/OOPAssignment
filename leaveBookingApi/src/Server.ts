@@ -9,8 +9,11 @@ import { ResponseHandler } from './helpers/ResponseHandler';
 import morgan, { StreamOptions } from 'morgan';
 import jwt from 'jsonwebtoken';
 import helmet from 'helmet';
+import { MiddlewareFactory } from './middleware/MiddlewareFactory';
 import requestIP, { rateLimit } from 'express-rate-limit';
 import { IAuthenticatedJWTRequest } from './types/IAuthenticatedJWTRequest';
+import { AppError } from './helpers/AppError';
+import { ErrorHandler } from './ErrorHandler';
 export class Server {
   public static readonly ERROR_TOKEN_IS_INVALID =
     'Not authorised: Token is invalid';
@@ -67,16 +70,28 @@ export class Server {
     for (const route of this.routers) {
       const middlewares: express.RequestHandler[] = [];
       if (route.authenticate) {
-        middlewares.push(this.authenticateToken);
+        middlewares.push(MiddlewareFactory.authenticateToken);
       }
       if (route.limiter) {
-        middlewares.push(route.limiter);
+        middlewares.push(MiddlewareFactory.logRouteAccess(route.routeName));
       }
-      middlewares.push(this.logRouteAccess(route.routeName));
       this.app.use(route.basePath, ...middlewares, route.getRouter());
     }
   }
   private initialiseErrorHandling() {
+    this.app.use(
+      (err: Error, _req: Request, res: Response, _next: NextFunction) => {
+        if (err instanceof AppError) {
+          ErrorHandler.handle(err, res);
+          return;
+        }
+        ResponseHandler.sendErrorResponse(
+          res,
+          StatusCodes.INTERNAL_SERVER_ERROR,
+          err.message || 'Unexpected error',
+        );
+      },
+    );
     this.app.use((req: Request, res: Response) => {
       const requestedUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
       ResponseHandler.sendErrorResponse(
