@@ -20,7 +20,6 @@ import { Role } from './Roles';
 import { PasswordHandler } from '../helpers/PasswordHandler';
 import { Exclude } from 'class-transformer';
 import { LeaveRequests } from './LeaveRequests';
-import { LeaveBalances } from './LeaveBalances';
 import { UserManagement } from './UserManagement';
 @Entity({ name: 'user' })
 export class User {
@@ -48,6 +47,9 @@ export class User {
   @IsEmail({}, { message: 'Must be a valid email address' })
   email: string;
 
+  @Column({ default: 25 })
+  leaveBalance: number;
+
   @ManyToOne(() => Role, (role) => role.User, {
     nullable: false,
     eager: true,
@@ -57,9 +59,6 @@ export class User {
 
   @RelationId((user: User) => user.role)
   roleId: number;
-
-  @OneToMany(() => LeaveBalances, (leaveBalances) => leaveBalances.User)
-  leaveBalances: LeaveBalances[];
 
   @OneToMany(() => UserManagement, (userManagement) => userManagement.User)
   userManagement: UserManagement[];

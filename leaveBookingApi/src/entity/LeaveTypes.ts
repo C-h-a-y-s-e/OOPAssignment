@@ -8,7 +8,6 @@ import {
   RelationId,
 } from 'typeorm';
 import { Role } from './Roles';
-import { LeaveBalances } from './LeaveBalances';
 import { LeaveRequests } from './LeaveRequests';
 
 @Entity({ name: 'leave_types' })
@@ -25,6 +24,6 @@ export class LeaveTypes {
   @Column()
   type: string;
 
-  @OneToMany(() => LeaveRequests, (leaveRequests) => leaveRequests.leaveTypes)
+  @OneToMany(() => LeaveRequests, (leaveRequests) => leaveRequests.leaveType)
   leaveRequests: LeaveRequests[];
 }

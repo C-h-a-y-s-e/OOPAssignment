@@ -1,6 +1,6 @@
 import 'dotenv/config'; // Loads environment variables from .env
 import { PasswordHandler } from './helpers/PasswordHandler'; // Adjust path as needed
-const TEST_PASSWORD = 'password123';
+const TEST_PASSWORD = 'test';
 //Generate hash and salt
 const { hashedPassword, salt } = PasswordHandler.hashPassword(TEST_PASSWORD);
 console.log('Hashed Password:', hashedPassword);

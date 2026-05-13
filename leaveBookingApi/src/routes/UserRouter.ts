@@ -12,7 +12,7 @@ export class UserRouter implements IRouter {
   authenticate: boolean = true;
   routeName: string = 'users';
   limiter: any = MiddlewareFactory.jwtRateLimiter; //TODO: look further into as any
-  basePath: string = '/api/users';
+  basePath: string = '/api/user';
   constructor(
     private router: Router,
     private userController: IEntityController & IGetByEmail,

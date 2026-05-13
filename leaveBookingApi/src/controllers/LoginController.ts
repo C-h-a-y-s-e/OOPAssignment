@@ -38,5 +38,13 @@ export class LoginController implements ILoginController {
     if (!PasswordHandler.verifyPassword(password, user.password, user.salt)) {
       throw new AppError(LoginController.ERROR_PASSWORD_INCORRECT);
     }
+    let token = new UserDTOToken(user.email, user.role);
+    res
+      .status(StatusCodes.ACCEPTED)
+      .send(
+        jwt.sign({ token }, process.env.JWT_SECRET_KEY as string, {
+          expiresIn: '3h',
+        }),
+      );
   };
 }

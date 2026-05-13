@@ -128,8 +128,8 @@ export class UserController implements IEntityController, IGetByEmail {
     //Update specific fields
     if (email !== undefined) user.email = email;
     if (password !== undefined) user.password = password;
-    if (roleId !== undefined) user.role = { id: roleId } as any;
-    const errors = await validate(user);
+    if (roleId !== undefined) user.role = { id: Number(roleId) } as any;
+    const errors = await validate(user, { skipMissingProperties: true });
     if (errors.length > 0) {
       //Collate a string of all decorator error messages
       throw new AppError(

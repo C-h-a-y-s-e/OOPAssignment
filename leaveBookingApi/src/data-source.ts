@@ -1,10 +1,10 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import { Role } from './entity/Roles';
-import { LeaveBalances } from './entity/LeaveBalances';
 import { LeaveRequests } from './entity/LeaveRequests';
 import { LeaveTypes } from './entity/LeaveTypes';
 import { User } from './entity/User';
+import { UserManagement } from './entity/UserManagement';
 import * as dotenv from 'dotenv';
 
 dotenv.config({ path: `.env.${process.env.NODE_ENV || 'development'}` });
@@ -32,5 +32,5 @@ export const AppDataSource = new DataSource({
   database: requireEnv('DB_DATABASE'),
   synchronize: process.env.DB_SYNCHRONIZE === 'true',
   logging: false,
-  entities: [Role, LeaveBalances, LeaveRequests, LeaveTypes, User],
+  entities: [Role, LeaveRequests, LeaveTypes, User, UserManagement],
 });

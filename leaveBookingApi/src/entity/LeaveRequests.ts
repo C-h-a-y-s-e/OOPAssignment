@@ -36,5 +36,5 @@ export class LeaveRequests {
   User: User;
 
   @RelationId((leaveRequest: LeaveRequests) => leaveRequest.User)
-  user_id: number;
+  userId: number;
 }

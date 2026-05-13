@@ -10,6 +10,9 @@ import { UserController } from './controllers/UserController';
 import { User } from './entity/User';
 import { LoginController } from './controllers/LoginController';
 import { LoginRouter } from './routes/LoginRouter';
+import { RequestRouter } from './routes/RequestRouter';
+import { RequestController } from './controllers/RequestController';
+import { LeaveRequests } from './entity/LeaveRequests';
 // Initialise the port
 const DEFAULT_PORT = 8900;
 const port = process.env.SERVER_PORT || DEFAULT_PORT;
@@ -34,6 +37,10 @@ const routers = [
   new UserRouter(
     Router(),
     new UserController(AppDataSource.getRepository(User)),
+  ),
+  new RequestRouter(
+    Router(),
+    new RequestController(AppDataSource.getRepository(LeaveRequests)),
   ),
 ];
 // Instantiate/start the server
