@@ -74,12 +74,11 @@ export class UserController implements IEntityController, IGetByEmail {
     var user = new User();
     user.firstname = firstname;
     user.surname = surname;
-    user.password = password; //Will be salted and hashed in the entity
+    user.password = password;
     user.email = email;
     user.role = { id: roleId } as any; //Assign role by ID, TypeORM will handle the relation
     const errors = await validate(user);
     if (errors.length > 0) {
-      //Collate a string of all decorator error messages
       throw new AppError(
         errors.map((err) => Object.values(err.constraints || {})).join(', '),
       );
@@ -95,8 +94,6 @@ export class UserController implements IEntityController, IGetByEmail {
   public delete = async (req: Request, res: Response): Promise<void> => {
     const id = req.params.id;
 
-    //Might consider softDelete (mark as deleted) in a production app to enable data recovery
-    //If we do this we can add @DeleteDateColumn() deletedAt?: Date;
     const result = await this.userRepository.delete(id);
     if (result.affected === 0) {
       throw new AppError(

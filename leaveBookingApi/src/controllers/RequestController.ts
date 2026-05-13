@@ -120,6 +120,16 @@ export class RequestController implements IEntityController {
       );
     }
 
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+
+    if (start > end) {
+      throw new AppError(
+        'Start date cannot be after end date',
+        StatusCodes.BAD_REQUEST,
+      );
+    }
+
     leaveRequest.startDate = startDate;
     leaveRequest.endDate = endDate;
     leaveRequest.status = status;
