@@ -10,6 +10,8 @@ import { LeaveTypes } from '../entity/LeaveTypes';
 import { User } from '../entity/User';
 import { AppDataSource } from '../data-source';
 import { UserManagement } from '../entity/UserManagement';
+import { ParseDate } from '../helpers/ParseDate';
+import { DateOverlapCheck } from '../helpers/DateOverlapCheck';
 
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}
@@ -120,19 +122,20 @@ export class RequestController implements IEntityController {
       );
     }
 
-    const start = new Date(startDate);
-    const end = new Date(endDate);
-
-    if (start > end) {
-      throw new AppError(
-        'Start date cannot be after end date',
-        StatusCodes.BAD_REQUEST,
-      );
+    const parsedStartDate = ParseDate.parseUkDate(startDate);
+    const parsedEndDate = ParseDate.parseUkDate(endDate);
+    ParseDate.validateDateRange(parsedStartDate, parsedEndDate); //TODO: move logic for this into parsedate class
+    await DateOverlapCheck.validateOverlap(
+      userId,
+      parsedStartDate,
+      parsedEndDate,
+      this.leaveRequestRepository,
+    );
+    leaveRequest.startDate = parsedStartDate;
+    leaveRequest.endDate = parsedEndDate;
+    if (status !== undefined) {
+      leaveRequest.status = status;
     }
-
-    leaveRequest.startDate = startDate;
-    leaveRequest.endDate = endDate;
-    leaveRequest.status = status;
     leaveRequest.User = { userId } as User;
     (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes; //TODO Fix
 
@@ -152,9 +155,20 @@ export class RequestController implements IEntityController {
     const leaveRequest = await this.getLeaveRequestById(req.params.id);
     const { startDate, endDate, status, userId, leaveTypeId } = req.body;
 
-    if (startDate !== undefined) leaveRequest.startDate = startDate;
-    if (endDate !== undefined) leaveRequest.endDate = endDate;
-    if (status !== undefined) leaveRequest.status = status;
+    if (startDate !== undefined) {
+      const parsedStartDate = ParseDate.parseUkDate(startDate);
+      leaveRequest.startDate = parsedStartDate;
+    }
+    if (endDate !== undefined) {
+      const parsedEndDate = ParseDate.parseUkDate(endDate);
+      leaveRequest.endDate = parsedEndDate;
+    }
+    if (startDate !== undefined && endDate !== undefined) {
+      ParseDate.validateDateRange(leaveRequest.startDate, leaveRequest.endDate);
+    }
+    if (status !== undefined) {
+      leaveRequest.status = status;
+    }
     if (userId !== undefined) leaveRequest.User = { userId } as User;
     if (leaveTypeId !== undefined)
       (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes;

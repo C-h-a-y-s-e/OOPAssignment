@@ -2891,3 +2891,245 @@
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-12 12:26:56"}
 {"level":"error","message":"Error during initialisation: Entity metadata for User#userManagement was not found. Check if you specified a correct entity object and if it's connected in the connection options.","stack":"TypeORMError: Entity metadata for User#userManagement was not found. Check if you specified a correct entity object and if it's connected in the connection options.\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:1128:23\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.computeInverseProperties (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:1118:34)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:160:18\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:159:25)\n    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\connection\\ConnectionMetadataBuilder.ts:106:11)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async DataSource.buildMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\data-source\\DataSource.ts:733:13)\n    at async DataSource.initialize (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\data-source\\DataSource.ts:264:13)","timestamp":"2026-05-12 12:27:20"}
 {"level":"error","message":"Error during initialisation: Entity metadata for User#userManagement was not found. Check if you specified a correct entity object and if it's connected in the connection options.","stack":"TypeORMError: Entity metadata for User#userManagement was not found. Check if you specified a correct entity object and if it's connected in the connection options.\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:1128:23\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.computeInverseProperties (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:1118:34)\n    at C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:160:18\n    at Array.forEach (<anonymous>)\n    at EntityMetadataBuilder.build (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\metadata-builder\\EntityMetadataBuilder.ts:159:25)\n    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\connection\\ConnectionMetadataBuilder.ts:106:11)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async DataSource.buildMetadatas (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\data-source\\DataSource.ts:733:13)\n    at async DataSource.initialize (C:\\Users\\daltonc\\Documents\\Object Orientated Programming\\Assignment\\node_modules\\src\\data-source\\DataSource.ts:264:13)","timestamp":"2026-05-12 12:27:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 11:23:17"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 11:23:17"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 11:23:17"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 11:23:17"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:13:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:13:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:13:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:13:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:14:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:14:12"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:14:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:14:12"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:25:26"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:25:26"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:25:26"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:25:26"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:43:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 12:43:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:43:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 12:43:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:03:07"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:03:07"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:03:07"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:03:07"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:36:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:36:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:36:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:36:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:37:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:37:51"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 13:37:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 13:37:51"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:11:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:11:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:11:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:11:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:12:09"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:12:09"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:12:20"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-13 14:12:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"2","16":":","17":"2","18":"0","19":".","2":"2","20":"8","21":"1","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-13 14:12:20"}
+{"level":"info","message":"::1 - - [13/May/2026:13:12:20 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:12:20"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:12:51"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-13 14:12:51"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"2","16":":","17":"5","18":"1","19":".","2":"2","20":"3","21":"1","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-13 14:12:51"}
+{"level":"info","message":"::1 - - [13/May/2026:13:12:51 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:12:51"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-13 14:13:01"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-13 14:13:01"}
+{"level":"info","message":"::1 - - [13/May/2026:13:13:01 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:13:01"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:13:15"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:13:15"}
+{"level":"error","message":"userId and leaveTypeId are required","timestamp":"2026-05-13 14:13:15"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"3","16":":","17":"1","18":"5","19":".","2":"2","20":"5","21":"0","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: userId and leaveTypeId are required","timestamp":"2026-05-13 14:13:15"}
+{"level":"info","message":"::1 - - [13/May/2026:13:13:15 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:13:15"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:13:38"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:13:38"}
+{"level":"error","message":"an unknown value was passed to the validate function","timestamp":"2026-05-13 14:13:38"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"3","16":":","17":"3","18":"8","19":".","2":"2","20":"7","21":"2","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: an unknown value was passed to the validate function","timestamp":"2026-05-13 14:13:38"}
+{"level":"info","message":"::1 - - [13/May/2026:13:13:38 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 128 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:13:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:15:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:15:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:15:58"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:15:58"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:16:59"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:16:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:17:08"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:17:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:17:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:17:14"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:18:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:18:16"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests","timestamp":"2026-05-13 14:18:35"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-13 14:18:35"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"8","16":":","17":"3","18":"5","19":".","2":"2","20":"6","21":"9","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-13 14:18:35"}
+{"level":"info","message":"::1 - - [13/May/2026:13:18:35 +0000] \"POST /api/leaveRequests HTTP/1.1\" 401 108 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-05-13 14:18:35"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-13 14:18:54"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-13 14:18:54"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"8","16":":","17":"5","18":"4","19":".","2":"2","20":"2","21":"0","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-13 14:18:54"}
+{"level":"info","message":"::1 - - [13/May/2026:13:18:54 +0000] \"POST /api/user/ HTTP/1.1\" 401 107 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-05-13 14:18:54"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-13 14:18:54"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-13 14:18:54"}
+{"level":"error","message":"User not found","timestamp":"2026-05-13 14:18:54"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"8","16":":","17":"5","18":"4","19":".","2":"2","20":"2","21":"5","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: User not found","timestamp":"2026-05-13 14:18:54"}
+{"level":"info","message":"::1 - - [13/May/2026:13:18:54 +0000] \"POST /api/login HTTP/1.1\" 500 90 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.7705\"","timestamp":"2026-05-13 14:18:54"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:18:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:18:55"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:19:00"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:19:00"}
+{"level":"info","message":"::1 - - [13/May/2026:13:19:00 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:19:00"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:19:16"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:19:16"}
+{"level":"error","message":"Start date must be before or equal to end date","timestamp":"2026-05-13 14:19:16"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"9","16":":","17":"1","18":"6","19":".","2":"2","20":"1","21":"0","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Start date must be before or equal to end date","timestamp":"2026-05-13 14:19:16"}
+{"level":"info","message":"::1 - - [13/May/2026:13:19:16 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 122 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:19:16"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:19:30"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:19:30"}
+{"level":"error","message":"Start date must be before or equal to end date","timestamp":"2026-05-13 14:19:30"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"9","16":":","17":"3","18":"0","19":".","2":"2","20":"9","21":"3","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Start date must be before or equal to end date","timestamp":"2026-05-13 14:19:30"}
+{"level":"info","message":"::1 - - [13/May/2026:13:19:30 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 122 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:19:30"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 14:19:36"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 14:19:36"}
+{"level":"error","message":"Status must be one of: Awaiting approval, approved, denied","timestamp":"2026-05-13 14:19:36"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"1","15":"9","16":":","17":"3","18":"6","19":".","2":"2","20":"7","21":"9","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Status must be one of: Awaiting approval, approved, denied","timestamp":"2026-05-13 14:19:36"}
+{"level":"info","message":"::1 - - [13/May/2026:13:19:36 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 134 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 14:19:36"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:32:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:32:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:34:03"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:34:03"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:35:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:35:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:38:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:38:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:40:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:40:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 14:47:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 14:47:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:27:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:27:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:28:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:28:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:28:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:28:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:29:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:29:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:30:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:30:14"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:30:31"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:30:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:31:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:31:04"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:31:16"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:31:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:59:10"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:59:10"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 15:59:34"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 15:59:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:05:59"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:05:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:12:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:12:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:12:36"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:12:36"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:01"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:01"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:23"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:23"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:29"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:29"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:35"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:39"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:39"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:14:52"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:14:52"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:15:59"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:15:59"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:16:13"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:16:13"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"1","15":"6","16":":","17":"1","18":"3","19":".","2":"2","20":"6","21":"9","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Property \"userId\" was not found in \"LeaveRequests\". Make sure your query is correct.","timestamp":"2026-05-13 16:16:13"}
+{"level":"info","message":"::1 - - [13/May/2026:15:16:13 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 500 164 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:16:13"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:16:22"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:16:22"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"1","15":"6","16":":","17":"2","18":"2","19":".","2":"2","20":"0","21":"6","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Property \"userId\" was not found in \"LeaveRequests\". Make sure your query is correct.","timestamp":"2026-05-13 16:16:22"}
+{"level":"info","message":"::1 - - [13/May/2026:15:16:22 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 500 164 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:16:22"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:16:30"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"1","15":"6","16":":","17":"3","18":"0","19":".","2":"2","20":"4","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Expected double-quoted property name in JSON at position 149 (line 8 column 1)","timestamp":"2026-05-13 16:16:30"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:16:36"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:16:36"}
+{"level":"error","message":"userId and leaveTypeId are required","timestamp":"2026-05-13 16:16:36"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"1","15":"6","16":":","17":"3","18":"6","19":".","2":"2","20":"2","21":"1","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: userId and leaveTypeId are required","timestamp":"2026-05-13 16:16:36"}
+{"level":"info","message":"::1 - - [13/May/2026:15:16:36 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:16:36"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:16:45"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:16:45"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"1","15":"6","16":":","17":"4","18":"5","19":".","2":"2","20":"6","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"3","level":"error","message":"[Error]: Property \"userId\" was not found in \"LeaveRequests\". Make sure your query is correct.","timestamp":"2026-05-13 16:16:45"}
+{"level":"info","message":"::1 - - [13/May/2026:15:16:45 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 500 164 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:16:45"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:17:33"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:17:33"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:19:17"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:19:17"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:19:23"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:19:23"}
+{"level":"info","message":"::1 - - [13/May/2026:15:19:23 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:19:23"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-13 16:19:38"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-13 16:19:38"}
+{"level":"info","message":"::1 - - [13/May/2026:15:19:38 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-13 16:19:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-13 16:20:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-13 16:20:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:48:03"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:48:03"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:51:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:51:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:51:18"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:51:18"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:53:22"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:53:22"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:54:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:54:42"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 08:54:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 08:54:51"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 08:55:18"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-14 08:55:18"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"5","16":":","17":"1","18":"8","19":".","2":"2","20":"9","21":"0","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-14 08:55:18"}
+{"level":"info","message":"::1 - - [14/May/2026:07:55:18 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:55:18"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-14 08:55:27"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-14 08:55:27"}
+{"level":"info","message":"::1 - - [14/May/2026:07:55:27 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:55:27"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-14 08:55:32"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-14 08:55:32"}
+{"level":"info","message":"::1 - - [14/May/2026:07:55:32 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:55:32"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 08:55:39"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-14 08:55:39"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"5","16":":","17":"3","18":"9","19":".","2":"2","20":"5","21":"2","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-14 08:55:39"}
+{"level":"info","message":"::1 - - [14/May/2026:07:55:39 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:55:39"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 08:55:53"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 08:55:53"}
+{"level":"info","message":"::1 - - [14/May/2026:07:55:53 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:55:53"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 08:59:51"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 08:59:51"}
+{"level":"info","message":"::1 - - [14/May/2026:07:59:51 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 08:59:51"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:00:23"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:00:23"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:00:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:00:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:00:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:00:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:00:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:00:55"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:01:59"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:01:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:02:06"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:02:06"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 09:02:08"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 09:02:08"}
+{"level":"info","message":"::1 - - [14/May/2026:08:02:09 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 174 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 09:02:09"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:02:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:02:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:02:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:02:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:05:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:05:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 09:05:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 09:05:05"}

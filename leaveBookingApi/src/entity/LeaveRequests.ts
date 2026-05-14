@@ -6,8 +6,15 @@ import {
   JoinColumn,
   RelationId,
 } from 'typeorm';
+import { IsNotEmpty, IsIn } from 'class-validator';
 import { User } from './User';
 import { LeaveTypes } from './LeaveTypes';
+
+enum LeaveRequestStatus {
+  AWAITING_APPROVAL = 'Awaiting approval',
+  APPROVED = 'approved',
+  DENIED = 'denied',
+}
 
 @Entity({ name: 'leave_requests' })
 export class LeaveRequests {
@@ -15,13 +22,23 @@ export class LeaveRequests {
   id: number;
 
   @Column({ type: 'date' })
-  endDate: Date;
-
-  @Column({ type: 'date' })
+  @IsNotEmpty({ message: 'Start date is required' })
   startDate: Date;
 
-  @Column()
-  status: string; //TODO: Add foreign key for managerin emp table?
+  @Column({ type: 'date' })
+  @IsNotEmpty({ message: 'End date is required' })
+  endDate: Date;
+
+  @Column({
+    type: 'enum',
+    enum: LeaveRequestStatus,
+    default: LeaveRequestStatus.AWAITING_APPROVAL,
+  })
+  @IsNotEmpty({ message: 'Status is required' })
+  @IsIn(Object.values(LeaveRequestStatus), {
+    message: 'Status must be one of: Awaiting approval, approved, denied',
+  })
+  status: LeaveRequestStatus;
 
   @ManyToOne(() => LeaveTypes, (leaveTypes) => leaveTypes.leaveRequests, {
     nullable: false,
