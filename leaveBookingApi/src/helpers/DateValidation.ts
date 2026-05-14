@@ -63,7 +63,7 @@ export class DateValidation {
 
     return false;
   }
-  static async validateOverlapandBa(
+  static async validateOverlap(
     userId: number,
     newStart: Date,
     newEnd: Date,
@@ -85,7 +85,6 @@ export class DateValidation {
       );
     }
   }
-  static async checkAgainstBalance() {}
 }
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}

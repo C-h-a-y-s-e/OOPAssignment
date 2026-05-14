@@ -10,6 +10,7 @@ import Logger from '../helpers/Logger';
 import { AppError } from '../helpers/AppError';
 import { IEntityController } from '../types/IEntityController';
 import { IGetByEmail } from '../types/IGetByEmail';
+import { LeaveBalanceService } from '../services/LeaveBalanceService';
 
 export class UserController implements IEntityController, IGetByEmail {
   constructor(private userRepository: Repository<User>) {}
@@ -135,5 +136,22 @@ export class UserController implements IEntityController, IGetByEmail {
     }
     const updatedUser = await this.userRepository.save(user);
     ResponseHandler.sendSuccessResponse(res, updatedUser, StatusCodes.OK);
+  };
+
+  public resetBalance = async (req: Request, res: Response): Promise<void> => {
+    const userId = parseInt(req.params.userId as string);
+
+    if (isNaN(userId)) {
+      throw new AppError('Invalid user ID format', StatusCodes.BAD_REQUEST);
+    }
+
+    await LeaveBalanceService.resetLeaveBalance(userId, this.userRepository);
+
+    const user = await this.userRepository.findOne({
+      where: { userId },
+      relations: ['role'],
+    });
+
+    ResponseHandler.sendSuccessResponse(res, user);
   };
 }

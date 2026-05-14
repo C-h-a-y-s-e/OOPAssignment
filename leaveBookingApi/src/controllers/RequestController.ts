@@ -11,8 +11,8 @@ import { User } from '../entity/User';
 import { AppDataSource } from '../data-source';
 import { UserManagement } from '../entity/UserManagement';
 import { ParseDate } from '../helpers/ParseDate';
+import { LeaveBalanceService } from '../services/LeaveBalanceService';
 import { DateValidation } from '../helpers/DateValidation';
-import { normalize } from 'node:path';
 
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}
@@ -64,7 +64,6 @@ export class RequestController implements IEntityController {
     ResponseHandler.sendSuccessResponse(res, leaveRequest);
   };
 
-  //  return leave requests for a specific user
   public getByUserId = async (req: Request, res: Response): Promise<void> => {
     const userId = this.parseId(req.params.userId);
 
@@ -82,7 +81,7 @@ export class RequestController implements IEntityController {
 
     ResponseHandler.sendSuccessResponse(res, requests);
   };
-  //  return leave requests for a manager
+
   public getForManager = async (req: Request, res: Response): Promise<void> => {
     const managerId = this.parseId(req.params.managerId);
 
@@ -115,7 +114,7 @@ export class RequestController implements IEntityController {
   public create = async (req: Request, res: Response): Promise<void> => {
     const leaveRequest = new LeaveRequests();
     const { startDate, endDate, status, userId, leaveTypeId } = req.body;
-    const normalisedStatus = status.toLowerCase();
+
     if (userId === undefined || leaveTypeId === undefined) {
       throw new AppError(
         'userId and leaveTypeId are required',
@@ -123,7 +122,9 @@ export class RequestController implements IEntityController {
       );
     }
 
-    // Set the start and end date to a Date variable, parsed into the correct format
+    const normalisedStatus =
+      typeof status === 'string' ? status.toLowerCase() : undefined;
+
     const { startDate: parsedStartDate, endDate: parsedEndDate } =
       ParseDate.parseRange(startDate, endDate);
 
@@ -132,15 +133,26 @@ export class RequestController implements IEntityController {
       parsedStartDate,
       parsedEndDate,
       this.leaveRequestRepository,
-    ); //Use excludeRequestId when patching or updating
+    );
+
+    const daysRequested = ParseDate.calculateDays(
+      parsedStartDate,
+      parsedEndDate,
+    );
+    const userRepo = AppDataSource.getRepository(User);
+    await LeaveBalanceService.checkAgainstBalance(
+      userId,
+      daysRequested,
+      userRepo,
+    );
+
     leaveRequest.startDate = parsedStartDate;
     leaveRequest.endDate = parsedEndDate;
-
     if (normalisedStatus !== undefined) {
-      leaveRequest.status = normalisedStatus;
+      leaveRequest.status = normalisedStatus as any;
     }
     leaveRequest.User = { userId } as User;
-    (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes; //TODO Fix
+    (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes;
 
     const errors = await validate(leaveRequest);
     if (errors.length > 0) {
@@ -157,22 +169,39 @@ export class RequestController implements IEntityController {
   public update = async (req: Request, res: Response): Promise<void> => {
     const leaveRequest = await this.getLeaveRequestById(req.params.id);
     const { startDate, endDate, status, userId, leaveTypeId } = req.body;
-    const normalisedStatus = status?.toLowerCase;
-    if (startDate !== undefined) {
-      leaveRequest.startDate = ParseDate.parseUkDate(startDate);
-    }
-    if (endDate !== undefined) {
-      leaveRequest.endDate = ParseDate.parseUkDate(endDate);
-    }
+    const normalisedStatus =
+      typeof status === 'string' ? status.toLowerCase() : undefined;
+
     if (startDate !== undefined && endDate !== undefined) {
-      ParseDate.parseRange(startDate, endDate);
+      const parsedRange = ParseDate.parseRange(startDate, endDate);
+      leaveRequest.startDate = parsedRange.startDate;
+      leaveRequest.endDate = parsedRange.endDate;
+    } else {
+      if (startDate !== undefined) {
+        leaveRequest.startDate = ParseDate.parseUkDate(startDate);
+      }
+      if (endDate !== undefined) {
+        leaveRequest.endDate = ParseDate.parseUkDate(endDate);
+      }
     }
+
+    if (startDate !== undefined || endDate !== undefined) {
+      await DateValidation.validateOverlap(
+        leaveRequest.userId,
+        leaveRequest.startDate,
+        leaveRequest.endDate,
+        this.leaveRequestRepository,
+        leaveRequest.id,
+      );
+    }
+
     if (normalisedStatus !== undefined) {
-      leaveRequest.status = normalisedStatus;
+      leaveRequest.status = normalisedStatus as any;
     }
     if (userId !== undefined) leaveRequest.User = { userId } as User;
-    if (leaveTypeId !== undefined)
+    if (leaveTypeId !== undefined) {
       (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes;
+    }
 
     const errors = await validate(leaveRequest);
     if (errors.length > 0) {

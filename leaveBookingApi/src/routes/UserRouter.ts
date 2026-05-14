@@ -26,8 +26,12 @@ export class UserRouter implements IRouter {
   private addRoutes() {
     this.router.get('/', this.userController.getAll);
     this.router.get('/email/:emailAddress', this.userController.getByEmail);
-    this.router.get('/:id', this.userController.getById);
     this.router.post('/', this.userController.create);
+    this.router.patch(
+      '/:userId/reset-balance',
+      (this.userController as any).resetBalance,
+    );
+    this.router.get('/:id', this.userController.getById);
     this.router.delete('/:id', this.userController.delete);
     this.router.patch('/:id', this.userController.update);
   }

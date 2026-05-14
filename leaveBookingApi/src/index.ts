@@ -11,7 +11,7 @@ import { User } from './entity/User';
 import { LoginController } from './controllers/LoginController';
 import { LoginRouter } from './routes/LoginRouter';
 import { RequestRouter } from './routes/RequestRouter';
-import { RequestController } from './helpers/DateValidation';
+import { RequestController } from './controllers/RequestController';
 import { LeaveRequests } from './entity/LeaveRequests';
 // Initialise the port
 const DEFAULT_PORT = 8900;

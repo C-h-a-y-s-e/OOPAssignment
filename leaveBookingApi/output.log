@@ -3589,3 +3589,528 @@
 {"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1806624000000-1809388800000","timestamp":"2026-05-14 11:48:43"}
 {"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1806624000000-1809388800000","timestamp":"2026-05-14 11:48:43"}
 {"level":"info","message":"::1 - - [14/May/2026:10:48:43 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 11:48:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:25:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:25:04"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:29:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:29:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:45:32"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:45:32"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:46:23"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:46:23"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:53:45"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:53:45"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 13:57:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 13:57:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:27:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:27:49"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:29:31"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:29:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:30:35"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:30:35"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:30:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:30:48"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:30:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:30:56"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:50:55"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:50:55"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:51:00"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:51:00"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:51:47"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:51:47"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:52:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:52:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:53:41"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:53:41"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:54:07"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:54:08"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:54:54"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:54:54"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:55:00"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:55:00"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:55:15"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-14 14:55:16"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"5","15":"5","16":":","17":"1","18":"6","19":".","2":"2","20":"2","21":"0","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-14 14:55:16"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:16 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:16"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-14 14:55:22"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-14 14:55:22"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:23 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:23"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:55:33"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"DateOverlapCheck: found 13 requests for user 1","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1806624000000-1814659200000","timestamp":"2026-05-14 14:55:33"}
+{"level":"debug","message":"Overlap detected with request id 14","timestamp":"2026-05-14 14:55:33"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 14:55:33"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"5","15":"5","16":":","17":"3","18":"3","19":".","2":"2","20":"3","21":"5","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 14:55:33"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:33 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:33"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:55:43"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"DateOverlapCheck: found 13 requests for user 1","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1809302400000-1814659200000","timestamp":"2026-05-14 14:55:43"}
+{"level":"debug","message":"Overlap detected with request id 14","timestamp":"2026-05-14 14:55:43"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 14:55:43"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"5","15":"5","16":":","17":"4","18":"3","19":".","2":"2","20":"0","21":"9","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 14:55:43"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:43 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:43"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:55:48"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"DateOverlapCheck: found 13 requests for user 1","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1811980800000-1814659200000","timestamp":"2026-05-14 14:55:48"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:48 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:48"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:55:59"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"DateOverlapCheck: found 14 requests for user 1","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:55:59"}
+{"level":"info","message":"::1 - - [14/May/2026:13:55:59 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:55:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:58:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:58:04"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:58:06"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"DateOverlapCheck: found 15 requests for user 1","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1817251200000-1827878400000","timestamp":"2026-05-14 14:58:06"}
+{"level":"debug","message":"Overlap detected with request id 16","timestamp":"2026-05-14 14:58:06"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 14:58:06"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"5","15":"8","16":":","17":"0","18":"6","19":".","2":"2","20":"1","21":"1","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 14:58:06"}
+{"level":"info","message":"::1 - - [14/May/2026:13:58:06 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:58:06"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 14:58:17"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"DateOverlapCheck: found 15 requests for user 1","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1848873600000-1891036800000","timestamp":"2026-05-14 14:58:17"}
+{"level":"info","message":"::1 - - [14/May/2026:13:58:17 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 14:58:17"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 14:59:38"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 14:59:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 15:00:21"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 15:00:21"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 15:00:33"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 15:00:33"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:43:38"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:43:38"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:43:42"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-14 23:43:42"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"4","15":"3","16":":","17":"4","18":"2","19":".","2":"2","20":"2","21":"4","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-14 23:43:42"}
+{"level":"info","message":"::1 - - [14/May/2026:22:43:42 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:43:42"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-14 23:43:47"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-14 23:43:47"}
+{"level":"info","message":"::1 - - [14/May/2026:22:43:47 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:43:47"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:44:01"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"DateOverlapCheck: found 16 requests for user 1","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1848873600000-1891036800000","timestamp":"2026-05-14 23:44:01"}
+{"level":"debug","message":"Overlap detected with request id 17","timestamp":"2026-05-14 23:44:01"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:01"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"4","15":"4","16":":","17":"0","18":"1","19":".","2":"2","20":"2","21":"7","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:01"}
+{"level":"info","message":"::1 - - [14/May/2026:22:44:01 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:44:01"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:44:14"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"DateOverlapCheck: found 16 requests for user 1","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:14"}
+{"level":"debug","message":"Overlap detected with request id 17","timestamp":"2026-05-14 23:44:14"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:14"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"4","15":"4","16":":","17":"1","18":"4","19":".","2":"2","20":"8","21":"0","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:14"}
+{"level":"info","message":"::1 - - [14/May/2026:22:44:14 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:44:14"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:44:19"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"DateOverlapCheck: found 16 requests for user 1","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1880409600000-1922572800000","timestamp":"2026-05-14 23:44:19"}
+{"level":"debug","message":"Overlap detected with request id 17","timestamp":"2026-05-14 23:44:19"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:19"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"4","15":"4","16":":","17":"1","18":"9","19":".","2":"2","20":"5","21":"5","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 23:44:19"}
+{"level":"info","message":"::1 - - [14/May/2026:22:44:19 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:44:19"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:44:28"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"DateOverlapCheck: found 16 requests for user 1","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1911945600000-1954108800000","timestamp":"2026-05-14 23:44:28"}
+{"level":"info","message":"::1 - - [14/May/2026:22:44:28 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:44:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:46:06"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:46:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:49:45"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:49:45"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:50:38"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:50:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:50:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:50:56"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:51:04"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"DateOverlapCheck: found 17 requests for user 1","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 1943481600000-1985731200000","timestamp":"2026-05-14 23:51:04"}
+{"level":"debug","message":"Overlap detected with request id 18","timestamp":"2026-05-14 23:51:04"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-14 23:51:04"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"1","16":":","17":"0","18":"4","19":".","2":"2","20":"1","21":"1","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-14 23:51:04"}
+{"level":"info","message":"::1 - - [14/May/2026:22:51:04 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:51:04"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:51:10"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"DateOverlapCheck: found 17 requests for user 1","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 1975104000000-2017267200000","timestamp":"2026-05-14 23:51:10"}
+{"level":"info","message":"::1 - - [14/May/2026:22:51:10 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:51:10"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:52:03"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:52:03"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:55:23"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:55:23"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:55:51"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:55:51"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:56:19"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"DateOverlapCheck: found 18 requests for user 1","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2038176000000-2080339200000","timestamp":"2026-05-14 23:56:19"}
+{"level":"error","message":"Insufficient leave balance. Requested: 489, Available: 25","timestamp":"2026-05-14 23:56:19"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"6","16":":","17":"1","18":"9","19":".","2":"2","20":"4","21":"7","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Insufficient leave balance. Requested: 489, Available: 25","timestamp":"2026-05-14 23:56:19"}
+{"level":"info","message":"::1 - - [14/May/2026:22:56:19 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:56:19"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:56:32"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"DateOverlapCheck: found 18 requests for user 1","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2038176000000-2048803200000","timestamp":"2026-05-14 23:56:32"}
+{"level":"error","message":"Insufficient leave balance. Requested: 124, Available: 25","timestamp":"2026-05-14 23:56:32"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"6","16":":","17":"3","18":"2","19":".","2":"2","20":"9","21":"9","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Insufficient leave balance. Requested: 124, Available: 25","timestamp":"2026-05-14 23:56:32"}
+{"level":"info","message":"::1 - - [14/May/2026:22:56:33 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:56:33"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:56:45"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"DateOverlapCheck: found 18 requests for user 1","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2038176000000-2040163200000","timestamp":"2026-05-14 23:56:45"}
+{"level":"info","message":"::1 - - [14/May/2026:22:56:45 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:56:45"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:56:57"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"DateOverlapCheck: found 19 requests for user 1","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"debug","message":"Checking overlap: existing 2038176000000-2040163200000 new 2040249600000-2042841600000","timestamp":"2026-05-14 23:56:57"}
+{"level":"error","message":"Insufficient leave balance. Requested: 31, Available: 25","timestamp":"2026-05-14 23:56:57"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"6","16":":","17":"5","18":"7","19":".","2":"2","20":"3","21":"5","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Insufficient leave balance. Requested: 31, Available: 25","timestamp":"2026-05-14 23:56:57"}
+{"level":"info","message":"::1 - - [14/May/2026:22:56:57 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 132 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:56:57"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-14 23:58:23"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-14 23:58:23"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:58:29"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"DateOverlapCheck: found 19 requests for user 1","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"debug","message":"Checking overlap: existing 2038176000000-2040163200000 new 2040249600000-2041977600000","timestamp":"2026-05-14 23:58:29"}
+{"level":"info","message":"::1 - - [14/May/2026:22:58:29 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 165 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:58:29"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-14 23:58:38"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"DateOverlapCheck: found 20 requests for user 1","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1797292800000-1798761600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1799107200000-1799193600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1799366400000-1799452800000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1801440000000-1801526400000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1806624000000-1809388800000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1811980800000-1814659200000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1817251200000-1827878400000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1848873600000-1891036800000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1911945600000-1954108800000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 1975104000000-2017267200000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 2038176000000-2040163200000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"debug","message":"Checking overlap: existing 2040249600000-2041977600000 new 2045520000000-2047248000000","timestamp":"2026-05-14 23:58:38"}
+{"level":"error","message":"Insufficient leave balance. Requested: 21, Available: 4","timestamp":"2026-05-14 23:58:38"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"8","16":":","17":"3","18":"8","19":".","2":"2","20":"0","21":"3","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Insufficient leave balance. Requested: 21, Available: 4","timestamp":"2026-05-14 23:58:38"}
+{"level":"info","message":"::1 - - [14/May/2026:22:58:38 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-14 23:58:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:00:15"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:00:15"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:00:52"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:00:52"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:01:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:01:28"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:02:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:02:48"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:03:19"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:03:19"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:12:22"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:12:22"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 00:12:47"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 00:12:47"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"2","16":":","17":"4","18":"7","19":".","2":"2","20":"7","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 00:12:47"}
+{"level":"info","message":"::1 - - [14/May/2026:23:12:47 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:12:47"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 00:13:35"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 00:13:35"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"3","16":":","17":"3","18":"5","19":".","2":"2","20":"3","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 00:13:35"}
+{"level":"info","message":"::1 - - [14/May/2026:23:13:35 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:13:35"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 00:13:41"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 00:13:41"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"3","16":":","17":"4","18":"1","19":".","2":"2","20":"0","21":"2","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 00:13:41"}
+{"level":"info","message":"::1 - - [14/May/2026:23:13:41 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:13:41"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-15 00:13:50"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-15 00:13:50"}
+{"level":"info","message":"::1 - - [14/May/2026:23:13:51 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:13:51"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 00:14:01"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 00:14:01"}
+{"level":"info","message":"::1 - - [14/May/2026:23:14:01 +0000] \"GET /api/user/ HTTP/1.1\" 200 289 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:14:01"}
+{"level":"info","message":"Incoming request: PATCH /api/user/1/reset-balance","timestamp":"2026-05-15 00:14:22"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 00:14:22"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"4","16":":","17":"2","18":"2","19":".","2":"2","20":"3","21":"0","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 00:14:22"}
+{"level":"info","message":"::1 - - [14/May/2026:23:14:22 +0000] \"PATCH /api/user/1/reset-balance HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:14:22"}
+{"level":"info","message":"Incoming request: PATCH /api/user/1/reset-balance","timestamp":"2026-05-15 00:14:33"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 00:14:33"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"4","16":":","17":"3","18":"3","19":".","2":"2","20":"0","21":"1","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Route http://localhost:8900/api/user/1/reset-balance not found","timestamp":"2026-05-15 00:14:33"}
+{"level":"info","message":"::1 - - [14/May/2026:23:14:33 +0000] \"PATCH /api/user/1/reset-balance HTTP/1.1\" 404 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:14:33"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:15:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:15:12"}
+{"level":"info","message":"Incoming request: PATCH /api/user/1/reset-balance","timestamp":"2026-05-15 00:15:18"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 00:15:18"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"5","16":":","17":"1","18":"8","19":".","2":"2","20":"3","21":"2","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"4","level":"error","message":"[Error]: Route http://localhost:8900/api/user/1/reset-balance not found","timestamp":"2026-05-15 00:15:18"}
+{"level":"info","message":"::1 - - [14/May/2026:23:15:18 +0000] \"PATCH /api/user/1/reset-balance HTTP/1.1\" 404 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:15:18"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:15:44"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:15:44"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:16:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:16:40"}
+{"level":"info","message":"Incoming request: PATCH /api/user/1/reset-balance","timestamp":"2026-05-15 00:16:46"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 00:16:46"}
+{"level":"info","message":"::1 - - [14/May/2026:23:16:46 +0000] \"PATCH /api/user/1/reset-balance HTTP/1.1\" 200 147 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:16:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:19:28"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:19:29"}
