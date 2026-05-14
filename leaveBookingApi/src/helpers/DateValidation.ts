@@ -1,19 +1,92 @@
-import { Request, Response } from 'express';
-import { validate } from 'class-validator';
-import { Repository, In } from 'typeorm';
-import { StatusCodes } from 'http-status-codes';
-import { ResponseHandler } from '../helpers/ResponseHandler';
-import { AppError } from '../helpers/AppError';
-import { IEntityController } from '../types/IEntityController';
+import { In, Repository } from 'typeorm';
 import { LeaveRequests } from '../entity/LeaveRequests';
+import { StatusCodes } from 'http-status-codes';
+import { AppError } from './AppError';
+import Logger from './Logger';
+import { validate } from 'class-validator';
+import { Request, Response } from 'express';
+import { AppDataSource } from '../data-source';
 import { LeaveTypes } from '../entity/LeaveTypes';
 import { User } from '../entity/User';
-import { AppDataSource } from '../data-source';
 import { UserManagement } from '../entity/UserManagement';
-import { ParseDate } from '../helpers/ParseDate';
-import { DateValidation } from '../helpers/DateValidation';
-import { normalize } from 'node:path';
+import { IEntityController } from '../types/IEntityController';
+import { ParseDate } from './ParseDate';
+import { ResponseHandler } from './ResponseHandler';
+export class DateValidation {
+  static async checkOverlap(
+    userId: number,
+    newStart: Date,
+    newEnd: Date,
+    leaveRequestRepository: Repository<LeaveRequests>,
+    excludeRequestId?: number,
+  ): Promise<boolean> {
+    const allRequests = await leaveRequestRepository.find({
+      relations: ['User'],
+    });
+    const existingRequests = allRequests.filter(
+      (request) => request.User?.userId === userId,
+    );
 
+    Logger.debug(
+      `DateOverlapCheck: found ${existingRequests.length} requests for user ${userId}`,
+    );
+
+    for (const request of existingRequests) {
+      if (excludeRequestId !== undefined && request.id === excludeRequestId) {
+        continue;
+      }
+
+      const existingStart =
+        request.startDate instanceof Date
+          ? request.startDate.getTime()
+          : new Date(request.startDate).getTime();
+      const existingEnd =
+        request.endDate instanceof Date
+          ? request.endDate.getTime()
+          : new Date(request.endDate).getTime();
+      const newStartTime =
+        newStart instanceof Date
+          ? newStart.getTime()
+          : new Date(newStart).getTime();
+      const newEndTime =
+        newEnd instanceof Date ? newEnd.getTime() : new Date(newEnd).getTime();
+
+      Logger.debug(
+        `Checking overlap: existing ${existingStart}-${existingEnd} new ${newStartTime}-${newEndTime}`,
+      );
+
+      if (existingStart <= newEndTime && existingEnd >= newStartTime) {
+        Logger.debug(`Overlap detected with request id ${request.id}`);
+        return true;
+      }
+    }
+
+    return false;
+  }
+  static async validateOverlapandBa(
+    userId: number,
+    newStart: Date,
+    newEnd: Date,
+    leaveRequestRepository: Repository<LeaveRequests>,
+    excludeRequestId?: number,
+  ): Promise<void> {
+    const hasOverlap = await this.checkOverlap(
+      userId,
+      newStart,
+      newEnd,
+      leaveRequestRepository,
+      excludeRequestId,
+    );
+
+    if (hasOverlap) {
+      throw new AppError(
+        'Requested dates overlap with another leave request',
+        StatusCodes.BAD_REQUEST,
+      );
+    }
+  }
+  static async checkAgainstBalance() {}
+}
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}
 

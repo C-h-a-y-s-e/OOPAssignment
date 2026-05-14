@@ -27,8 +27,36 @@ export class ParseDate {
     return date;
   }
 
-  static validateDateRange(startDate: Date, endDate: Date): void {
-    if (startDate > endDate) {
+  static parseRange(
+    startDate: string,
+    endDate: string,
+  ): { startDate: Date; endDate: Date } {
+    const parsedStartDate = ParseDate.parseUkDate(startDate);
+    const parsedEndDate = ParseDate.parseUkDate(endDate);
+
+    if (parsedStartDate > parsedEndDate) {
+      throw new AppError(
+        'Start date must be before or equal to end date',
+        StatusCodes.BAD_REQUEST,
+      );
+    }
+
+    return {
+      startDate: parsedStartDate,
+      endDate: parsedEndDate,
+    };
+  }
+
+  static validateDateRange(
+    startDate: string | Date,
+    endDate: string | Date,
+  ): void {
+    const parsedStartDate =
+      startDate instanceof Date ? startDate : ParseDate.parseUkDate(startDate);
+    const parsedEndDate =
+      endDate instanceof Date ? endDate : ParseDate.parseUkDate(endDate);
+
+    if (parsedStartDate > parsedEndDate) {
       throw new AppError(
         'Start date must be before or equal to end date',
         StatusCodes.BAD_REQUEST,

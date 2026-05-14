@@ -11,7 +11,7 @@ import { User } from './User';
 import { LeaveTypes } from './LeaveTypes';
 
 enum LeaveRequestStatus {
-  AWAITING_APPROVAL = 'Awaiting approval',
+  PENDING = 'pending',
   APPROVED = 'approved',
   DENIED = 'denied',
 }
@@ -32,11 +32,11 @@ export class LeaveRequests {
   @Column({
     type: 'enum',
     enum: LeaveRequestStatus,
-    default: LeaveRequestStatus.AWAITING_APPROVAL,
+    default: LeaveRequestStatus.PENDING,
   })
   @IsNotEmpty({ message: 'Status is required' })
   @IsIn(Object.values(LeaveRequestStatus), {
-    message: 'Status must be one of: Awaiting approval, approved, denied',
+    message: 'Status must be one of: pending, approved, denied',
   })
   status: LeaveRequestStatus;
 
