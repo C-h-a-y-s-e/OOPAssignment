@@ -4114,3 +4114,149 @@
 {"level":"info","message":"::1 - - [14/May/2026:23:16:46 +0000] \"PATCH /api/user/1/reset-balance HTTP/1.1\" 200 147 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 00:16:46"}
 {"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:19:28"}
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:19:29"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 00:22:21"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 00:22:21"}
+{"code":"ECONNREFUSED","fatal":true,"level":"error","message":"Error during initialisation:","stack":"AggregateError\n    at internalConnectMultiple (node:net:1142:49)\n    at afterConnectMultiple (node:net:1723:7)","timestamp":"2026-05-15 11:55:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 11:58:05"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 11:58:05"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-15 11:58:12"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-15 11:58:12"}
+{"level":"info","message":"::1 - - [15/May/2026:10:58:12 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 11:58:12"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/1","timestamp":"2026-05-15 12:19:05"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 12:19:05"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"1","15":"9","16":":","17":"0","18":"5","19":".","2":"2","20":"8","21":"4","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 12:19:05"}
+{"level":"info","message":"::1 - - [15/May/2026:11:19:05 +0000] \"GET /api/leaveRequests/manager/1 HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:19:05"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/1","timestamp":"2026-05-15 12:19:20"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:19:20"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"1","15":"9","16":":","17":"2","18":"0","19":".","2":"2","20":"7","21":"9","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Property \"manager_id\" was not found in \"UserManagement\". Make sure your query is correct.","timestamp":"2026-05-15 12:19:20"}
+{"level":"info","message":"::1 - - [15/May/2026:11:19:20 +0000] \"GET /api/leaveRequests/manager/1 HTTP/1.1\" 500 169 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:19:20"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:27:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:27:42"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests","timestamp":"2026-05-15 12:27:42"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 12:27:42"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"2","15":"7","16":":","17":"4","18":"2","19":".","2":"2","20":"3","21":"1","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 12:27:42"}
+{"level":"info","message":"::1 - - [15/May/2026:11:27:42 +0000] \"GET /api/leaveRequests HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:27:42"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests","timestamp":"2026-05-15 12:27:52"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:27:52"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"2","15":"7","16":":","17":"5","18":"2","19":".","2":"2","20":"5","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Unknown column 'LeaveRequests__LeaveRequests_leaveType.type' in 'field list'","timestamp":"2026-05-15 12:27:52"}
+{"level":"info","message":"::1 - - [15/May/2026:11:27:52 +0000] \"GET /api/leaveRequests HTTP/1.1\" 500 152 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:27:52"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-15 12:28:02"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:28:02"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"2","15":"8","16":":","17":"0","18":"2","19":".","2":"2","20":"2","21":"1","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Unknown column 'LeaveRequests__LeaveRequests_leaveType.type' in 'field list'","timestamp":"2026-05-15 12:28:02"}
+{"level":"info","message":"::1 - - [15/May/2026:11:28:02 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 500 152 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:28:02"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:31:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:31:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:31:49"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:31:49"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-15 12:32:15"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:32:15"}
+{"level":"info","message":"::1 - - [15/May/2026:11:32:15 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 200 4802 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:32:15"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-15 12:35:49"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 12:35:49"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"5","16":":","17":"4","18":"9","19":".","2":"2","20":"3","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 12:35:49"}
+{"level":"info","message":"::1 - - [15/May/2026:11:35:49 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:35:49"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-15 12:36:01"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:36:01"}
+{"0":"2","1":"0","10":"T","11":"1","12":"1","13":":","14":"3","15":"6","16":":","17":"0","18":"1","19":".","2":"2","20":"3","21":"8","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Empty criteria(s) are not allowed for the delete method.","timestamp":"2026-05-15 12:36:01"}
+{"level":"info","message":"::1 - - [15/May/2026:11:36:01 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 500 132 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:36:01"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:36:32"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:36:32"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:37:44"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:37:44"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-15 12:37:52"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 12:37:52"}
+{"level":"info","message":"::1 - - [15/May/2026:11:37:52 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 200 36 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 12:37:52"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:41:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:41:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 12:59:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 12:59:42"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 13:00:38"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 13:00:38"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 15:51:24"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 15:51:24"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"1","16":":","17":"2","18":"4","19":".","2":"2","20":"2","21":"4","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 15:51:24"}
+{"level":"info","message":"::1 - - [15/May/2026:14:51:24 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:51:24"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 15:51:32"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 15:51:32"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"1","16":":","17":"3","18":"2","19":".","2":"2","20":"4","21":"0","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 15:51:32"}
+{"level":"info","message":"::1 - - [15/May/2026:14:51:32 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:51:32"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 15:51:38"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 15:51:38"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"1","16":":","17":"3","18":"8","19":".","2":"2","20":"6","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 15:51:38"}
+{"level":"info","message":"::1 - - [15/May/2026:14:51:38 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:51:38"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-15 15:51:42"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-15 15:51:42"}
+{"level":"info","message":"::1 - - [15/May/2026:14:51:42 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:51:42"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-15 15:51:48"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 15:51:48"}
+{"level":"info","message":"::1 - - [15/May/2026:14:51:48 +0000] \"GET /api/user/ HTTP/1.1\" 200 290 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:51:48"}
+{"level":"info","message":"Incoming request: GET /api/roles","timestamp":"2026-05-15 15:53:47"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 15:53:47"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"3","16":":","17":"4","18":"7","19":".","2":"2","20":"3","21":"4","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 15:53:47"}
+{"level":"info","message":"::1 - - [15/May/2026:14:53:47 +0000] \"GET /api/roles HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:53:47"}
+{"level":"info","message":"Incoming request: GET /api/roles","timestamp":"2026-05-15 15:53:58"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 15:53:58"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"3","16":":","17":"5","18":"8","19":".","2":"2","20":"3","21":"7","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 15:53:58"}
+{"level":"info","message":"::1 - - [15/May/2026:14:53:58 +0000] \"GET /api/roles HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:53:58"}
+{"level":"info","message":"Incoming request: GET /api/roles","timestamp":"2026-05-15 15:54:14"}
+{"level":"info","message":"roles accessed by ::1","timestamp":"2026-05-15 15:54:14"}
+{"level":"info","message":"::1 - - [15/May/2026:14:54:14 +0000] \"GET /api/roles HTTP/1.1\" 200 83 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:54:14"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-15 15:54:31"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 15:54:31"}
+{"email":"johnnytest@example.com","firstname":"Johnny","level":"info","manager":41,"message":"UserController.create hit","password":"helloThere1","roleId":1,"surname":"Test","timestamp":"2026-05-15 15:54:31"}
+{"level":"info","message":"::1 - - [15/May/2026:14:54:31 +0000] \"POST /api/user/ HTTP/1.1\" 201 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 15:54:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 15:55:22"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 15:55:22"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 15:55:30"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 15:55:30"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 16:01:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 16:01:42"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 16:01:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 16:01:48"}
+{"level":"info","message":"Incoming request: DELETE /api/user/42","timestamp":"2026-05-15 16:02:11"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-15 16:02:11"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"2","16":":","17":"1","18":"1","19":".","2":"2","20":"6","21":"7","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-15 16:02:11"}
+{"level":"info","message":"::1 - - [15/May/2026:15:02:11 +0000] \"DELETE /api/user/42 HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:02:11"}
+{"level":"info","message":"Incoming request: DELETE /api/user/42","timestamp":"2026-05-15 16:02:22"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:02:22"}
+{"level":"info","message":"::1 - - [15/May/2026:15:02:22 +0000] \"DELETE /api/user/42 HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:02:22"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-15 16:02:31"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:02:31"}
+{"email":"johnnytest@example.com","firstname":"Johnny","level":"info","manager":41,"message":"UserController.create hit","password":"helloThere1","roleId":1,"surname":"Test","timestamp":"2026-05-15 16:02:31"}
+{"level":"error","message":"managerID is required for employees (roleId 1)","timestamp":"2026-05-15 16:02:31"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"2","16":":","17":"3","18":"1","19":".","2":"2","20":"1","21":"9","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: managerID is required for employees (roleId 1)","timestamp":"2026-05-15 16:02:31"}
+{"level":"info","message":"::1 - - [15/May/2026:15:02:31 +0000] \"POST /api/user/ HTTP/1.1\" 400 122 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:02:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 16:02:53"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 16:02:53"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-15 16:02:54"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:02:54"}
+{"email":"johnnytest@example.com","firstname":"Johnny","level":"info","managerID":41,"message":"UserController.create hit","password":"helloThere1","roleId":1,"surname":"Test","timestamp":"2026-05-15 16:02:54"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"2","16":":","17":"5","18":"4","19":".","2":"2","20":"5","21":"5","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Unknown column 'user_id' in 'field list'","timestamp":"2026-05-15 16:02:54"}
+{"level":"info","message":"::1 - - [15/May/2026:15:02:54 +0000] \"POST /api/user/ HTTP/1.1\" 500 116 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:02:54"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-15 16:02:55"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:02:55"}
+{"email":"johnnytest@example.com","firstname":"Johnny","level":"info","managerID":41,"message":"UserController.create hit","password":"helloThere1","roleId":1,"surname":"Test","timestamp":"2026-05-15 16:02:55"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"2","16":":","17":"5","18":"5","19":".","2":"2","20":"1","21":"6","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Duplicate entry 'johnnytest@example.com' for key 'IDX_e12875dfb3b1d92d7d7c5377e2'","timestamp":"2026-05-15 16:02:55"}
+{"level":"info","message":"::1 - - [15/May/2026:15:02:55 +0000] \"POST /api/user/ HTTP/1.1\" 500 157 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:02:55"}
+{"level":"info","message":"Incoming request: DELETE /api/user/43","timestamp":"2026-05-15 16:03:06"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:03:06"}
+{"level":"info","message":"::1 - - [15/May/2026:15:03:06 +0000] \"DELETE /api/user/43 HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:03:06"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-15 16:03:12"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-15 16:03:12"}
+{"email":"johnnytest@example.com","firstname":"Johnny","level":"info","managerID":41,"message":"UserController.create hit","password":"helloThere1","roleId":1,"surname":"Test","timestamp":"2026-05-15 16:03:12"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"3","16":":","17":"1","18":"2","19":".","2":"2","20":"1","21":"8","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Unknown column 'user_id' in 'field list'","timestamp":"2026-05-15 16:03:12"}
+{"level":"info","message":"::1 - - [15/May/2026:15:03:12 +0000] \"POST /api/user/ HTTP/1.1\" 500 116 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:03:12"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-15 16:03:46"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-15 16:03:46"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/41","timestamp":"2026-05-15 16:05:22"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 16:05:22"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"5","16":":","17":"2","18":"2","19":".","2":"2","20":"9","21":"0","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 16:05:22"}
+{"level":"info","message":"::1 - - [15/May/2026:15:05:22 +0000] \"GET /api/leaveRequests/manager/41 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:05:22"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/41","timestamp":"2026-05-15 16:05:44"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-15 16:05:44"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"5","16":":","17":"4","18":"4","19":".","2":"2","20":"1","21":"5","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-15 16:05:44"}
+{"level":"info","message":"::1 - - [15/May/2026:15:05:44 +0000] \"GET /api/leaveRequests/manager/41 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:05:44"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/41","timestamp":"2026-05-15 16:06:04"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-15 16:06:04"}
+{"0":"2","1":"0","10":"T","11":"1","12":"5","13":":","14":"0","15":"6","16":":","17":"0","18":"4","19":".","2":"2","20":"7","21":"8","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"5","level":"error","message":"[Error]: Property \"manager_id\" was not found in \"UserManagement\". Make sure your query is correct.","timestamp":"2026-05-15 16:06:04"}
+{"level":"info","message":"::1 - - [15/May/2026:15:06:04 +0000] \"GET /api/leaveRequests/manager/41 HTTP/1.1\" 500 169 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-15 16:06:04"}

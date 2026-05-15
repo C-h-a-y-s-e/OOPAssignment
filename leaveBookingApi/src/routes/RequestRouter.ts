@@ -32,6 +32,7 @@ export class RequestRouter implements IRouter {
     );
     this.router.get('/:id', this.requestController.getById);
     this.router.post('/', this.requestController.create);
+    this.router.delete('/all', (this.requestController as any).deleteAll);
     this.router.delete('/:id', this.requestController.delete);
     this.router.patch('/:id', this.requestController.update);
   }

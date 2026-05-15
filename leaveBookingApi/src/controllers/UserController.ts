@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { AppDataSource } from '../data-source';
 import { User } from '../entity/User';
+import { UserManagement } from '../entity/UserManagement';
 import { Repository } from 'typeorm';
 import { ResponseHandler } from '../helpers/ResponseHandler';
 import { StatusCodes } from 'http-status-codes';

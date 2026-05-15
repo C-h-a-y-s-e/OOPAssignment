@@ -38,6 +38,22 @@ export class LeaveBalanceService {
     user.leaveBalance = Math.max(0, user.leaveBalance - daysToSubtract);
     await userRepository.save(user);
   }
+
+  static async restoreLeaveBalance(
+    userId: number,
+    daysToAdd: number,
+    userRepository: Repository<User>,
+  ): Promise<void> {
+    const user = await userRepository.findOne({ where: { userId } });
+
+    if (!user) {
+      throw new AppError('User not found', StatusCodes.NOT_FOUND);
+    }
+
+    user.leaveBalance += daysToAdd;
+    await userRepository.save(user);
+  }
+
   static async resetLeaveBalance(
     userId: number,
     userRepository: Repository<User>,

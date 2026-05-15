@@ -34,7 +34,7 @@ export class RequestController implements IEntityController {
 
     const leaveRequest = await this.leaveRequestRepository.findOne({
       where: { id },
-      relations: ['User', 'leaveType'],
+      relations: ['User'],
     });
 
     if (!leaveRequest) {
@@ -49,7 +49,7 @@ export class RequestController implements IEntityController {
 
   public getAll = async (_req: Request, res: Response): Promise<void> => {
     const leaveRequests = await this.leaveRequestRepository.find({
-      relations: ['User', 'leaveType'],
+      relations: ['User'],
     });
 
     if (leaveRequests.length === 0) {
@@ -69,7 +69,7 @@ export class RequestController implements IEntityController {
 
     const requests = await this.leaveRequestRepository.find({
       where: { userId },
-      relations: ['User', 'leaveType'],
+      relations: ['User'],
     });
 
     if (requests.length === 0) {
@@ -98,7 +98,7 @@ export class RequestController implements IEntityController {
 
     const requests = await this.leaveRequestRepository.find({
       where: { userId: In(userIds) },
-      relations: ['User', 'leaveType'],
+      relations: ['User'],
     });
 
     if (requests.length === 0) {
@@ -171,6 +171,7 @@ export class RequestController implements IEntityController {
     const { startDate, endDate, status, userId, leaveTypeId } = req.body;
     const normalisedStatus =
       typeof status === 'string' ? status.toLowerCase() : undefined;
+    const previousStatus = leaveRequest.status;
 
     if (startDate !== undefined && endDate !== undefined) {
       const parsedRange = ParseDate.parseRange(startDate, endDate);
@@ -198,6 +199,20 @@ export class RequestController implements IEntityController {
     if (normalisedStatus !== undefined) {
       leaveRequest.status = normalisedStatus as any;
     }
+
+    if (previousStatus !== 'denied' && leaveRequest.status === 'denied') {
+      const daysToRestore = ParseDate.calculateDays(
+        leaveRequest.startDate,
+        leaveRequest.endDate,
+      );
+      const userRepo = AppDataSource.getRepository(User);
+      await LeaveBalanceService.restoreLeaveBalance(
+        leaveRequest.userId,
+        daysToRestore,
+        userRepo,
+      );
+    }
+
     if (userId !== undefined) leaveRequest.User = { userId } as User;
     if (leaveTypeId !== undefined) {
       (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes;
@@ -224,5 +239,16 @@ export class RequestController implements IEntityController {
     }
 
     ResponseHandler.sendSuccessResponse(res, 'Leave request deleted');
+  };
+
+  public deleteAll = async (req: Request, res: Response): Promise<void> => {
+    const result = await this.leaveRequestRepository
+      .createQueryBuilder() //allows for empty criteria when making delete request
+      .delete()
+      .execute();
+    ResponseHandler.sendSuccessResponse(
+      res,
+      `Deleted ${result.affected} leave requests`,
+    );
   };
 }
