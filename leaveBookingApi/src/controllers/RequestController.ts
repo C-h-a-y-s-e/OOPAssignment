@@ -15,6 +15,7 @@ import { ParseDate } from '../helpers/ParseDate';
 import { LeaveBalanceService } from '../services/LeaveBalanceService';
 import { DateValidation } from '../helpers/DateValidation';
 import { IAuthenticatedJWTRequest } from '../types/IAuthenticatedJWTRequest';
+import { ensureCallerHasRoles } from '../helpers/RoleAuthorisation';
 
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}
@@ -199,7 +200,17 @@ export class RequestController implements IEntityController {
     ResponseHandler.sendSuccessResponse(res, newRequest, StatusCodes.CREATED);
   };
 
-  public update = async (req: Request, res: Response): Promise<void> => {
+  public update = async (
+    req: IAuthenticatedJWTRequest,
+    res: Response,
+  ): Promise<void> => {
+    await ensureCallerHasRoles(
+      AppDataSource.getRepository(User),
+      req.signedInUser?.email,
+      ['admin', 'manager'],
+      'Only admins and managers may update leave requests',
+    );
+
     const leaveRequest = await this.getLeaveRequestById(req.params.id);
     const { startDate, endDate, status, userId, leaveTypeId } = req.body;
     const normalisedStatus =
@@ -326,6 +337,7 @@ export class RequestController implements IEntityController {
     res: Response,
   ): Promise<void> => {
     // Only an admin can delete all requests
+    // TODO change this to roleauth
     if (req.signedInUser?.role?.name !== 'admin') {
       throw new AppError(
         'You do not have permission to delete all leave requests',

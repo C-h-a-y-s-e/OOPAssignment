@@ -12,29 +12,10 @@ import { AppError } from '../helpers/AppError';
 import { IEntityController } from '../types/IEntityController';
 import { IGetByEmail } from '../types/IGetByEmail';
 import { LeaveBalanceService } from '../services/LeaveBalanceService';
+import { ensureCallerHasRoles } from '../helpers/RoleAuthorisation';
 
 export class UserController implements IEntityController, IGetByEmail {
   constructor(private userRepository: Repository<User>) {}
-
-  private async ensureCallerIsAdmin(callerEmail?: string): Promise<void> {
-    if (!callerEmail) {
-      throw new AppError('Not authorised', StatusCodes.UNAUTHORIZED);
-    }
-    const callerUser = await this.userRepository.findOne({
-      where: { email: callerEmail },
-      relations: ['role'],
-    });
-    if (
-      !callerUser ||
-      !callerUser.role ||
-      (callerUser.role.name || '').toLowerCase() !== 'admin'
-    ) {
-      throw new AppError(
-        'Only admins may reset leave balance',
-        StatusCodes.FORBIDDEN,
-      );
-    }
-  }
 
   public getAll = async (req: Request, res: Response): Promise<void> => {
     const users = await this.userRepository.find({
@@ -179,4 +160,12 @@ export class UserController implements IEntityController, IGetByEmail {
 
     ResponseHandler.sendSuccessResponse(res, user);
   };
+  private async ensureCallerIsAdmin(callerEmail?: string): Promise<void> {
+    await ensureCallerHasRoles(
+      this.userRepository,
+      callerEmail,
+      ['admin'],
+      'Only admins may reset leave balance',
+    );
+  }
 }
