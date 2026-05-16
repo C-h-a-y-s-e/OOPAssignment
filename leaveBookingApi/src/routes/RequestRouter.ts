@@ -27,7 +27,7 @@ export class RequestRouter implements IRouter {
       (this.requestController as any).getByUserId,
     );
     this.router.get(
-      '/manager/:managerId',
+      '/manager/:userId',
       (this.requestController as any).getForManager,
     );
     this.router.get(

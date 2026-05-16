@@ -154,35 +154,6 @@ export class RequestController implements IEntityController {
 
     ResponseHandler.sendSuccessResponse(res, requests);
   };
-  //  return leave requests for a manager
-  public getForManager = async (req: Request, res: Response): Promise<void> => {
-    const managerId = this.parseId(req.params.managerId);
-
-    const userManagementRepo = AppDataSource.getRepository(UserManagement);
-    const managed = await userManagementRepo.find({
-      where: { manager_id: managerId },
-    });
-
-    if (managed.length === 0) {
-      throw new AppError('No users found for manager', StatusCodes.NO_CONTENT);
-    }
-
-    const userIds = managed.map((m) => m.user_id);
-
-    const requests = await this.leaveRequestRepository.find({
-      where: { userId: In(userIds) },
-      relations: ['User', 'leaveType'],
-    });
-
-    if (requests.length === 0) {
-      throw new AppError(
-        'No leave requests found for manager',
-        StatusCodes.NO_CONTENT,
-      );
-    }
-
-    ResponseHandler.sendSuccessResponse(res, requests);
-  };
 
   public create = async (req: Request, res: Response): Promise<void> => {
     const leaveRequest = new LeaveRequests();

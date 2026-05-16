@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { StatusCodes } from 'http-status-codes';
 import { ResponseHandler } from '../helpers/ResponseHandler';
 import { AppError } from '../helpers/AppError';
+import Logger from '../helpers/Logger';
 import { IEntityController } from '../types/IEntityController';
 import { LeaveRequests } from '../entity/LeaveRequests';
 import { LeaveTypes } from '../entity/LeaveTypes';
@@ -22,7 +23,10 @@ export class RequestController implements IEntityController {
     const id = parseInt(Array.isArray(idParam) ? idParam[0] : idParam, 10);
 
     if (isNaN(id)) {
-      throw new AppError('Invalid ID format', StatusCodes.BAD_REQUEST);
+      throw new AppError(
+        `Invalid ID format: ${Array.isArray(idParam) ? idParam[0] : idParam}`,
+        StatusCodes.BAD_REQUEST,
+      );
     }
 
     return id;
@@ -85,18 +89,23 @@ export class RequestController implements IEntityController {
   };
 
   public getForManager = async (req: Request, res: Response): Promise<void> => {
-    const managerId = this.parseId(req.params.managerId);
+    Logger.info(`getForManager params: ${JSON.stringify(req.params)}`);
+    const managerId = this.parseId(req.params.userId);
 
     const userManagementRepo = AppDataSource.getRepository(UserManagement);
     const managed = await userManagementRepo.find({
-      where: { manager_id: managerId },
+      relations: ['User', 'Manager'],
     });
 
-    if (managed.length === 0) {
+    const managerAssignments = managed.filter(
+      (assignment) => assignment.Manager?.userId === managerId,
+    );
+
+    if (managerAssignments.length === 0) {
       throw new AppError('No users found for manager', StatusCodes.NO_CONTENT);
     }
 
-    const managedUserIds = managed.map((m) => m.user_id);
+    const managedUserIds = managerAssignments.map((m) => m.User.userId);
 
     const allRequests = await this.leaveRequestRepository.find({
       relations: ['User'],

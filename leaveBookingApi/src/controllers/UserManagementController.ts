@@ -86,13 +86,14 @@ export class UserManagementController implements IEntityController {
       );
     }
 
-    const existing = await this.userManagementRepository.findOne({
-      where: {
-        User: { userId: parsedUserId },
-        Manager: { userId: parsedManagerId },
-      },
+    const allAssignments = await this.userManagementRepository.find({
       relations: ['User', 'Manager'],
     });
+    const existing = allAssignments.find(
+      (assign) =>
+        assign.User?.userId === parsedUserId &&
+        assign.Manager?.userId === parsedManagerId,
+    );
     if (existing)
       throw new AppError(
         'This user-manager assignment already exists',
@@ -119,11 +120,7 @@ export class UserManagementController implements IEntityController {
     }
 
     const saved = await this.userManagementRepository.save(assignment);
-    const created = await this.userManagementRepository.findOne({
-      where: { id: saved.id },
-      relations: ['User', 'Manager'],
-    });
-    ResponseHandler.sendSuccessResponse(res, created, StatusCodes.CREATED);
+    ResponseHandler.sendSuccessResponse(res, saved, StatusCodes.CREATED);
   };
 
   public update = async (req: Request, res: Response): Promise<void> => {

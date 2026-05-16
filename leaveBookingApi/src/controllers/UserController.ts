@@ -16,6 +16,26 @@ import { LeaveBalanceService } from '../services/LeaveBalanceService';
 export class UserController implements IEntityController, IGetByEmail {
   constructor(private userRepository: Repository<User>) {}
 
+  private async ensureCallerIsAdmin(callerEmail?: string): Promise<void> {
+    if (!callerEmail) {
+      throw new AppError('Not authorised', StatusCodes.UNAUTHORIZED);
+    }
+    const callerUser = await this.userRepository.findOne({
+      where: { email: callerEmail },
+      relations: ['role'],
+    });
+    if (
+      !callerUser ||
+      !callerUser.role ||
+      (callerUser.role.name || '').toLowerCase() !== 'admin'
+    ) {
+      throw new AppError(
+        'Only admins may reset leave balance',
+        StatusCodes.FORBIDDEN,
+      );
+    }
+  }
+
   public getAll = async (req: Request, res: Response): Promise<void> => {
     const users = await this.userRepository.find({
       relations: ['role'],
@@ -145,6 +165,10 @@ export class UserController implements IEntityController, IGetByEmail {
     if (isNaN(userId)) {
       throw new AppError('Invalid user ID format', StatusCodes.BAD_REQUEST);
     }
+
+    const caller = (req as any).signedInUser;
+    Logger.info('resetBalance called by role:', caller?.role);
+    await this.ensureCallerIsAdmin(caller?.email);
 
     await LeaveBalanceService.resetLeaveBalance(userId, this.userRepository);
 
