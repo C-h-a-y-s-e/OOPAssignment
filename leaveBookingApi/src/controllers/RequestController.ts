@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { validate } from 'class-validator';
-import { Repository, In } from 'typeorm';
+import { Repository } from 'typeorm';
 import { StatusCodes } from 'http-status-codes';
 import { ResponseHandler } from '../helpers/ResponseHandler';
 import { AppError } from '../helpers/AppError';
@@ -13,6 +13,7 @@ import { UserManagement } from '../entity/UserManagement';
 import { ParseDate } from '../helpers/ParseDate';
 import { LeaveBalanceService } from '../services/LeaveBalanceService';
 import { DateValidation } from '../helpers/DateValidation';
+import { IAuthenticatedJWTRequest } from '../types/IAuthenticatedJWTRequest';
 
 export class RequestController implements IEntityController {
   constructor(private leaveRequestRepository: Repository<LeaveRequests>) {}
@@ -67,10 +68,11 @@ export class RequestController implements IEntityController {
   public getByUserId = async (req: Request, res: Response): Promise<void> => {
     const userId = this.parseId(req.params.userId);
 
-    const requests = await this.leaveRequestRepository.find({
-      where: { userId },
+    const allRequests = await this.leaveRequestRepository.find({
       relations: ['User'],
     });
+
+    const requests = allRequests.filter((req) => req.userId === userId);
 
     if (requests.length === 0) {
       throw new AppError(
@@ -94,12 +96,15 @@ export class RequestController implements IEntityController {
       throw new AppError('No users found for manager', StatusCodes.NO_CONTENT);
     }
 
-    const userIds = managed.map((m) => m.user_id);
+    const managedUserIds = managed.map((m) => m.user_id);
 
-    const requests = await this.leaveRequestRepository.find({
-      where: { userId: In(userIds) },
+    const allRequests = await this.leaveRequestRepository.find({
       relations: ['User'],
     });
+
+    const requests = allRequests.filter((req) =>
+      managedUserIds.includes(req.userId),
+    );
 
     if (requests.length === 0) {
       throw new AppError(
@@ -109,6 +114,25 @@ export class RequestController implements IEntityController {
     }
 
     ResponseHandler.sendSuccessResponse(res, requests);
+  };
+
+  public getLeaveBalance = async (
+    req: Request,
+    res: Response,
+  ): Promise<void> => {
+    const userId = this.parseId(req.params.userId);
+    const userRepo = AppDataSource.getRepository(User);
+
+    const user = await userRepo.findOne({ where: { userId } });
+
+    if (!user) {
+      throw new AppError('User not found', StatusCodes.NOT_FOUND);
+    }
+
+    ResponseHandler.sendSuccessResponse(res, {
+      userId,
+      leaveBalance: user.leaveBalance,
+    });
   };
 
   public create = async (req: Request, res: Response): Promise<void> => {
@@ -201,10 +225,11 @@ export class RequestController implements IEntityController {
     }
 
     if (previousStatus !== 'denied' && leaveRequest.status === 'denied') {
-      const daysToRestore = ParseDate.calculateDays(
-        leaveRequest.startDate,
-        leaveRequest.endDate,
-      );
+      // Ensure dates are Date objects (database might return strings)
+      const startDate = new Date(leaveRequest.startDate);
+      const endDate = new Date(leaveRequest.endDate);
+
+      const daysToRestore = ParseDate.calculateDays(startDate, endDate);
       const userRepo = AppDataSource.getRepository(User);
       await LeaveBalanceService.restoreLeaveBalance(
         leaveRequest.userId,
@@ -230,18 +255,75 @@ export class RequestController implements IEntityController {
     ResponseHandler.sendSuccessResponse(res, updatedRequest);
   };
 
-  public delete = async (req: Request, res: Response): Promise<void> => {
+  public delete = async (
+    req: IAuthenticatedJWTRequest,
+    res: Response,
+  ): Promise<void> => {
     const id = this.parseId(req.params.id);
+
+    // Get the full leave request with user details
+    const leaveRequest = await this.leaveRequestRepository.findOne({
+      where: { id },
+      relations: ['User'],
+    });
+
+    if (!leaveRequest) {
+      throw new AppError('Leave request not found', StatusCodes.NOT_FOUND);
+    }
+
+    // Authorization check: user can only cancel their own requests, or admin can cancel any
+    const isRequestOwner = leaveRequest.User?.email === req.signedInUser?.email;
+    const isAdmin = req.signedInUser?.role?.name === 'admin';
+
+    if (!isRequestOwner && !isAdmin) {
+      throw new AppError(
+        'You do not have permission to cancel this leave request',
+        StatusCodes.FORBIDDEN,
+      );
+    }
+
+    // If request was pending or approved, restore the days to user's balance
+    // (balance was deducted on creation for pending/approved)
+    if (
+      leaveRequest.status === 'approved' ||
+      leaveRequest.status === 'pending'
+    ) {
+      // Ensure dates are Date objects (database might return strings)
+      const startDate = new Date(leaveRequest.startDate);
+      const endDate = new Date(leaveRequest.endDate);
+
+      const daysToRestore = ParseDate.calculateDays(startDate, endDate);
+      const userRepo = AppDataSource.getRepository(User);
+      // Call function to restore this
+      await LeaveBalanceService.restoreLeaveBalance(
+        leaveRequest.userId,
+        daysToRestore,
+        userRepo,
+      );
+    }
+
+    // Delete the request
     const result = await this.leaveRequestRepository.delete(id);
 
     if (result.affected === 0) {
       throw new AppError('Leave request not found', StatusCodes.NOT_FOUND);
     }
 
-    ResponseHandler.sendSuccessResponse(res, 'Leave request deleted');
+    ResponseHandler.sendSuccessResponse(res, 'Leave request cancelled');
   };
 
-  public deleteAll = async (req: Request, res: Response): Promise<void> => {
+  public deleteAll = async (
+    req: IAuthenticatedJWTRequest,
+    res: Response,
+  ): Promise<void> => {
+    // Only an admin can delete all requests
+    if (req.signedInUser?.role?.name !== 'admin') {
+      throw new AppError(
+        'You do not have permission to delete all leave requests',
+        StatusCodes.FORBIDDEN,
+      );
+    }
+
     const result = await this.leaveRequestRepository
       .createQueryBuilder() //allows for empty criteria when making delete request
       .delete()

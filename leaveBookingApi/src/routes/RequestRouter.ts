@@ -30,6 +30,10 @@ export class RequestRouter implements IRouter {
       '/manager/:managerId',
       (this.requestController as any).getForManager,
     );
+    this.router.get(
+      '/balance/:userId',
+      (this.requestController as any).getLeaveBalance,
+    );
     this.router.get('/:id', this.requestController.getById);
     this.router.post('/', this.requestController.create);
     this.router.delete('/all', (this.requestController as any).deleteAll);
