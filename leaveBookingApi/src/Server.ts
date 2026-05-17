@@ -46,13 +46,14 @@ export class Server {
     private readonly appDataSource: DataSource,
   ) {
     this.app = express();
-    this.app.use(helmet());
+    this.app.use(helmet()); // helmet adds security headers to http responses
     this.initialiseMiddleWares();
     this.initialiseRoutes();
     this.initialiseErrorHandling();
   }
   private initialiseMiddleWares() {
     const morganStream: StreamOptions = {
+      // Logging
       write: (message: string): void => {
         Logger.info(message.trim());
       },
@@ -68,8 +69,10 @@ export class Server {
 
   private initialiseRoutes() {
     for (const route of this.routers) {
+      // Go through each type of router
       const middlewares: express.RequestHandler[] = [];
       if (route.authenticate) {
+        //If the route needs login protection push authenticateToken
         middlewares.push(MiddlewareFactory.authenticateToken);
       }
       if (route.limiter) {
@@ -82,6 +85,7 @@ export class Server {
     this.app.use(
       (err: Error, _req: Request, res: Response, _next: NextFunction) => {
         if (err instanceof AppError) {
+          // If a route thows an AppError
           ErrorHandler.handle(err, res);
           return;
         }
@@ -95,6 +99,7 @@ export class Server {
     this.app.use((req: Request, res: Response) => {
       const requestedUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
       ResponseHandler.sendErrorResponse(
+        //URL not found
         res,
         StatusCodes.NOT_FOUND,
         'Route ' + requestedUrl + ' not found',
@@ -110,6 +115,7 @@ export class Server {
 
   private async initialiseDataSource() {
     try {
+      // Initialises data from the connected database
       await this.appDataSource.initialize();
       Logger.info('Data Source initialised');
     } catch (error) {

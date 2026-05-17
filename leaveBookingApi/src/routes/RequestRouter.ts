@@ -23,10 +23,12 @@ export class RequestRouter implements IRouter {
   private addRoutes() {
     this.router.get('/', this.requestController.getAll);
     this.router.get(
+      // All requests from a certain user
       '/user/:userId',
       (this.requestController as any).getByUserId,
     );
     this.router.get(
+      // get all requests for staff under a manager
       '/manager/:userId',
       (this.requestController as any).getForManager,
     );

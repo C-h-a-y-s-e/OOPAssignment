@@ -16,6 +16,7 @@ import { LeaveRequests } from './entity/LeaveRequests';
 import { UserManagement } from './entity/UserManagement';
 import { UserManagementController } from './controllers/UserManagementController';
 import { UserManagementRouter } from './routes/UserManagementRouter';
+import { RequestService } from './services/RequestService';
 // Initialise the port
 const DEFAULT_PORT = 8900;
 const port = process.env.SERVER_PORT || DEFAULT_PORT;
@@ -43,7 +44,13 @@ const routers = [
   ),
   new RequestRouter(
     Router(),
-    new RequestController(AppDataSource.getRepository(LeaveRequests)),
+    new RequestController(
+      new RequestService(
+        AppDataSource.getRepository(LeaveRequests),
+        AppDataSource.getRepository(User),
+        AppDataSource.getRepository(UserManagement),
+      ),
+    ),
   ),
   new UserManagementRouter(
     Router(),

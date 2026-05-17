@@ -5107,3 +5107,9 @@
 {"level":"info","message":"Incoming request: PATCH /api/leaveRequests/25","timestamp":"2026-05-16 17:45:40"}
 {"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-16 17:45:40"}
 {"level":"info","message":"::1 - - [16/May/2026:16:45:40 +0000] \"PATCH /api/leaveRequests/25 HTTP/1.1\" 200 247 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 17:45:40"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-16 19:03:21"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-16 19:03:21"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-16 19:05:58"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-16 19:05:58"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-16 20:33:50"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-16 20:33:50"}
