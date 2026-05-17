@@ -5113,3 +5113,17 @@
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-16 19:05:58"}
 {"level":"info","message":"Data Source initialised","timestamp":"2026-05-16 20:33:50"}
 {"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-16 20:33:50"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-17 01:23:22"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-17 01:23:22"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-17 01:23:29"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-17 01:23:29"}
+{"level":"info","message":"::1 - - [17/May/2026:00:23:29 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-17 01:23:29"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-17 01:23:46"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-17 01:23:46"}
+{"level":"info","message":"::1 - - [17/May/2026:00:23:46 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 200 489 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-17 01:23:46"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-17 01:25:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-17 01:25:25"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-17 15:06:43"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-17 15:06:43"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-17 15:07:53"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-17 15:07:54"}

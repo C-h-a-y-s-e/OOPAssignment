@@ -14,7 +14,6 @@ import { LeaveRequests } from './LeaveRequests';
 export class LeaveTypes {
   @PrimaryGeneratedColumn()
   id: number;
-  //TODO: Add manager ID
   @Column()
   description: string;
 

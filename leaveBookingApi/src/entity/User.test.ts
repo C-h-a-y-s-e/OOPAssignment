@@ -49,14 +49,7 @@ describe('User Entity', () => {
     expect(errors.length).toBe(1);
     expect(errors[0].constraints).toHaveProperty('isEmail');
   });
-  //   it('A user with no role is considered invalid', async () => {
-  //     user.role = null;
-  //     const errors = await validate(invalidUser);
-  //     expect(errors.length).toBe(1);
-  //     expect(errors[0].constraints).toHaveProperty('isNotEmpty');
-  //   });
-  //   TODO: Try check with someone whether you should keep not null or just test it here
-  //   TODO: Test if email address is unique or not
+
   it('A user with valid details will be accepted', async () => {
     const errors = await validate(user);
     expect(errors.length).toBe(0);

@@ -61,7 +61,7 @@ export class LeaveBalanceService {
     const user = await userRepository.findOne({ where: { userId } });
     if (!user) {
       throw new AppError('User not found', StatusCodes.NOT_FOUND);
-    } //TODO: move useridvalidation into a seperate method
+    }
     user.leaveBalance = 25;
     await userRepository.save(user);
   }

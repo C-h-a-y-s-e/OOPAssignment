@@ -183,7 +183,7 @@ export class RequestController implements IEntityController {
       leaveRequest.status = normalisedStatus;
     }
     leaveRequest.User = { userId } as User;
-    (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes; //TODO Fix
+    (leaveRequest as any).leaveType = { id: leaveTypeId } as LeaveTypes;
 
     const errors = await validate(leaveRequest);
     if (errors.length > 0) {

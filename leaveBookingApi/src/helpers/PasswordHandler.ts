@@ -1,4 +1,3 @@
-//TODO: Consider a test for hashing password
 import { scryptSync, randomBytes, timingSafeEqual } from 'crypto';
 import Logger from './Logger';
 export class PasswordHandler {

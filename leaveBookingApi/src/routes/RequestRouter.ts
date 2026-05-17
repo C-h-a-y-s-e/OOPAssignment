@@ -4,7 +4,7 @@ import Logger from '../helpers/Logger';
 import { IRouter } from '../types/IRouter';
 import { Server } from '../Server';
 import { MiddlewareFactory } from '../middleware/MiddlewareFactory';
-import { IEntityController } from '../types/IEntityController';
+import { IRequestController } from '../types/IRequestController';
 export class RequestRouter implements IRouter {
   authenticate: boolean = true;
   routeName: string = 'leaveRequests';
@@ -12,7 +12,7 @@ export class RequestRouter implements IRouter {
   basePath: string = '/api/leaveRequests';
   constructor(
     private router: Router,
-    private requestController: IEntityController,
+    private requestController: IRequestController,
   ) {
     this.addRoutes();
   }
@@ -25,20 +25,20 @@ export class RequestRouter implements IRouter {
     this.router.get(
       // All requests from a certain user
       '/user/:userId',
-      (this.requestController as any).getByUserId,
+      this.requestController.getByUserId,
     );
     this.router.get(
       // get all requests for staff under a manager
       '/manager/:userId',
-      (this.requestController as any).getForManager,
+      this.requestController.getForManager,
     );
     this.router.get(
       '/balance/:userId',
-      (this.requestController as any).getLeaveBalance,
+      this.requestController.getLeaveBalance,
     );
     this.router.get('/:id', this.requestController.getById);
     this.router.post('/', this.requestController.create);
-    this.router.delete('/all', (this.requestController as any).deleteAll);
+    this.router.delete('/all', this.requestController.deleteAll);
     this.router.delete('/:id', this.requestController.delete);
     this.router.patch('/:id', this.requestController.update);
   }
