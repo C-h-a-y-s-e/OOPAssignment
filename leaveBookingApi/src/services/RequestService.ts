@@ -89,7 +89,7 @@ export class RequestService {
     );
 
     const requests = await this.leaveRequestRepository.find({
-      where: { User: In(managedUserIds) },
+      where: { User: { userId: In(managedUserIds) } },
       relations: ['User'],
     });
 
@@ -256,12 +256,13 @@ export class RequestService {
   public async deleteAllLeaveRequests(
     req: IAuthenticatedJWTRequest,
   ): Promise<string> {
-    if (req.signedInUser?.role?.name !== 'admin') {
-      throw new AppError(
-        'You do not have permission to delete all leave requests',
-        StatusCodes.FORBIDDEN,
-      );
-    }
+    await ensureCallerHasRoles(
+      //Only admins can use this
+      this.userRepository,
+      req.signedInUser?.email,
+      ['admin'],
+      'You do not have permission to delete all leave requests',
+    );
 
     const result = await this.leaveRequestRepository
       .createQueryBuilder()

@@ -5256,3 +5256,96 @@
 {"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-18 03:35:01"}
 {"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:35:01"}
 {"level":"info","message":"::1 - - [18/May/2026:02:35:01 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 200 729 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:35:01"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/1","timestamp":"2026-05-18 03:35:54"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-18 03:35:54"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"3","15":"5","16":":","17":"5","18":"4","19":".","2":"2","20":"0","21":"6","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-18 03:35:54"}
+{"level":"info","message":"::1 - - [18/May/2026:02:35:54 +0000] \"GET /api/leaveRequests/balance/1 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:35:54"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/45","timestamp":"2026-05-18 03:36:03"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-18 03:36:03"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"3","15":"6","16":":","17":"0","18":"3","19":".","2":"2","20":"4","21":"8","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-18 03:36:03"}
+{"level":"info","message":"::1 - - [18/May/2026:02:36:03 +0000] \"GET /api/leaveRequests/balance/45 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:36:03"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/45","timestamp":"2026-05-18 03:36:22"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:36:22"}
+{"level":"info","message":"::1 - - [18/May/2026:02:36:23 +0000] \"GET /api/leaveRequests/balance/45 HTTP/1.1\" 200 40 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:36:23"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-18 03:37:28"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-18 03:37:28"}
+{"level":"info","message":"::1 - - [18/May/2026:02:37:28 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:37:28"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-18 03:37:39"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:37:39"}
+{"level":"info","message":"::1 - - [18/May/2026:02:37:39 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 200 729 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:37:39"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/24","timestamp":"2026-05-18 03:39:36"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-18 03:39:36"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"3","15":"9","16":":","17":"3","18":"6","19":".","2":"2","20":"7","21":"2","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-18 03:39:36"}
+{"level":"info","message":"::1 - - [18/May/2026:02:39:36 +0000] \"PATCH /api/leaveRequests/24 HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:39:36"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/24","timestamp":"2026-05-18 03:39:45"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-18 03:39:45"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"3","15":"9","16":":","17":"4","18":"5","19":".","2":"2","20":"6","21":"0","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-18 03:39:45"}
+{"level":"info","message":"::1 - - [18/May/2026:02:39:45 +0000] \"PATCH /api/leaveRequests/24 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:39:45"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/24","timestamp":"2026-05-18 03:39:54"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:39:54"}
+{"level":"info","message":"::1 - - [18/May/2026:02:39:54 +0000] \"PATCH /api/leaveRequests/24 HTTP/1.1\" 200 249 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:39:54"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/24","timestamp":"2026-05-18 03:40:03"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-18 03:40:03"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"0","16":":","17":"0","18":"3","19":".","2":"2","20":"6","21":"2","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-18 03:40:03"}
+{"level":"info","message":"::1 - - [18/May/2026:02:40:03 +0000] \"PATCH /api/leaveRequests/24 HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:40:03"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/24","timestamp":"2026-05-18 03:40:07"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:40:07"}
+{"level":"info","message":"::1 - - [18/May/2026:02:40:07 +0000] \"PATCH /api/leaveRequests/24 HTTP/1.1\" 200 247 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:40:07"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/1","timestamp":"2026-05-18 03:40:30"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:40:30"}
+{"level":"info","message":"::1 - - [18/May/2026:02:40:30 +0000] \"GET /api/leaveRequests/balance/1 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:40:30"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-18 03:41:22"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-18 03:41:22"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"1","16":":","17":"2","18":"2","19":".","2":"2","20":"2","21":"5","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-18 03:41:22"}
+{"level":"info","message":"::1 - - [18/May/2026:02:41:22 +0000] \"POST /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:41:22"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-18 03:41:31"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-18 03:41:31"}
+{"level":"info","message":"::1 - - [18/May/2026:02:41:31 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:41:31"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-18 03:41:41"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-18 03:41:41"}
+{"email":"ricewine@example.com","firstname":"Rice","level":"info","message":"UserController.create hit","password":"testpassword","roleId":1,"surname":"Wine","timestamp":"2026-05-18 03:41:41"}
+{"level":"info","message":"::1 - - [18/May/2026:02:41:41 +0000] \"POST /api/user/ HTTP/1.1\" 201 134 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:41:41"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45","timestamp":"2026-05-18 03:42:00"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-18 03:42:00"}
+{"level":"info","message":"::1 - - [18/May/2026:02:42:00 +0000] \"PATCH /api/user/45 HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:42:00"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45","timestamp":"2026-05-18 03:42:03"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-18 03:42:03"}
+{"level":"info","message":"::1 - - [18/May/2026:02:42:03 +0000] \"PATCH /api/user/45 HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:42:03"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-18 03:43:33"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:43:33"}
+{"level":"info","message":"::1 - - [18/May/2026:02:43:33 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 200 728 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:43:33"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-18 03:43:46"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:43:46"}
+{"level":"info","message":"::1 - - [18/May/2026:02:43:46 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 200 728 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:43:46"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-18 03:44:34"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:44:34"}
+{"level":"info","message":"::1 - - [18/May/2026:02:44:34 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 200 728 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:44:34"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-18 03:44:53"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:44:53"}
+{"level":"error","message":"You do not have permission to delete all leave requests","timestamp":"2026-05-18 03:44:53"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"4","16":":","17":"5","18":"3","19":".","2":"2","20":"9","21":"6","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: You do not have permission to delete all leave requests","timestamp":"2026-05-18 03:44:53"}
+{"level":"info","message":"::1 - - [18/May/2026:02:44:53 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 403 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:44:53"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-18 03:45:05"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:45:05"}
+{"level":"error","message":"You do not have permission to delete all leave requests","timestamp":"2026-05-18 03:45:05"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"5","16":":","17":"0","18":"5","19":".","2":"2","20":"5","21":"6","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: You do not have permission to delete all leave requests","timestamp":"2026-05-18 03:45:05"}
+{"level":"info","message":"::1 - - [18/May/2026:02:45:05 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 403 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:45:05"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-18 03:46:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-18 03:46:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-18 03:46:42"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-18 03:46:42"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45","timestamp":"2026-05-18 03:47:02"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-18 03:47:02"}
+{"level":"info","message":"::1 - - [18/May/2026:02:47:02 +0000] \"PATCH /api/user/45 HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:47:02"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-18 03:47:06"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:47:06"}
+{"level":"info","message":"::1 - - [18/May/2026:02:47:06 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 200 35 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:47:06"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45/reset-balance","timestamp":"2026-05-18 03:47:10"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-05-18 03:47:10"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"7","16":":","17":"1","18":"0","19":".","2":"2","20":"5","21":"8","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-05-18 03:47:10"}
+{"level":"info","message":"::1 - - [18/May/2026:02:47:10 +0000] \"PATCH /api/user/45/reset-balance HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:47:10"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-18 03:47:13"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-18 03:47:13"}
+{"level":"error","message":"No leave requests found for user","timestamp":"2026-05-18 03:47:13"}
+{"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"7","16":":","17":"1","18":"3","19":".","2":"2","20":"6","21":"7","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: No leave requests found for user","timestamp":"2026-05-18 03:47:13"}
+{"level":"info","message":"::1 - - [18/May/2026:02:47:13 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:47:13"}
