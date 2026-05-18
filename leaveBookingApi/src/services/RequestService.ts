@@ -53,7 +53,7 @@ export class RequestService {
     const userId = RequestHelper.parseId(userIdParam);
 
     const requests = await this.leaveRequestRepository.find({
-      where: { userId },
+      where: { User: { userId } },
       relations: ['User'],
     });
 
@@ -89,7 +89,7 @@ export class RequestService {
     );
 
     const requests = await this.leaveRequestRepository.find({
-      where: { userId: In(managedUserIds) },
+      where: { User: In(managedUserIds) },
       relations: ['User'],
     });
 
