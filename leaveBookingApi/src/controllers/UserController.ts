@@ -23,7 +23,6 @@ export class UserController implements IEntityController, IGetByEmail {
     });
     if (users.length === 0) {
       throw new AppError('No Content', StatusCodes.NO_CONTENT);
-      return;
     }
 
     ResponseHandler.sendSuccessResponse(res, users);
@@ -33,7 +32,6 @@ export class UserController implements IEntityController, IGetByEmail {
     const emailParam = req.params.emailAddress;
     if (typeof emailParam !== 'string' || emailParam.trim().length === 0) {
       throw new AppError('Email is required', StatusCodes.BAD_REQUEST);
-      return;
     }
     const email = emailParam.trim().toLowerCase();
 
@@ -43,7 +41,6 @@ export class UserController implements IEntityController, IGetByEmail {
     });
     if (!user) {
       throw new AppError(`${email} not found`, StatusCodes.NOT_FOUND);
-      return;
     }
     ResponseHandler.sendSuccessResponse(res, user);
   };
@@ -66,7 +63,6 @@ export class UserController implements IEntityController, IGetByEmail {
         `User not found with ID: ${id}`,
         StatusCodes.NO_CONTENT,
       );
-      return;
     }
     ResponseHandler.sendSuccessResponse(res, user);
   };

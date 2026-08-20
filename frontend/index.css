@@ -1,0 +1,57 @@
+
+@keyframes slide-in
+{
+    from
+        {
+            transform: translateX(100%);
+        }
+        to
+        {
+            transform: translateX(0%);
+        }
+}
+@keyframes slide-up
+{
+    from
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+@keyframes spin
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+h1
+    {
+        font-family: 'Courier New', Courier, monospace; text-align: center; animation: slide-up 500ms ease-out;
+    }
+
+    
+h2{animation: slide-in 1100ms ease-out }
+body
+    {
+        text-align: center;
+        background-color:rgb(255, 255, 255);  
+        animation: colorchange 3s infinite alternate;
+        font-size: large;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode','Lucida Sans', Arial, sans-serif ;
+        list-style-position: inside; 
+}
+    
+.slide-in{ animation: slide-in 1400ms ease-out 0ms 1 forwards;}
+.logo{position: absolute; top:0px; left: 0px}
+.logo:hover {
+    animation: spin 1s linear infinite;
+}

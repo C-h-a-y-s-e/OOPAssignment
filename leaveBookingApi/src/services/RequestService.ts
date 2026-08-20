@@ -70,24 +70,26 @@ export class RequestService {
   public async getRequestsForManager(
     managerIdParam: string | string[],
   ): Promise<LeaveRequests[]> {
+    //Validation for requests
     const managerId = RequestHelper.parseId(managerIdParam);
-
+    //All users with any manager
     const managed = await this.userManagementRepository.find({
       relations: ['User', 'Manager'],
     });
 
+    //Filters for those who's userID matches a managerID as a usermanagement object
     const managerAssignments = managed.filter(
       (assignment) => assignment.Manager?.userId === managerId,
     );
-
+    //if theres no users..
     if (managerAssignments.length === 0) {
       throw new AppError('No users found for manager', StatusCodes.NO_CONTENT);
     }
-
+    //array of userID's for a certain manager
     const managedUserIds = managerAssignments.map(
       (assignment) => assignment.User.userId,
     );
-
+    //get requests for all users under a manager
     const requests = await this.leaveRequestRepository.find({
       where: { User: { userId: In(managedUserIds) } },
       relations: ['User'],

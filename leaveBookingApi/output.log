@@ -5349,3 +5349,202 @@
 {"level":"error","message":"No leave requests found for user","timestamp":"2026-05-18 03:47:13"}
 {"0":"2","1":"0","10":"T","11":"0","12":"2","13":":","14":"4","15":"7","16":":","17":"1","18":"3","19":".","2":"2","20":"6","21":"7","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"1","9":"8","level":"error","message":"[Error]: No leave requests found for user","timestamp":"2026-05-18 03:47:13"}
 {"level":"info","message":"::1 - - [18/May/2026:02:47:13 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-18 03:47:13"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-18 03:48:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-18 03:48:56"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-05-26 08:49:09"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-05-26 08:49:09"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 08:49:10"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 08:49:10"}
+{"level":"info","message":"::1 - - [26/May/2026:07:49:11 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:49:11"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-26 08:50:19"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:50:19"}
+{"level":"error","message":"No leave requests found for user","timestamp":"2026-05-26 08:50:19"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"0","16":":","17":"1","18":"9","19":".","2":"2","20":"7","21":"4","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found for user","timestamp":"2026-05-26 08:50:19"}
+{"level":"info","message":"::1 - - [26/May/2026:07:50:19 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:50:19"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-26 08:50:29"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:50:29"}
+{"level":"error","message":"No leave requests found for manager","timestamp":"2026-05-26 08:50:29"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"0","16":":","17":"2","18":"9","19":".","2":"2","20":"1","21":"6","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found for manager","timestamp":"2026-05-26 08:50:29"}
+{"level":"info","message":"::1 - - [26/May/2026:07:50:29 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:50:29"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-26 08:50:34"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:50:34"}
+{"level":"error","message":"No leave requests found","timestamp":"2026-05-26 08:50:34"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"0","16":":","17":"3","18":"4","19":".","2":"2","20":"5","21":"2","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found","timestamp":"2026-05-26 08:50:34"}
+{"level":"info","message":"::1 - - [26/May/2026:07:50:34 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:50:34"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 08:51:31"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 08:51:31"}
+{"level":"info","message":"::1 - - [26/May/2026:07:51:31 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:51:31"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 08:52:05"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:52:05"}
+{"level":"debug","message":"DateOverlapCheck: found 0 requests for user 45","timestamp":"2026-05-26 08:52:05"}
+{"level":"error","message":"Insufficient leave balance. Requested: 386, Available: 46","timestamp":"2026-05-26 08:52:05"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"2","16":":","17":"0","18":"5","19":".","2":"2","20":"3","21":"8","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Insufficient leave balance. Requested: 386, Available: 46","timestamp":"2026-05-26 08:52:05"}
+{"level":"info","message":"::1 - - [26/May/2026:07:52:05 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:52:05"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 08:52:18"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 08:52:18"}
+{"level":"info","message":"::1 - - [26/May/2026:07:52:19 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:52:19"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45/reset-balance","timestamp":"2026-05-26 08:52:37"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-26 08:52:37"}
+{"id":3,"level":"info","message":"resetBalance called by role:","name":"Admin","timestamp":"2026-05-26 08:52:37"}
+{"level":"info","message":"::1 - - [26/May/2026:07:52:37 +0000] \"PATCH /api/user/45/reset-balance HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:52:37"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 08:52:51"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:52:51"}
+{"level":"debug","message":"DateOverlapCheck: found 0 requests for user 45","timestamp":"2026-05-26 08:52:51"}
+{"level":"error","message":"Insufficient leave balance. Requested: 386, Available: 25","timestamp":"2026-05-26 08:52:51"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"2","16":":","17":"5","18":"1","19":".","2":"2","20":"3","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Insufficient leave balance. Requested: 386, Available: 25","timestamp":"2026-05-26 08:52:51"}
+{"level":"info","message":"::1 - - [26/May/2026:07:52:51 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:52:51"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 08:53:25"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:53:25"}
+{"level":"debug","message":"DateOverlapCheck: found 0 requests for user 45","timestamp":"2026-05-26 08:53:25"}
+{"level":"info","message":"::1 - - [26/May/2026:07:53:25 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 167 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:53:25"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 08:53:29"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 08:53:29"}
+{"level":"info","message":"::1 - - [26/May/2026:07:53:29 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:53:29"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-26 08:53:46"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 08:53:46"}
+{"level":"info","message":"::1 - - [26/May/2026:07:53:46 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 200 249 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 08:53:46"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-26 08:58:39"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-05-26 08:58:39"}
+{"0":"2","1":"0","10":"T","11":"0","12":"7","13":":","14":"5","15":"8","16":":","17":"3","18":"9","19":".","2":"2","20":"5","21":"3","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-05-26 08:58:39"}
+{"level":"info","message":"::1 - - [26/May/2026:07:58:39 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","timestamp":"2026-05-26 08:58:39"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:01:39"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:01:39"}
+{"level":"info","message":"::1 - - [26/May/2026:12:01:39 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:01:39"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:01:51"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:01:51"}
+{"level":"info","message":"::1 - - [26/May/2026:12:01:51 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:01:51"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-26 13:02:17"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:02:17"}
+{"level":"info","message":"::1 - - [26/May/2026:12:02:17 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 200 249 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:02:17"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:02:45"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:02:45"}
+{"level":"info","message":"::1 - - [26/May/2026:12:02:45 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:02:45"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:03:22"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:03:22"}
+{"level":"info","message":"::1 - - [26/May/2026:12:03:22 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:03:22"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/1","timestamp":"2026-05-26 13:03:44"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:03:44"}
+{"level":"info","message":"::1 - - [26/May/2026:12:03:44 +0000] \"GET /api/leaveRequests/balance/1 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:03:44"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:12:14"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:12:14"}
+{"level":"info","message":"::1 - - [26/May/2026:12:12:14 +0000] \"POST /api/login HTTP/1.1\" 202 225 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:12:14"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/45","timestamp":"2026-05-26 13:13:14"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:13:14"}
+{"level":"info","message":"::1 - - [26/May/2026:12:13:14 +0000] \"GET /api/leaveRequests/balance/45 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:13:14"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:13:25"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:13:25"}
+{"level":"debug","message":"DateOverlapCheck: found 1 requests for user 45","timestamp":"2026-05-26 13:13:25"}
+{"level":"debug","message":"Checking overlap: existing 1793059200000-1794787200000 new 1801008000000-1801094400000","timestamp":"2026-05-26 13:13:25"}
+{"level":"info","message":"::1 - - [26/May/2026:12:13:25 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 167 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:13:25"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:13:39"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:13:39"}
+{"level":"error","message":"Start date must be before or equal to end date","timestamp":"2026-05-26 13:13:39"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"3","16":":","17":"3","18":"9","19":".","2":"2","20":"4","21":"7","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Start date must be before or equal to end date","timestamp":"2026-05-26 13:13:39"}
+{"level":"info","message":"::1 - - [26/May/2026:12:13:39 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 122 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:13:39"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:13:51"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:13:51"}
+{"level":"debug","message":"DateOverlapCheck: found 2 requests for user 45","timestamp":"2026-05-26 13:13:51"}
+{"level":"debug","message":"Checking overlap: existing 1793059200000-1794787200000 new 1801008000000-1801094400000","timestamp":"2026-05-26 13:13:51"}
+{"level":"debug","message":"Checking overlap: existing 1801008000000-1801094400000 new 1801008000000-1801094400000","timestamp":"2026-05-26 13:13:51"}
+{"level":"debug","message":"Overlap detected with request id 29","timestamp":"2026-05-26 13:13:51"}
+{"level":"error","message":"Requested dates overlap with another leave request","timestamp":"2026-05-26 13:13:51"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"3","16":":","17":"5","18":"1","19":".","2":"2","20":"9","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Requested dates overlap with another leave request","timestamp":"2026-05-26 13:13:51"}
+{"level":"info","message":"::1 - - [26/May/2026:12:13:51 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:13:51"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:14:11"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:14:11"}
+{"level":"debug","message":"DateOverlapCheck: found 2 requests for user 45","timestamp":"2026-05-26 13:14:11"}
+{"level":"debug","message":"Checking overlap: existing 1793059200000-1794787200000 new 1801180800000-1801612800000","timestamp":"2026-05-26 13:14:11"}
+{"level":"debug","message":"Checking overlap: existing 1801008000000-1801094400000 new 1801180800000-1801612800000","timestamp":"2026-05-26 13:14:11"}
+{"level":"error","message":"Insufficient leave balance. Requested: 6, Available: 2","timestamp":"2026-05-26 13:14:11"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"4","16":":","17":"1","18":"1","19":".","2":"2","20":"8","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Insufficient leave balance. Requested: 6, Available: 2","timestamp":"2026-05-26 13:14:11"}
+{"level":"info","message":"::1 - - [26/May/2026:12:14:11 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 409 130 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:14:11"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:14:57"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:14:57"}
+{"level":"debug","message":"DateOverlapCheck: found 0 requests for user 40","timestamp":"2026-05-26 13:14:57"}
+{"level":"error","message":"User not found","timestamp":"2026-05-26 13:14:57"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"4","16":":","17":"5","18":"7","19":".","2":"2","20":"7","21":"4","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: User not found","timestamp":"2026-05-26 13:14:57"}
+{"level":"info","message":"::1 - - [26/May/2026:12:14:57 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 404 90 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:14:57"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:15:04"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:15:04"}
+{"level":"debug","message":"DateOverlapCheck: found 0 requests for user 44","timestamp":"2026-05-26 13:15:04"}
+{"level":"error","message":"User not found","timestamp":"2026-05-26 13:15:04"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"5","16":":","17":"0","18":"4","19":".","2":"2","20":"2","21":"7","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: User not found","timestamp":"2026-05-26 13:15:04"}
+{"level":"info","message":"::1 - - [26/May/2026:12:15:04 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 404 90 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:15:04"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-26 13:15:24"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:15:24"}
+{"level":"info","message":"::1 - - [26/May/2026:12:15:24 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 200 488 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:15:24"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/29","timestamp":"2026-05-26 13:15:35"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:15:35"}
+{"level":"info","message":"::1 - - [26/May/2026:12:15:35 +0000] \"DELETE /api/leaveRequests/29 HTTP/1.1\" 200 34 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:15:35"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/29","timestamp":"2026-05-26 13:15:45"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:15:45"}
+{"level":"error","message":"Leave request not found","timestamp":"2026-05-26 13:15:45"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"5","16":":","17":"4","18":"5","19":".","2":"2","20":"9","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: Leave request not found","timestamp":"2026-05-26 13:15:45"}
+{"level":"info","message":"::1 - - [26/May/2026:12:15:45 +0000] \"DELETE /api/leaveRequests/29 HTTP/1.1\" 404 99 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:15:45"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/45","timestamp":"2026-05-26 13:15:57"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:15:57"}
+{"level":"info","message":"::1 - - [26/May/2026:12:15:57 +0000] \"GET /api/leaveRequests/balance/45 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:15:57"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-26 13:16:28"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:16:28"}
+{"level":"info","message":"::1 - - [26/May/2026:12:16:28 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 200 249 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:16:28"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/28","timestamp":"2026-05-26 13:16:52"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:16:52"}
+{"level":"info","message":"::1 - - [26/May/2026:12:16:52 +0000] \"PATCH /api/leaveRequests/28 HTTP/1.1\" 200 248 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:16:52"}
+{"level":"info","message":"Incoming request: POST /api/leaveRequests/","timestamp":"2026-05-26 13:17:17"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:17:17"}
+{"level":"debug","message":"DateOverlapCheck: found 1 requests for user 45","timestamp":"2026-05-26 13:17:17"}
+{"level":"debug","message":"Checking overlap: existing 1793059200000-1794787200000 new 1803859200000-1804032000000","timestamp":"2026-05-26 13:17:17"}
+{"level":"info","message":"::1 - - [26/May/2026:12:17:17 +0000] \"POST /api/leaveRequests/ HTTP/1.1\" 201 167 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:17:17"}
+{"level":"info","message":"Incoming request: PATCH /api/leaveRequests/30","timestamp":"2026-05-26 13:17:27"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:17:27"}
+{"level":"info","message":"::1 - - [26/May/2026:12:17:27 +0000] \"PATCH /api/leaveRequests/30 HTTP/1.1\" 200 246 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:17:27"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/1","timestamp":"2026-05-26 13:17:41"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:17:41"}
+{"level":"info","message":"::1 - - [26/May/2026:12:17:41 +0000] \"GET /api/leaveRequests/balance/1 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:17:41"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-05-26 13:18:15"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-05-26 13:18:15"}
+{"level":"info","message":"::1 - - [26/May/2026:12:18:15 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:18:15"}
+{"level":"info","message":"Incoming request: POST /api/user/","timestamp":"2026-05-26 13:18:41"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-26 13:18:41"}
+{"email":"test2@example.com","firstname":"Test","level":"info","message":"UserController.create hit","password":"testpassword","roleId":1,"surname":"Test","timestamp":"2026-05-26 13:18:41"}
+{"level":"info","message":"::1 - - [26/May/2026:12:18:41 +0000] \"POST /api/user/ HTTP/1.1\" 201 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:18:41"}
+{"level":"info","message":"Incoming request: PATCH /api/user/49","timestamp":"2026-05-26 13:19:04"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-26 13:19:04"}
+{"level":"info","message":"::1 - - [26/May/2026:12:19:04 +0000] \"PATCH /api/user/49 HTTP/1.1\" 200 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:19:04"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-05-26 13:19:14"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-26 13:19:14"}
+{"level":"info","message":"::1 - - [26/May/2026:12:19:14 +0000] \"GET /api/user/ HTTP/1.1\" 200 857 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:19:14"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/48","timestamp":"2026-05-26 13:19:57"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:19:57"}
+{"level":"error","message":"No leave requests found for user","timestamp":"2026-05-26 13:19:57"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"9","16":":","17":"5","18":"7","19":".","2":"2","20":"3","21":"4","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found for user","timestamp":"2026-05-26 13:19:57"}
+{"level":"info","message":"::1 - - [26/May/2026:12:19:57 +0000] \"GET /api/leaveRequests/user/48 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:19:57"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/49","timestamp":"2026-05-26 13:20:00"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:20:00"}
+{"level":"error","message":"No leave requests found for user","timestamp":"2026-05-26 13:20:00"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"2","15":"0","16":":","17":"0","18":"0","19":".","2":"2","20":"0","21":"8","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found for user","timestamp":"2026-05-26 13:20:00"}
+{"level":"info","message":"::1 - - [26/May/2026:12:20:00 +0000] \"GET /api/leaveRequests/user/49 HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:20:00"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/user/45","timestamp":"2026-05-26 13:20:21"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:20:21"}
+{"level":"info","message":"::1 - - [26/May/2026:12:20:21 +0000] \"GET /api/leaveRequests/user/45 HTTP/1.1\" 200 488 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:20:21"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/manager/47","timestamp":"2026-05-26 13:20:40"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:20:40"}
+{"level":"info","message":"::1 - - [26/May/2026:12:20:40 +0000] \"GET /api/leaveRequests/manager/47 HTTP/1.1\" 200 488 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:20:40"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-26 13:20:49"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:20:49"}
+{"level":"info","message":"::1 - - [26/May/2026:12:20:49 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 200 488 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:20:49"}
+{"level":"info","message":"Incoming request: PATCH /api/user/45/reset-balance","timestamp":"2026-05-26 13:21:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-05-26 13:21:28"}
+{"id":3,"level":"info","message":"resetBalance called by role:","name":"Admin","timestamp":"2026-05-26 13:21:28"}
+{"level":"info","message":"::1 - - [26/May/2026:12:21:28 +0000] \"PATCH /api/user/45/reset-balance HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:21:28"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/balance/45","timestamp":"2026-05-26 13:21:35"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:21:35"}
+{"level":"info","message":"::1 - - [26/May/2026:12:21:35 +0000] \"GET /api/leaveRequests/balance/45 HTTP/1.1\" 200 40 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:21:35"}
+{"level":"info","message":"Incoming request: DELETE /api/leaveRequests/all","timestamp":"2026-05-26 13:21:47"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:21:47"}
+{"level":"info","message":"::1 - - [26/May/2026:12:21:47 +0000] \"DELETE /api/leaveRequests/all HTTP/1.1\" 200 35 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:21:47"}
+{"level":"info","message":"Incoming request: GET /api/leaveRequests/","timestamp":"2026-05-26 13:21:56"}
+{"level":"info","message":"leaveRequests accessed by ::1","timestamp":"2026-05-26 13:21:56"}
+{"level":"error","message":"No leave requests found","timestamp":"2026-05-26 13:21:56"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"2","15":"1","16":":","17":"5","18":"6","19":".","2":"2","20":"2","21":"2","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found","timestamp":"2026-05-26 13:21:56"}
+{"level":"info","message":"::1 - - [26/May/2026:12:21:56 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:21:56"}
