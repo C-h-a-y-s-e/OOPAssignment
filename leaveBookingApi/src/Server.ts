@@ -14,6 +14,7 @@ import requestIP, { rateLimit } from 'express-rate-limit';
 import { IAuthenticatedJWTRequest } from './types/IAuthenticatedJWTRequest';
 import { AppError } from './helpers/AppError';
 import { ErrorHandler } from './ErrorHandler';
+import cors from "cors";
 export class Server {
   public static readonly ERROR_TOKEN_IS_INVALID =
     'Not authorised: Token is invalid';
@@ -58,6 +59,15 @@ export class Server {
         Logger.info(message.trim());
       },
     };
+
+    this.app.use(
+      cors({
+        origin: [
+          'http://localhost:5500', //Express
+          'http://localhost:5173', //React sends from
+        ],
+      }),
+    );
 
     this.app.use((req: Request, res: Response, next) => {
       Logger.info(`Incoming request: ${req.method} ${req.originalUrl}`);

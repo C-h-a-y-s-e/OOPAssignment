@@ -5548,3 +5548,469 @@
 {"level":"error","message":"No leave requests found","timestamp":"2026-05-26 13:21:56"}
 {"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"2","15":"1","16":":","17":"5","18":"6","19":".","2":"2","20":"2","21":"2","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"5","7":"-","8":"2","9":"6","level":"error","message":"[Error]: No leave requests found","timestamp":"2026-05-26 13:21:56"}
 {"level":"info","message":"::1 - - [26/May/2026:12:21:56 +0000] \"GET /api/leaveRequests/ HTTP/1.1\" 204 - \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-26 13:21:56"}
+{"code":"ECONNREFUSED","fatal":true,"level":"error","message":"Error during initialisation:","stack":"AggregateError\n    at internalConnectMultiple (node:net:1142:49)\n    at afterConnectMultiple (node:net:1723:7)","timestamp":"2026-09-01 22:06:09"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-01 22:10:40"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-01 22:10:40"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-01 22:12:18"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-01 22:12:18"}
+{"0":"2","1":"0","10":"T","11":"2","12":"1","13":":","14":"1","15":"2","16":":","17":"1","18":"8","19":".","2":"2","20":"8","21":"5","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"1","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-01 22:12:18"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:12:18 +0000] \"GET /api/user/ HTTP/1.1\" 401 108 \"-\" \"PostmanRuntime/7.56.0\"","timestamp":"2026-09-01 22:12:18"}
+{"level":"info","message":"Incoming request: OPTIONS /api/login","timestamp":"2026-09-01 22:12:43"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-01 22:12:43"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:12:43 +0000] \"OPTIONS /api/login HTTP/1.1\" 200 4 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-01 22:12:43"}
+{"level":"info","message":"Incoming request: OPTIONS /api/login","timestamp":"2026-09-01 22:13:54"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-01 22:13:54"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:13:54 +0000] \"OPTIONS /api/login HTTP/1.1\" 200 4 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-01 22:13:54"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-01 22:46:12"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-01 22:46:12"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-01 22:47:45"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-01 22:47:45"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-01 22:49:35"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-01 22:49:35"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-01 22:49:36"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-01 22:49:36"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:49:37 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-01 22:49:37"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-01 22:50:53"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-01 22:50:53"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:50:53 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-01 22:50:53"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-01 22:50:56"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-01 22:50:56"}
+{"level":"info","message":"::1 - - [01/Sep/2026:21:50:56 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-01 22:50:56"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:01:51"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:01:51"}
+{"level":"error","message":"User not found","timestamp":"2026-09-05 00:01:51"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"0","15":"1","16":":","17":"5","18":"1","19":".","2":"2","20":"8","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: User not found","timestamp":"2026-09-05 00:01:51"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:01:51 +0000] \"POST /api/login HTTP/1.1\" 500 90 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:01:51"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:01:52"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:01:52"}
+{"level":"error","message":"User not found","timestamp":"2026-09-05 00:01:52"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"0","15":"1","16":":","17":"5","18":"2","19":".","2":"2","20":"5","21":"5","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: User not found","timestamp":"2026-09-05 00:01:52"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:01:52 +0000] \"POST /api/login HTTP/1.1\" 500 90 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:01:52"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:01:59"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:01:59"}
+{"level":"error","message":"User not found","timestamp":"2026-09-05 00:01:59"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"0","15":"1","16":":","17":"5","18":"9","19":".","2":"2","20":"0","21":"1","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: User not found","timestamp":"2026-09-05 00:01:59"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:01:59 +0000] \"POST /api/login HTTP/1.1\" 500 90 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:01:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-05 00:03:58"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-05 00:03:58"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:18:24"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:18:25"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:18:25 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:18:25"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:18:32"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:18:32"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-05 00:18:32"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"8","16":":","17":"3","18":"2","19":".","2":"2","20":"3","21":"0","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-05 00:18:32"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:18:32 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:18:32"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:19:37"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:19:37"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-05 00:19:38"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"9","16":":","17":"3","18":"8","19":".","2":"2","20":"0","21":"8","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-05 00:19:38"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:19:38 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:19:38"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:19:46"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:19:46"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:19:46 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:19:46"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:19:51"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:19:51"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-05 00:19:51"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"9","16":":","17":"5","18":"1","19":".","2":"2","20":"4","21":"4","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-05 00:19:51"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:19:51 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:19:51"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-05 00:19:52"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-05 00:19:52"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-05 00:19:52"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"1","15":"9","16":":","17":"5","18":"2","19":".","2":"2","20":"2","21":"3","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"4","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-05 00:19:52"}
+{"level":"info","message":"::1 - - [04/Sep/2026:23:19:52 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-05 00:19:52"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-07 09:38:57"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-07 09:38:57"}
+{"level":"info","message":"::1 - - [07/Sep/2026:08:38:57 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 09:38:57"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-07 13:56:18"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-07 13:56:18"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-07 13:56:19"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"5","15":"6","16":":","17":"1","18":"9","19":".","2":"2","20":"0","21":"8","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"7","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-07 13:56:19"}
+{"level":"info","message":"::1 - - [07/Sep/2026:12:56:19 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 13:56:19"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 13:59:11"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-07 13:59:11"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"5","15":"9","16":":","17":"1","18":"1","19":".","2":"2","20":"7","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"7","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-07 13:59:11"}
+{"level":"info","message":"::1 - - [07/Sep/2026:12:59:11 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 401 108 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 13:59:11"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 13:59:14"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-07 13:59:14"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"5","15":"9","16":":","17":"1","18":"4","19":".","2":"2","20":"1","21":"0","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"7","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-07 13:59:14"}
+{"level":"info","message":"::1 - - [07/Sep/2026:12:59:14 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 401 108 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 13:59:14"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 14:03:16"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-07 14:03:16"}
+{"0":"2","1":"0","10":"T","11":"1","12":"3","13":":","14":"0","15":"3","16":":","17":"1","18":"6","19":".","2":"2","20":"0","21":"5","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"7","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-07 14:03:16"}
+{"level":"info","message":"::1 - - [07/Sep/2026:13:03:16 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 401 108 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 14:03:16"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-07 22:30:25"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-07 22:30:25"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-07 22:37:34"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-07 22:37:35"}
+{"level":"info","message":"::1 - - [07/Sep/2026:21:37:35 +0000] \"POST /api/login HTTP/1.1\" 202 220 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 22:37:35"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 22:37:35"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-07 22:37:35"}
+{"level":"info","message":"::1 - - [07/Sep/2026:21:37:35 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 200 147 \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 22:37:35"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 22:39:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-07 22:39:28"}
+{"level":"info","message":"::1 - - [07/Sep/2026:21:39:28 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 304 - \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 22:39:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 22:45:42"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-07 22:45:42"}
+{"level":"info","message":"::1 - - [07/Sep/2026:21:45:42 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 304 - \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 22:45:42"}
+{"level":"info","message":"Incoming request: GET /api/user/email/admin%40example.com","timestamp":"2026-09-07 22:45:49"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-07 22:45:49"}
+{"level":"info","message":"::1 - - [07/Sep/2026:21:45:49 +0000] \"GET /api/user/email/admin%40example.com HTTP/1.1\" 304 - \"http://127.0.0.1:5500/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-07 22:45:49"}
+{"level":"info","message":"Incoming request: GET /","timestamp":"2026-09-08 15:56:38"}
+{"0":"2","1":"0","10":"T","11":"1","12":"4","13":":","14":"5","15":"6","16":":","17":"3","18":"8","19":".","2":"2","20":"1","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"8","level":"error","message":"[Error]: Route http://localhost:8900/ not found","timestamp":"2026-09-08 15:56:38"}
+{"level":"info","message":"::1 - - [08/Sep/2026:14:56:38 +0000] \"GET / HTTP/1.1\" 404 114 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.136.0-insider Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36\"","timestamp":"2026-09-08 15:56:38"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-08 15:58:48"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-08 15:58:48"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-08 22:46:36"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-08 22:46:36"}
+{"0":"2","1":"0","10":"T","11":"2","12":"1","13":":","14":"4","15":"6","16":":","17":"3","18":"6","19":".","2":"2","20":"1","21":"5","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"8","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-08 22:46:36"}
+{"level":"info","message":"::1 - - [08/Sep/2026:21:46:36 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-08 22:46:36"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-08 22:46:47"}
+{"0":"2","1":"0","10":"T","11":"2","12":"1","13":":","14":"4","15":"6","16":":","17":"4","18":"7","19":".","2":"2","20":"9","21":"0","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"8","level":"error","message":"[Error]: Expected double-quoted property name in JSON at position 150 (line 7 column 5)","timestamp":"2026-09-08 22:46:47"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-08 22:47:33"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-08 22:47:33"}
+{"0":"2","1":"0","10":"T","11":"2","12":"1","13":":","14":"4","15":"7","16":":","17":"3","18":"3","19":".","2":"2","20":"0","21":"3","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"8","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-08 22:47:33"}
+{"level":"info","message":"::1 - - [08/Sep/2026:21:47:33 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-08 22:47:33"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-08 22:47:34"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-08 22:47:34"}
+{"0":"2","1":"0","10":"T","11":"2","12":"1","13":":","14":"4","15":"7","16":":","17":"3","18":"4","19":".","2":"2","20":"6","21":"1","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"8","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-08 22:47:34"}
+{"level":"info","message":"::1 - - [08/Sep/2026:21:47:34 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-08 22:47:34"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:05:27"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:05:27"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:06:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:06:04"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-09 00:07:31"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-09 00:07:31"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:07:31 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-GB) WindowsPowerShell/5.1.26100.9168\"","timestamp":"2026-09-09 00:07:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:08:31"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:08:31"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:08:56"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:08:56"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:09:06 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:09:06 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 200 149 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:09:06 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:09:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:12:06"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:12:06"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:15:04"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:15:04"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:15:14"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:15:14"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:15:15 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:15:15 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:15:15 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:15:15"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:19:22 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:19:22 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:19:22 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:19:22"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:25 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:25 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:25"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:24:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:29"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-09 00:24:45"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-09 00:24:45"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"users accessed by ::ffff:127.0.0.1","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Sep/2026:23:24:46 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"users accessed by ::ffff:127.0.0.1","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Sep/2026:23:24:46 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"login accessed by ::ffff:127.0.0.1","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Sep/2026:23:24:46 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"users accessed by ::ffff:127.0.0.1","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Sep/2026:23:24:46 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"users accessed by ::ffff:127.0.0.1","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Sep/2026:23:24:46 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:24:46"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:35:58 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"::1 - - [08/Sep/2026:23:35:58 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 00:35:58"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:29:49"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:49"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"2","15":"9","16":":","17":"4","18":"9","19":".","2":"2","20":"9","21":"2","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:49"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:29:49 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:29:49"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:29:49"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:49"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"2","15":"9","16":":","17":"4","18":"9","19":".","2":"2","20":"9","21":"3","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:49"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:29:49 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:29:49"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:29:50"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:50"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"2","15":"9","16":":","17":"5","18":"0","19":".","2":"2","20":"4","21":"2","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:50"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:29:50 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:29:50"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:29:50"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:50"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"2","15":"9","16":":","17":"5","18":"0","19":".","2":"2","20":"4","21":"3","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:29:50"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:29:50 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:29:50"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:30"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:30"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"3","18":"0","19":".","2":"2","20":"4","21":"9","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:30"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:30 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:30"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:30"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:30"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"3","18":"0","19":".","2":"2","20":"4","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:30"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:30 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:30"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:44"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:44"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"4","18":"4","19":".","2":"2","20":"4","21":"1","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:44"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:44 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:44"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:44"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:44"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"4","18":"4","19":".","2":"2","20":"4","21":"1","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:44"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:44 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:44"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:53"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:53"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"5","18":"3","19":".","2":"2","20":"8","21":"7","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:53"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:53 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:53"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:42:53"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:53"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"2","16":":","17":"5","18":"3","19":".","2":"2","20":"8","21":"8","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:42:53"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:42:53 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:42:53"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:44:36"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:44:36"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"4","16":":","17":"3","18":"6","19":".","2":"2","20":"9","21":"5","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:44:36"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:44:36 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:44:36"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 07:44:36"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 07:44:36"}
+{"0":"2","1":"0","10":"T","11":"0","12":"6","13":":","14":"4","15":"4","16":":","17":"3","18":"6","19":".","2":"2","20":"9","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 07:44:36"}
+{"level":"info","message":"::1 - - [09/Sep/2026:06:44:36 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 07:44:36"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 10:55:00"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 10:55:00"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"5","16":":","17":"0","18":"0","19":".","2":"2","20":"7","21":"9","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 10:55:00"}
+{"level":"info","message":"::1 - - [09/Sep/2026:09:55:00 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 10:55:00"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 10:55:00"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 10:55:00"}
+{"0":"2","1":"0","10":"T","11":"0","12":"9","13":":","14":"5","15":"5","16":":","17":"0","18":"0","19":".","2":"2","20":"7","21":"9","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 10:55:00"}
+{"level":"info","message":"::1 - - [09/Sep/2026:09:55:00 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 10:55:00"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:14"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:14"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"1","18":"4","19":".","2":"2","20":"6","21":"6","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:14"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:14 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:14"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:14"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:14"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"1","18":"4","19":".","2":"2","20":"6","21":"6","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:14"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:14 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:14"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:25"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:25"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"5","19":".","2":"2","20":"1","21":"3","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:25"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:25 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:25"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:25"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:25"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"5","19":".","2":"2","20":"1","21":"4","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:25"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:25 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:25"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:26"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"6","19":".","2":"2","20":"6","21":"0","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:26 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:26"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"6","19":".","2":"2","20":"6","21":"0","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:26 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:26"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"6","19":".","2":"2","20":"9","21":"8","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:26 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:26"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"6","19":".","2":"2","20":"9","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:26 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:26"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:27"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"7","19":".","2":"2","20":"1","21":"6","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:27"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"7","19":".","2":"2","20":"1","21":"6","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:27"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"7","19":".","2":"2","20":"4","21":"5","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:36:27"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"3","15":"6","16":":","17":"2","18":"7","19":".","2":"2","20":"4","21":"5","22":"6","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:36:27 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:36:27"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:54:41"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:54:41"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"4","16":":","17":"4","18":"1","19":".","2":"2","20":"7","21":"6","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:54:41"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:54:41 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:54:41"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-09 23:54:41"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-09 23:54:41"}
+{"0":"2","1":"0","10":"T","11":"2","12":"2","13":":","14":"5","15":"4","16":":","17":"4","18":"1","19":".","2":"2","20":"7","21":"6","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-09 23:54:41"}
+{"level":"info","message":"::1 - - [09/Sep/2026:22:54:41 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-09 23:54:41"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:37:05"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:37:05"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"3","15":"7","16":":","17":"0","18":"5","19":".","2":"2","20":"4","21":"0","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:37:05"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:37:05 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:37:05"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:37:05"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:37:05"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"3","15":"7","16":":","17":"0","18":"5","19":".","2":"2","20":"4","21":"1","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:37:05"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:37:05 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:37:05"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:44:28"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:44:28"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"4","15":"4","16":":","17":"2","18":"8","19":".","2":"2","20":"2","21":"5","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:44:28"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:44:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:44:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:44:28"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:44:28"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"4","15":"4","16":":","17":"2","18":"8","19":".","2":"2","20":"2","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:44:28"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:44:28 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:44:28"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:52:40"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:52:40"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"5","15":"2","16":":","17":"4","18":"0","19":".","2":"2","20":"2","21":"8","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:52:40"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:52:40 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:52:40"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:52:40"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:52:40"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"5","15":"2","16":":","17":"4","18":"0","19":".","2":"2","20":"2","21":"8","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:52:40"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:52:40 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:52:40"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:58:49"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:58:49"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"5","15":"8","16":":","17":"4","18":"9","19":".","2":"2","20":"2","21":"9","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:58:49"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:58:49 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:58:49"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 00:58:49"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 00:58:49"}
+{"0":"2","1":"0","10":"T","11":"2","12":"3","13":":","14":"5","15":"8","16":":","17":"4","18":"9","19":".","2":"2","20":"2","21":"9","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"0","9":"9","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 00:58:49"}
+{"level":"info","message":"::1 - - [09/Sep/2026:23:58:49 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 00:58:49"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:09:43"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:43"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"0","15":"9","16":":","17":"4","18":"3","19":".","2":"2","20":"2","21":"5","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:43"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:09:43 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:09:43"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:09:43"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:43"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"0","15":"9","16":":","17":"4","18":"3","19":".","2":"2","20":"2","21":"6","22":"0","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:43"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:09:43 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:09:43"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:09:47"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:47"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"0","15":"9","16":":","17":"4","18":"7","19":".","2":"2","20":"1","21":"2","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:47"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:09:47 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:09:47"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:09:47"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:47"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"0","15":"9","16":":","17":"4","18":"7","19":".","2":"2","20":"1","21":"3","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:09:47"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:09:47 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:09:47"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-10 01:11:28"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"1","16":":","17":"2","18":"8","19":".","2":"2","20":"9","21":"3","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Expected ',' or '}' after property value in JSON at position 45 (line 3 column 5)","timestamp":"2026-09-10 01:11:28"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-10 01:11:33"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-10 01:11:33"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"1","16":":","17":"3","18":"3","19":".","2":"2","20":"5","21":"4","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-10 01:11:33"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:11:33 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-10 01:11:33"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 01:15:13"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 01:15:14"}
+{"level":"info","message":"Incoming request: GET /api/user/","timestamp":"2026-09-10 01:15:17"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-10 01:15:18"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"5","16":":","17":"1","18":"8","19":".","2":"2","20":"1","21":"2","22":"1","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-10 01:15:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:15:18 +0000] \"GET /api/user/ HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-10 01:15:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin@example.com","timestamp":"2026-09-10 01:16:30"}
+{"level":"error","message":"Not authorised: Token not found","timestamp":"2026-09-10 01:16:30"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"6","16":":","17":"3","18":"0","19":".","2":"2","20":"9","21":"9","22":"3","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token not found","timestamp":"2026-09-10 01:16:30"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:16:30 +0000] \"GET /api/user/email/newadmin@example.com HTTP/1.1\" 401 107 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-10 01:16:30"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 01:17:42"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 01:17:42"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:17:42 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-10 01:17:42"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 01:17:47"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 01:17:47"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-10 01:17:47"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"7","16":":","17":"4","18":"7","19":".","2":"2","20":"1","21":"1","22":"9","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-10 01:17:47"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:17:47 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"-\" \"PostmanRuntime/2.5.0\"","timestamp":"2026-09-10 01:17:47"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:19:57"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:19:57"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"9","16":":","17":"5","18":"7","19":".","2":"2","20":"4","21":"1","22":"5","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:19:57"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:19:57 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:19:57"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:19:57"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 01:19:57"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"1","15":"9","16":":","17":"5","18":"7","19":".","2":"2","20":"4","21":"2","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 01:19:57"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:19:57 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:19:57"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 01:22:51"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 01:22:51"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-10 01:22:51"}
+{"0":"2","1":"0","10":"T","11":"0","12":"0","13":":","14":"2","15":"2","16":":","17":"5","18":"1","19":".","2":"2","20":"7","21":"7","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-10 01:22:51"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:22:51 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:22:51"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:22:54 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:22:54 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:22:54 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:22:54"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:24:55 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:24:55 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:24:55"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:26:17 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:26:17 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:26:17 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:26:17"}
+{"level":"info","message":"::1 - - [10/Sep/2026:00:26:17 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:26:17"}

@@ -4,6 +4,7 @@
   "description": "Awesome project developed with TypeORM.",
   "type": "commonjs",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/morgan": "^1.9.10",
@@ -31,10 +32,12 @@
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
     "class-transformer": "^0.5.1",
+    "cors": "^2.8.6",
     "express-rate-limit": "^8.5.0",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
+    "react-router-dom": "^7.18.3",
     "winston": "^3.19.0"
   }
 }
