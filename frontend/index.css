@@ -421,7 +421,7 @@ button:disabled {
     background: linear-gradient(135deg, #f8f4eb 0%, #f0ebe2 100%);
 }
 
-.request-card {
+.request-form {
     width: min(520px, 100%);
     padding: 2rem;
     background: var(--card);
