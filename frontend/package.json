@@ -5,23 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite",
-    "preview": "vite preview"
-  
-  }
-  ,
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.3"
+    "@react-router/node": "^7.18.3",
+    "@react-router/serve": "^7.18.3",
+    "react-router": "^7.18.3",
+    "isbot": "^5"
   },
-  
   "devDependencies": {
+    "@react-router/dev": "^7.18.3",
     "vite": "^8.2.2"
   }
 }

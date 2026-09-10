@@ -15,7 +15,7 @@ export async function ensureCallerHasRoles(
 
   const callerUser = await userRepository.findOne({
     where: { email: callerEmail.toLowerCase() },
-    relations: ['role'],
+    relations: { role: true },
   });
 
   const callerRole = callerUser?.role?.name?.toLowerCase();

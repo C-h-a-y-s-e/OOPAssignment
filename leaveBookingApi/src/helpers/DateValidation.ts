@@ -21,7 +21,7 @@ export class DateValidation {
     excludeRequestId?: number,
   ): Promise<boolean> {
     const allRequests = await leaveRequestRepository.find({
-      relations: ['User'],
+      relations: { User: true },
     });
     const existingRequests = allRequests.filter(
       (request) => request.User?.userId === userId,
@@ -106,7 +106,7 @@ export class RequestController implements IEntityController {
 
     const leaveRequest = await this.leaveRequestRepository.findOne({
       where: { id },
-      relations: ['User', 'leaveType'],
+      relations: { User: true, leaveType: true },
     });
 
     if (!leaveRequest) {
@@ -121,7 +121,7 @@ export class RequestController implements IEntityController {
 
   public getAll = async (_req: Request, res: Response): Promise<void> => {
     const leaveRequests = await this.leaveRequestRepository.find({
-      relations: ['User', 'leaveType'],
+      relations: { User: true, leaveType: true },
     });
 
     if (leaveRequests.length === 0) {
@@ -142,7 +142,7 @@ export class RequestController implements IEntityController {
 
     const requests = await this.leaveRequestRepository.find({
       where: { userId },
-      relations: ['User', 'leaveType'],
+      relations: { User: true, leaveType: true },
     });
 
     if (requests.length === 0) {

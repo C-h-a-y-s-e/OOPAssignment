@@ -6014,3 +6014,189 @@
 {"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 01:26:17"}
 {"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 01:26:17"}
 {"level":"info","message":"::1 - - [10/Sep/2026:00:26:17 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 01:26:17"}
+{"code":"ECONNREFUSED","fatal":true,"level":"error","message":"Error during initialisation:","stack":"AggregateError\n    at internalConnectMultiple (node:net:1142:49)\n    at afterConnectMultiple (node:net:1723:7)","timestamp":"2026-09-10 12:04:49"}
+{"code":"ECONNREFUSED","fatal":true,"level":"error","message":"Error during initialisation:","stack":"AggregateError\n    at internalConnectMultiple (node:net:1142:49)\n    at afterConnectMultiple (node:net:1723:7)","timestamp":"2026-09-10 12:05:32"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 12:06:20"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 12:06:20"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 12:07:57"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 12:07:57"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:07:58 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36\"","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:07:58 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36\"","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:07:58 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36\"","timestamp":"2026-09-10 12:07:58"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:10:09 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:10:09 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:10:09 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:10:09"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:37:18 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:37:18 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:37:18 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:37:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:47:06 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:47:06 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:47:06"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:47:08 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:47:08 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:47:08"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:50:40 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:50:40 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"::1 - - [10/Sep/2026:11:50:40 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 12:50:40"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:10:08 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:10:08 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:10:08"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:12:18 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:12:18 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:12:18 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:12:18"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:12:39 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:12:39 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:12:39"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 13:13:02"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 13:13:02"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-10 13:13:02"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"3","16":":","17":"0","18":"2","19":".","2":"2","20":"6","21":"3","22":"8","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-10 13:13:02"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:02 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:13:02"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 13:13:03"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 13:13:03"}
+{"level":"error","message":"Password incorrect","timestamp":"2026-09-10 13:13:03"}
+{"0":"2","1":"0","10":"T","11":"1","12":"2","13":":","14":"1","15":"3","16":":","17":"0","18":"3","19":".","2":"2","20":"4","21":"9","22":"2","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Password incorrect","timestamp":"2026-09-10 13:13:03"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:03 +0000] \"POST /api/login HTTP/1.1\" 500 94 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:13:03"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:39 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:39 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:39 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:13:39"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:59 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 200 149 \"http://localhost:5173/\" \"Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36\"","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:13:59 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36\"","timestamp":"2026-09-10 13:13:59"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:14:07 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:14:07 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:14:07"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:32:14 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:32:14 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:32:14"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:59:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"::1 - - [10/Sep/2026:12:59:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 13:59:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:04:21 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:04:21 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:04:21"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:09:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:09:29 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:09:29"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:27:48 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"::1 - - [10/Sep/2026:13:27:48 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 14:27:48"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 21:05:59"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 21:05:59"}
+{"0":"2","1":"0","10":"T","11":"2","12":"0","13":":","14":"0","15":"5","16":":","17":"5","18":"9","19":".","2":"2","20":"3","21":"1","22":"7","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 21:05:59"}
+{"level":"info","message":"::1 - - [10/Sep/2026:20:05:59 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 21:05:59"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 21:05:59"}
+{"level":"error","message":"Not authorised: Token is invalid","timestamp":"2026-09-10 21:05:59"}
+{"0":"2","1":"0","10":"T","11":"2","12":"0","13":":","14":"0","15":"5","16":":","17":"5","18":"9","19":".","2":"2","20":"3","21":"2","22":"4","23":"Z","3":"6","4":"-","5":"0","6":"9","7":"-","8":"1","9":"0","level":"error","message":"[Error]: Not authorised: Token is invalid","timestamp":"2026-09-10 21:05:59"}
+{"level":"info","message":"::1 - - [10/Sep/2026:20:05:59 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 401 108 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 21:05:59"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 23:05:58"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 23:05:58"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 23:06:03"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 23:06:03"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 23:07:09"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 23:07:09"}
+{"level":"info","message":"Data Source initialised","timestamp":"2026-09-10 23:07:17"}
+{"level":"info","message":"Server running on http://localhost:8900","timestamp":"2026-09-10 23:07:17"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:37 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"Incoming request: POST /api/login","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"login accessed by ::1","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:37 +0000] \"POST /api/login HTTP/1.1\" 202 224 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:37"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:38 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:38 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:38"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:41 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:41 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:41"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:44 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:07:44 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:07:44"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:18:56 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:18:56 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:18:56"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:49:30"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:49:30"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:49:30 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:49:30"}
+{"level":"info","message":"Incoming request: GET /api/user/email/newadmin%40example.com","timestamp":"2026-09-10 23:49:30"}
+{"level":"info","message":"users accessed by ::1","timestamp":"2026-09-10 23:49:30"}
+{"level":"info","message":"::1 - - [10/Sep/2026:22:49:30 +0000] \"GET /api/user/email/newadmin%40example.com HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36\"","timestamp":"2026-09-10 23:49:30"}

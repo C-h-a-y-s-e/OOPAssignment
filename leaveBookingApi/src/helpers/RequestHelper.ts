@@ -37,7 +37,7 @@ export class RequestHelper {
 
     const leaveRequest = await leaveRequestRepository.findOne({
       where: { id },
-      relations: ['User'],
+      relations: { User: true },
     });
 
     if (!leaveRequest) {

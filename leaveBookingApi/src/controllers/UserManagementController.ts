@@ -17,7 +17,7 @@ export class UserManagementController implements IEntityController {
 
   public getAll = async (_req: Request, res: Response): Promise<void> => {
     const rows = await this.userManagementRepository.find({
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
     if (rows.length === 0)
       throw new AppError(
@@ -34,7 +34,7 @@ export class UserManagementController implements IEntityController {
     }
     const row = await this.userManagementRepository.findOne({
       where: { id },
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
     if (!row)
       throw new AppError('Manager assignment not found', StatusCodes.NOT_FOUND);
@@ -68,13 +68,13 @@ export class UserManagementController implements IEntityController {
 
     const user = await this.userRepository.findOne({
       where: { userId: parsedUserId },
-      relations: ['role'],
+      relations: { role: true },
     });
     if (!user) throw new AppError('User not found', StatusCodes.NOT_FOUND);
 
     const manager = await this.userRepository.findOne({
       where: { userId: parsedManagerId },
-      relations: ['role'],
+      relations: { role: true },
     });
     if (!manager)
       throw new AppError('Manager not found', StatusCodes.NOT_FOUND);
@@ -87,7 +87,7 @@ export class UserManagementController implements IEntityController {
     }
 
     const allAssignments = await this.userManagementRepository.find({
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
     const existing = allAssignments.find(
       (assign) =>
@@ -130,7 +130,7 @@ export class UserManagementController implements IEntityController {
     }
     const row = await this.userManagementRepository.findOne({
       where: { id },
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
     if (!row)
       throw new AppError('Manager assignment not found', StatusCodes.NOT_FOUND);
@@ -152,7 +152,7 @@ export class UserManagementController implements IEntityController {
 
       const manager = await this.userRepository.findOne({
         where: { userId: parsedManagerId },
-        relations: ['role'],
+        relations: { role: true },
       });
       if (!manager)
         throw new AppError('Manager not found', StatusCodes.NOT_FOUND);
@@ -182,7 +182,7 @@ export class UserManagementController implements IEntityController {
     const updated = await this.userManagementRepository.save(row);
     const withRelations = await this.userManagementRepository.findOne({
       where: { id: updated.id },
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
     ResponseHandler.sendSuccessResponse(res, withRelations);
   };

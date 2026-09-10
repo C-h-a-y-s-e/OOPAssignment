@@ -28,7 +28,7 @@ export class RequestService {
 
   public async getAllLeaveRequests(): Promise<LeaveRequests[]> {
     const leaveRequests = await this.leaveRequestRepository.find({
-      relations: ['User'],
+      relations: { User: true },
     });
 
     if (leaveRequests.length === 0) {
@@ -54,7 +54,7 @@ export class RequestService {
 
     const requests = await this.leaveRequestRepository.find({
       where: { User: { userId } },
-      relations: ['User'],
+      relations: { User: true },
     });
 
     if (requests.length === 0) {
@@ -74,7 +74,7 @@ export class RequestService {
     const managerId = RequestHelper.parseId(managerIdParam);
     //All users with any manager
     const managed = await this.userManagementRepository.find({
-      relations: ['User', 'Manager'],
+      relations: { User: true, Manager: true },
     });
 
     //Filters for those who's userID matches a managerID as a usermanagement object
@@ -92,7 +92,7 @@ export class RequestService {
     //get requests for all users under a manager
     const requests = await this.leaveRequestRepository.find({
       where: { User: { userId: In(managedUserIds) } },
-      relations: ['User'],
+      relations: { User: true },
     });
 
     if (requests.length === 0) {
@@ -216,7 +216,7 @@ export class RequestService {
 
     const leaveRequest = await this.leaveRequestRepository.findOne({
       where: { id },
-      relations: ['User'],
+      relations: { User: true },
     });
 
     if (!leaveRequest) {

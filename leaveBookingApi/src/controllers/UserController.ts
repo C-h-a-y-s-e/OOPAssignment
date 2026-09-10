@@ -19,7 +19,7 @@ export class UserController implements IEntityController, IGetByEmail {
 
   public getAll = async (req: Request, res: Response): Promise<void> => {
     const users = await this.userRepository.find({
-      relations: ['role'],
+      relations: { role: true },
     });
     if (users.length === 0) {
       throw new AppError('No Content', StatusCodes.NO_CONTENT);
@@ -37,7 +37,7 @@ export class UserController implements IEntityController, IGetByEmail {
 
     const user = await this.userRepository.findOne({
       where: { email: email },
-      relations: ['role'],
+      relations: { role: true },
     });
     if (!user) {
       throw new AppError(`${email} not found`, StatusCodes.NOT_FOUND);
@@ -56,7 +56,7 @@ export class UserController implements IEntityController, IGetByEmail {
     }
     const user = await this.userRepository.findOne({
       where: { userId: id },
-      relations: ['role'],
+      relations: { role: true },
     });
     if (!user) {
       throw new AppError(
@@ -151,7 +151,7 @@ export class UserController implements IEntityController, IGetByEmail {
 
     const user = await this.userRepository.findOne({
       where: { userId },
-      relations: ['role'],
+      relations: { role: true },
     });
 
     ResponseHandler.sendSuccessResponse(res, user);
