@@ -21,6 +21,7 @@ export default function AdminPage() {
 					navigate("/dashboard", { replace: true });
 					return;
 				}
+                //if the user isnt an admin redirect them to the dashboard
 
 				const response = await fetch(`${API_BASE_URL}/api/user`, {
 					headers: { Authorization: `Bearer ${token}` },
