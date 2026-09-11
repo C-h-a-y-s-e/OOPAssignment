@@ -31,8 +31,8 @@ export default function AdminPage() {
 					throw new Error(result.error?.message || "Could not load users");
 				}
 				setUsers(result.data);
-			} catch (loadError) {
-				setError(loadError.message);
+			} catch (loadingError) {
+				setError(loadingError.message);
 			} finally {
 				setLoading(false);
 			}
@@ -40,6 +40,7 @@ export default function AdminPage() {
 
 		loadUsers();
 	}, [email, navigate, token]);
+    //if email navigate or token change the effect can run again
 
 	const updatePassword = async (userId) => {
 		const password = passwords[userId]?.trim();
@@ -47,6 +48,7 @@ export default function AdminPage() {
 			window.alert("Error: Please enter a new password.");
 			return;
 		}
+        //if password is empty show this alert
 
 		try {
 			const response = await fetch(`${API_BASE_URL}/api/user/${userId}`, {
@@ -57,12 +59,15 @@ export default function AdminPage() {
 				},
 				body: JSON.stringify({ password }),
 			});
+
 			const result = await response.json();
 			if (!response.ok) {
 				throw new Error(result.error?.message || "Password update failed");
 			}
+            //response to the api request
 
 			setPasswords((current) => ({ ...current, [userId]: "" }));
+            //clear input field ...current keeps others unchanged
 			window.alert("Password changed successfully.");
 		} catch (updateError) {
 			window.alert(updateError.message || "Password change failed.");
@@ -84,13 +89,16 @@ export default function AdminPage() {
 	if (!token || !email) return <Navigate to="/login" replace />;
 
 	return (
-		<main className="page-shell">
-			<section className="login-card" aria-label="Admin user management">
-				<button type="button" onClick={() => navigate("/dashboard")}>Back to dashboard</button>
-				<h1>Admin user management</h1>
-				{loading && <p>Loading users...</p>}
+		<main className="page-shell"> 
+        {/* use the page shell class */}
+			<section className="login-card" aria-label="Admin User Management">
+				<button type="button" onClick={() => navigate("/dashboard")}>Back to Dashboard</button>
+				<h1>Admin User Management</h1>
+				{loading && <p>Loading Users...</p>}
+                {/* if loading show loading users */}
 				{error && <p className="status error">{error}</p>}
 				{!loading && !error && users.map((user) => (
+                    // if no loading and no error go through all users and create array
 					<article key={user.userId}>
 						<h2>{user.firstname} {user.surname}</h2>
 						<p>{user.email}</p>
