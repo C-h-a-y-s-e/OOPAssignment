@@ -206,12 +206,15 @@ button:disabled {
 
 .sidebar-header {
     margin-bottom: 2rem;
+    
 }
 
 .sidebar-header h2 {
     margin: 0;
     font-size: 1.4rem;
-    color: var(--accent-strong);
+    color: black;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .user-segment {
@@ -222,12 +225,27 @@ button:disabled {
     text-align: center;
 }
 
-.user-fullname {
-    margin: 200;
-    padding-left: 0.25rem;
+.user-section,
+.user-balance {
+    background: rgba(235, 94, 40, 0.08);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.user-fullname,
+.user-balance p,
+.user-balance strong {
+    margin: 0;
     font-weight: 700;
     color: var(--text-main);
+}
 
+.user-balance p {
+    margin-bottom: 0.35rem;
+    color: var(--text-soft);
+    font-size: 0.85rem;
 }
 .user-name {
     margin: 0;

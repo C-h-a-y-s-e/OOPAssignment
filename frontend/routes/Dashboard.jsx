@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router";
-import { fetchUserDetails } from '../api';
+import { API_BASE_URL, fetchUserDetails } from '../api';
 //usenavigate allows changing of webpage
 
 function Calendar() {
@@ -92,6 +92,7 @@ export default function Dashboard() {
   const [userEmail, setUserEmail] = React.useState(localStorage.getItem("authEmail") || "");
   const [userFullName, setUserFullName] = React.useState("");
   const [userRole, setUserRole] = React.useState("");
+  const [userBalance, setUserBalance] = React.useState(null);
 
   if (!token) {
     return <Navigate to="/login" replace />;
@@ -102,11 +103,26 @@ export default function Dashboard() {
     if (!token || !userEmail) return;
 
     fetchUserDetails(userEmail, token)
-      .then((user) => {
+      .then(async (user) => {
         setUserFullName(`${user.firstname} ${user.surname}`.trim());
         setUserRole(user.role?.name?.toLowerCase() || "");
+
+        const balanceResponse = await fetch(
+          `${API_BASE_URL}/api/leaveRequests/balance/${user.userId}`,
+          { headers: { Authorization: `Bearer ${token}` } },
+        );
+        const balanceResult = await balanceResponse.json();
+        if (!balanceResponse.ok) {
+          throw new Error(
+            balanceResult.error?.message || "Could not retrieve leave balance",
+          );
+        }
+        setUserBalance(balanceResult.data.leaveBalance);
       })
-      .catch(() => setUserFullName(""));
+      .catch(() => {
+        setUserFullName("");
+        setUserBalance(null);
+      });
   }, [userEmail]);
 
   const handleLogout = () => {
@@ -120,6 +136,10 @@ export default function Dashboard() {
       <aside className="sidebar">
         <div className="sidebar-header"><h2>Leave Booking</h2></div>
         <div className="user-section"><p className="user-fullname">{userFullName || userEmail}</p></div>
+        <div className="user-balance">
+          <p>Leave balance</p>
+          <strong>{userBalance ?? "Loading..."} days</strong>
+        </div>
         <nav className="sidebar-nav"><button className="nav-button active" onClick={() => navigate("/dashboard")}>Home</button></nav>
         {(userRole === "manager" || userRole === "admin") && (
           <nav className="sidebar-nav">
@@ -134,7 +154,7 @@ export default function Dashboard() {
         <button className="logout-button" onClick={handleLogout}>Log Out</button>
       </aside>
       <main className="main-content">
-        <h1>Welcome to Leave Booking</h1>
+        <h1>Leave Booking Service</h1>
         <p>You are logged in as {userEmail}</p>
         <Calendar />
       </main>
