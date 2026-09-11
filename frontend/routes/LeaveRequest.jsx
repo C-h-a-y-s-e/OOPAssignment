@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, useLocation, useNavigate } from "react-router";
-
+import { API_BASE_URL } from '../api';
 export default function LeaveRequest() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -18,6 +18,11 @@ export default function LeaveRequest() {
     event.preventDefault();
     
     // TODO: Connect to API 
+    const token = localStorage.getItem("authToken")
+    const email = localStorage.getItem("authEmail")
+    // const response = await fetch(`http://localhost:8900/api/user/email/${encodeURIComponent(authEmail)}`,
+
+    // )
 };
 
   return (

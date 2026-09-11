@@ -5,7 +5,7 @@ node_modules/
 dist/
 
 # Log files
-*.log
+leaveBookingApi/*.log
 
 # Environment variables
 .env

@@ -38,9 +38,8 @@ type RouteFiles = {
   "../routes/LoginPage.jsx": {
     id: "../routes/LoginPage";
     page: "/";
-  };
-  "../routes/LoginRoute.jsx": {
-    id: "../routes/LoginRoute";
+  } | {
+    id: "login";
     page: "/login";
   };
   "../routes/Dashboard.jsx": {
@@ -60,7 +59,7 @@ type RouteFiles = {
 type RouteModules = {
   "root": typeof import("./app/root.jsx");
   "../routes/LoginPage": unknown;
-  "../routes/LoginRoute": unknown;
+  "login": unknown;
   "../routes/Dashboard": unknown;
   "../routes/LeaveRequest": unknown;
   "../routes/NotFound": unknown;

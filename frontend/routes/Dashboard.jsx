@@ -1,22 +1,7 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router";
+import { fetchUserDetails } from '../api';
 //usenavigate allows changing of webpage
-const API_BASE_URL = "http://localhost:8900";
-
-async function fetchUserProfile(email, token) {
-  const response = await fetch(
-    `${API_BASE_URL}/api/user/email/${encodeURIComponent(email)}`,
-    { headers: { Authorization: `Bearer ${token}` } },
-  );
-  //gets the ysers info from backend
-  //email is safe to put in a url with encodecomponent
-  if (!response.ok) {
-    throw new Error("Could not retrieve user profile");
-  }
-
-  const result = await response.json();
-  return result.data;
-}
 
 function Calendar() {
   const navigate = useNavigate();
@@ -115,7 +100,7 @@ export default function Dashboard() {
     const token = localStorage.getItem("authToken");
     if (!token || !userEmail) return;
 
-    fetchUserProfile(userEmail, token)
+    fetchUserDetails(userEmail, token)
       .then((user) => setUserFullName(`${user.firstname} ${user.surname}`.trim()))
       .catch(() => setUserFullName(""));
   }, [userEmail]);

@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
-
-const API_BASE_URL = "http://localhost:8900";
+import { API_BASE_URL } from "../api";
 
 export default function LoginPage() {
   const navigate = useNavigate();
