@@ -13,11 +13,14 @@ import { IEntityController } from '../types/IEntityController';
 import { IGetByEmail } from '../types/IGetByEmail';
 import { LeaveBalanceService } from '../services/LeaveBalanceService';
 import { ensureCallerHasRoles } from '../helpers/RoleAuthorisation';
+import { IAuthenticatedJWTRequest } from '../types/IAuthenticatedJWTRequest';
+import { PasswordHandler } from '../helpers/PasswordHandler';
 
 export class UserController implements IEntityController, IGetByEmail {
   constructor(private userRepository: Repository<User>) {}
 
   public getAll = async (req: Request, res: Response): Promise<void> => {
+    await this.ensureCallerIsAdmin((req as IAuthenticatedJWTRequest).signedInUser?.email);
     const users = await this.userRepository.find({
       relations: { role: true },
     });
@@ -91,6 +94,7 @@ export class UserController implements IEntityController, IGetByEmail {
   };
 
   public delete = async (req: Request, res: Response): Promise<void> => {
+    await this.ensureCallerIsAdmin((req as IAuthenticatedJWTRequest).signedInUser?.email);
     const id = req.params.id;
 
     const result = await this.userRepository.delete(id);
@@ -105,6 +109,7 @@ export class UserController implements IEntityController, IGetByEmail {
   };
 
   public update = async (req: Request, res: Response): Promise<void> => {
+    await this.ensureCallerIsAdmin((req as IAuthenticatedJWTRequest).signedInUser?.email);
     const id = parseInt(req.params.id as string);
     const { email, password, roleId } = req.body;
     if (isNaN(id)) {
@@ -116,14 +121,22 @@ export class UserController implements IEntityController, IGetByEmail {
       return;
     }
 
-    const user = await this.userRepository.findOneBy({ userId: id });
+    const user = await this.userRepository
+      .createQueryBuilder('user')
+      .addSelect(['user.password', 'user.salt'])
+      .where('user.userId = :id', { id })
+      .getOne();
     if (!user) {
       throw new AppError('User not found', StatusCodes.NOT_FOUND);
       return;
     }
     //Update specific fields
     if (email !== undefined) user.email = email;
-    if (password !== undefined) user.password = password;
+    if (password !== undefined) {
+      const { hashedPassword, salt } = PasswordHandler.hashPassword(password);
+      user.password = hashedPassword;
+      user.salt = salt;
+    }
     if (roleId !== undefined) user.role = { id: Number(roleId) } as any;
     const errors = await validate(user, { skipMissingProperties: true });
     if (errors.length > 0) {

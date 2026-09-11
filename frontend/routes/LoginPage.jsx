@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import { API_BASE_URL } from "../api";
+import { API_BASE_URL, fetchUserDetails } from "../api";
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -48,9 +48,10 @@ export default function LoginPage() {
       localStorage.setItem("authToken", authToken);
       localStorage.setItem("authEmail", email);
 // if response is ok, the token gets sent and stored in the browser
+      const user = await fetchUserDetails(email, authToken);
       setStatus("Login successful. Redirecting!");
       setStatusType("ok");
-      navigate("/dashboard");
+      navigate(user.role?.name?.toLowerCase() === "admin" ? "/admin" : "/dashboard");
     } catch (error) {
       setStatus(
         error.message === "Failed to fetch"

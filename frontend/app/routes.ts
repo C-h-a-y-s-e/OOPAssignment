@@ -8,6 +8,7 @@ export default [
   index("../routes/LoginPage.jsx"),
   route("login", "../routes/LoginPage.jsx", { id: "login" }),
   route("dashboard", "../routes/Dashboard.jsx"),
+  route("admin", "../routes/AdminPage.jsx"),
   route("leave-request", "../routes/LeaveRequest.jsx"),
   route("*", "../routes/NotFound.jsx"),
 ] satisfies RouteConfig;
