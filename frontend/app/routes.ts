@@ -9,6 +9,7 @@ export default [
   route("login", "../routes/LoginPage.jsx", { id: "login" }),
   route("dashboard", "../routes/Dashboard.jsx"),
   route("admin", "../routes/AdminPage.jsx"),
+  route("management", "../routes/ManagementPage.jsx"),
   route("leave-request", "../routes/LeaveRequest.jsx"),
   route("*", "../routes/NotFound.jsx"),
 ] satisfies RouteConfig;

@@ -51,7 +51,14 @@ export default function LoginPage() {
       const user = await fetchUserDetails(email, authToken);
       setStatus("Login successful. Redirecting!");
       setStatusType("ok");
-      navigate(user.role?.name?.toLowerCase() === "admin" ? "/admin" : "/dashboard");
+      const roleName = user.role?.name?.toLowerCase();
+      let destination = "/dashboard";
+      if (roleName === "admin") {
+        destination = "/admin";
+      } else if (roleName === "manager") {
+        destination = "/management";
+      }
+      navigate(destination);
     } catch (error) {
       setStatus(
         error.message === "Failed to fetch"

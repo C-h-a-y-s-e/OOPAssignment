@@ -222,25 +222,28 @@ button:disabled {
     text-align: center;
 }
 
-.user-avatar {
-    font-size: 3rem;
-    margin-bottom: 0.75rem;
-}
+.user-fullname {
+    margin: 200;
+    padding-left: 0.25rem;
+    font-weight: 700;
+    color: var(--text-main);
 
+}
 .user-name {
     margin: 0;
     font-weight: 700;
     font-size: 0.95rem;
     color: var(--text-main);
     word-break: break-all;
+    
 }
 
 .sidebar-nav {
-    flex: 1;
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .nav-button {
@@ -256,9 +259,26 @@ button:disabled {
     transition: all 120ms ease;
 }
 
+.management-nav-button {
+    background: #10367a;
+    color: #fff;
+}
+
 .nav-button:hover {
-    background: rgba(235, 94, 40, 0.1);
+    background: #105a7a;
     transform: translateX(4px);
+}
+
+
+.admin-nav-button {
+    background: #061530;
+    color: #fff;
+}
+.login-card{
+    background: var(--card);
+}
+.management-card {
+    background: #10367a;
 }
 
 .nav-button.active {

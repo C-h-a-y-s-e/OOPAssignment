@@ -91,6 +91,7 @@ export default function Dashboard() {
   const token = localStorage.getItem("authToken");
   const [userEmail, setUserEmail] = React.useState(localStorage.getItem("authEmail") || "");
   const [userFullName, setUserFullName] = React.useState("");
+  const [userRole, setUserRole] = React.useState("");
 
   if (!token) {
     return <Navigate to="/login" replace />;
@@ -101,7 +102,10 @@ export default function Dashboard() {
     if (!token || !userEmail) return;
 
     fetchUserDetails(userEmail, token)
-      .then((user) => setUserFullName(`${user.firstname} ${user.surname}`.trim()))
+      .then((user) => {
+        setUserFullName(`${user.firstname} ${user.surname}`.trim());
+        setUserRole(user.role?.name?.toLowerCase() || "");
+      })
       .catch(() => setUserFullName(""));
   }, [userEmail]);
 
@@ -117,6 +121,16 @@ export default function Dashboard() {
         <div className="sidebar-header"><h2>Leave Booking</h2></div>
         <div className="user-section"><p className="user-fullname">{userFullName || userEmail}</p></div>
         <nav className="sidebar-nav"><button className="nav-button active" onClick={() => navigate("/dashboard")}>Home</button></nav>
+        {(userRole === "manager" || userRole === "admin") && (
+          <nav className="sidebar-nav">
+            <button className="nav-button management-nav-button" onClick={() => navigate("/management")}>Management</button>
+          </nav>
+        )}
+        {userRole === "admin" && (
+          <nav className="sidebar-nav">
+            <button className="nav-button admin-nav-button" onClick={() => navigate("/admin")}>Admin</button>
+          </nav>
+        )}
         <button className="logout-button" onClick={handleLogout}>Log Out</button>
       </aside>
       <main className="main-content">

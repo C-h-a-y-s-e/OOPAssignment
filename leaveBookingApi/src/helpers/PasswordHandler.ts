@@ -22,15 +22,28 @@ export class PasswordHandler {
     hashedPassword: string,
     salt: string,
   ): boolean {
+    if (
+      !hashedPassword ||
+      !salt ||
+      !/^[0-9a-f]+$/i.test(hashedPassword) ||
+      !/^[0-9a-f]+$/i.test(salt)
+    ) {
+      return false;
+    }
+
     const hashToCompare = scryptSync(
       this.getPepper() + password,
       salt,
       this.KEY_LENGTH_IN_BYTES,
     ).toString('hex');
-    const match = timingSafeEqual(
-      Buffer.from(hashedPassword, 'hex'),
-      Buffer.from(hashToCompare, 'hex'),
-    );
+
+    const storedHash = Buffer.from(hashedPassword, 'hex');
+    const generatedHash = Buffer.from(hashToCompare, 'hex');
+    if (storedHash.length !== generatedHash.length) {
+      return false;
+    }
+
+    const match = timingSafeEqual(storedHash, generatedHash);
     return match;
   }
 }
