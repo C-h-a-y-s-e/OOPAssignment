@@ -1,6 +1,12 @@
 import React from "react";
 import { Navigate, useLocation, useNavigate } from "react-router";
-import { API_BASE_URL } from '../api';
+import { API_BASE_URL, fetchUserDetails} from '../api';
+
+function formatDateForApi(dateValue) {
+  const [year, month, day] = dateValue.split("-");
+  return `${day}/${month}/${year}`;
+}
+
 export default function LeaveRequest() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -14,17 +20,46 @@ export default function LeaveRequest() {
     return <Navigate to="/login" replace />;
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     
-    // TODO: Connect to API 
-    const token = localStorage.getItem("authToken")
     const email = localStorage.getItem("authEmail")
-    // const response = await fetch(`http://localhost:8900/api/user/email/${encodeURIComponent(authEmail)}`,
-
-    // )
+    if (!email){
+      navigate("/login")
+      return;
+    }
+    try{
+      const user = await fetchUserDetails(email,token);
+      const requestData = {
+        startDate: formatDateForApi(startDate),
+        endDate: formatDateForApi(endDate),
+        userId: user.userId,
+        leaveTypeId: 1,
+        status: 'pending'
+      };
+      const requestResponse = await fetch(`${API_BASE_URL}/api/leaveRequests/`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization :  `Bearer ${token}`,
+          },
+          body: JSON.stringify(requestData),
+        },
+      );
+  
+  const requestResult = await requestResponse.json();
+    // change leavetypeid field
+    
+    if(!requestResponse.ok){
+      throw new Error(requestResult.error?.message || "Leave Request Failed",);
+    }
+  navigate("/dashboard")}
+  catch(error){
+    console.error(error);
+    alert(error.message);
+  }
 };
-
   return (
     <main className="request-page">
       <section className="request-form" aria-label="Leave request form">

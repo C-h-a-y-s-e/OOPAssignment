@@ -7,11 +7,15 @@ export async function fetchUserDetails(email, token) {
     );
     //gets the ysers info from backend
     //email is safe to put in a url with encodecomponent
+    const result = await response.json();
+
     if (!response.ok) {
-        throw new Error("Could not retrieve user profile");
+        throw new Error(
+            result.error?.message ||
+                `Could not retrieve user profile (${response.status})`,
+        );
     }
 
-    const result = await response.json();
     return result.data;
     }
     
