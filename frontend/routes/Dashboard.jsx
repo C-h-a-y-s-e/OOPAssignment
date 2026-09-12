@@ -142,7 +142,7 @@ export default function Dashboard() {
         </div>
         <nav className="sidebar-nav"><button className="nav-button active" onClick={() => navigate("/dashboard")}>Home</button></nav>
         <nav className="sidebar-nav">
-          <button className="nav-button" onClick={() => navigate("/view-requests")}>My requests</button>
+          <button className="nav-button requests-nav-button" onClick={() => navigate("/view-requests")}>My requests</button>
         </nav>
         {(userRole === "manager" || userRole === "admin") && (
           <nav className="sidebar-nav">

@@ -84,6 +84,7 @@ export default function AdminPage() {
 		const result = await response.json();
 		if (!response.ok) throw new Error(result.error?.message || "User deletion failed");
 		setUsers((current) => current.filter((user) => user.userId !== userId));
+		//create a new array of users without the current one
 	};
 
 	if (!token || !email) return <Navigate to="/login" replace />;
@@ -100,7 +101,10 @@ export default function AdminPage() {
 				{!loading && !error && users.map((user) => (
                     // if no loading and no error go through all users and create array
 					<article key={user.userId}>
-						<h2>{user.firstname} {user.surname}</h2>
+						<h2>
+							{user.firstname} {user.surname}
+							<span> ({user.role?.name || "Role unavailable"})</span>
+						</h2>
 						<p>{user.email}</p>
 						<label htmlFor={`password-${user.userId}`}>New password</label>
 						<input

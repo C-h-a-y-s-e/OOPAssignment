@@ -24,13 +24,14 @@ export default function ViewRequests() {
 				if (response.status === 204) {
 					setRequests([]);
 					return;
+					//if response status is no content, set requests to an empty array
 				}
 
 				const result = await response.json();
 				if (!response.ok) {
 					throw new Error(result.error?.message || "Could not load requests");
 				}
-				setRequests(result.data);
+				setRequests(result.data); //if none of the above happened, set requests to the result data
 			} catch (loadError) {
 				setError(loadError.message || "Could not load requests");
 			} finally {
@@ -42,7 +43,7 @@ export default function ViewRequests() {
 	}, [email, token]);
 
 	const cancelRequest = async (requestId) => {
-		if (!window.confirm("Cancel this leave request?")) return;
+		if (!window.confirm("Cancel this Leave Request?")) return;
 
 		try {
 			const response = await fetch(
@@ -61,7 +62,8 @@ export default function ViewRequests() {
 			setRequests((current) =>
 				current.filter((request) => request.id !== requestId),
 			);
-			window.alert("Leave request cancelled successfully.");
+			//removes the cancelled request with a new array of everything except requestid
+			window.alert("Leave Request Cancelled Successfully.");
 		} catch (cancelError) {
 			window.alert(cancelError.message || "Could not cancel request");
 		}
@@ -73,20 +75,20 @@ export default function ViewRequests() {
 		<main className="page-shell">
 			<section className="login-card" aria-label="My leave requests">
 				<button type="button" onClick={() => navigate("/dashboard")}>
-					Back to dashboard
+					Return to dashboard
 				</button>
-				<h1>My leave requests</h1>
-				{loading && <p>Loading requests...</p>}
+				<h1>My Leave Requests</h1>
+				{loading && <p>Loading Requests...</p>}
 				{error && <p className="status error">{error}</p>}
 				{!loading && !error && requests.length === 0 && (
-					<p>You have no leave requests.</p>
+					<p>You Have No Leave Requests.</p>
 				)}
 				{!loading && !error && requests.map((request) => (
 					<article key={request.id}>
 						<h2>{request.startDate} to {request.endDate}</h2>
 						<p>Status: {request.status}</p>
 						<button type="button" onClick={() => cancelRequest(request.id)}>
-							Cancel request
+							Cancel Request
 						</button>
 					</article>
 				))}

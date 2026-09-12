@@ -216,6 +216,9 @@ button:disabled {
     font-family: "Montserrat", sans-serif;
 
 }
+.requests-nav-button{
+    background: #fe58169e;
+}
 
 .user-segment {
     background: rgba(235, 94, 40, 0.08);
@@ -285,6 +288,15 @@ button:disabled {
 .nav-button:hover {
     background: #105a7a;
     transform: translateX(4px);
+}
+
+.nav-button.requests-nav-button {
+    background: #fea116f8;
+    color: #fff;
+}
+
+.nav-button.requests-nav-button:hover {
+    background: #e0000078;
 }
 
 

@@ -1,1 +1,0 @@
-import{k as e,o as t,t as n}from"./jsx-runtime-DwBQjlBA.js";var r=n(),i=e(function(){return(0,r.jsx)(t,{to:`/login`,replace:!0})});export{i as default};

@@ -1,0 +1,1 @@
+var e=`http://localhost:8900`;async function t(t,n){let r=await fetch(`${e}/api/user/email/${encodeURIComponent(t)}`,{headers:{Authorization:`Bearer ${n}`}}),i=await r.json();if(!r.ok)throw Error(i.error?.message||`Could not retrieve user profile (${r.status})`);return i.data}export{t as n,e as t};
