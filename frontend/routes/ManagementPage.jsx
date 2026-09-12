@@ -1,6 +1,7 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router";
 import { API_BASE_URL, fetchUserDetails } from "../api";
+import { HTTP_STATUS } from "../StatusCodes.js";
 
 export default function ManagementPage() {
     const navigate = useNavigate();
@@ -32,7 +33,7 @@ export default function ManagementPage() {
                     );
                     //only managers need to load in their managed users
                     let assignedEmployees = [];
-                    if (usersResponse.status !== 204) { //only read the json if it contains content
+                    if (usersResponse.status !== HTTP_STATUS.NO_CONTENT) { //only read the json if it contains content
                         const usersResult = await usersResponse.json(); //convert response into js
                         if (!usersResponse.ok) {
                             throw new Error(
@@ -57,7 +58,7 @@ export default function ManagementPage() {
                         : `${API_BASE_URL}/api/leaveRequests/manager/${currentUser.userId}`,
                     { headers: { Authorization: `Bearer ${token}` } },
                 );
-                if (response.status === 204) {
+                if (response.status === HTTP_STATUS.NO_CONTENT) {
                     setRequests([]);
                     return;
                 } //204 = no content error code
@@ -90,7 +91,7 @@ export default function ManagementPage() {
                     body: JSON.stringify({ status }), //turn approved or deny into JSON
                 },
             );
-            const result = response.status === 204 ? {} : await response.json();
+            const result = response.status === HTTP_STATUS.NO_CONTENT ? {} : await response.json();
             if (!response.ok) {
                 throw new Error(result.error?.message || "Could not update request");
             }

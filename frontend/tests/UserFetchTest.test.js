@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { fetchUserDetails } from "./api"; // the function we will be testing
+import { HTTP_STATUS } from "../StatusCodes.js";
+import { fetchUserDetails } from "../api.js"; // the function we will be testing
 
 // NOTES ON THE TESTING
 // Describe : Groups related tests together
@@ -22,7 +23,7 @@ describe("fetchUserDetails", () => {
         vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
             // 
             ok: true, //Pretend HTTP response is successful, response.ok
-            status: 200, //OK
+            status: HTTP_STATUS.OK, //OK
             json: async () => ({
                 data: {
                     userId: 1,
@@ -51,7 +52,7 @@ describe("fetchUserDetails", () => {
     it("Use the API error message upon request failure", async () => {
         vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
             ok: false,
-            status: 404, //Not found
+            status: HTTP_STATUS.NOT_FOUND, //Not found
             json: async () => ({
                 error: { message: "User not found" },
             }),
@@ -65,12 +66,12 @@ describe("fetchUserDetails", () => {
     it("uses a fallback error when the API provides no message", async () => {
         vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
             ok: false,
-            status: 500,
+            status: HTTP_STATUS.INTERNAL_SERVER_ERROR,
             json: async () => ({}),
         }));
 
         await expect(
             fetchUserDetails("test@example.com", "token123"),
-        ).rejects.toThrow("Could not retrieve user profile (500)");
+        ).rejects.toThrow(`Could not retrieve user profile (${HTTP_STATUS.INTERNAL_SERVER_ERROR})`);
     });
 });
