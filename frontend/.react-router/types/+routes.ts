@@ -26,6 +26,9 @@ type Pages = {
   "/management": {
     params: {};
   };
+  "/view-requests": {
+    params: {};
+  };
   "/leave-request": {
     params: {};
   };
@@ -39,7 +42,7 @@ type Pages = {
 type RouteFiles = {
   "root.jsx": {
     id: "root";
-    page: "/" | "/login" | "/dashboard" | "/admin" | "/management" | "/leave-request" | "/*";
+    page: "/" | "/login" | "/dashboard" | "/admin" | "/management" | "/view-requests" | "/leave-request" | "/*";
   };
   "../routes/LoginPage.jsx": {
     id: "../routes/LoginPage";
@@ -60,6 +63,10 @@ type RouteFiles = {
     id: "../routes/ManagementPage";
     page: "/management";
   };
+  "../routes/ViewRequests.jsx": {
+    id: "../routes/ViewRequests";
+    page: "/view-requests";
+  };
   "../routes/LeaveRequest.jsx": {
     id: "../routes/LeaveRequest";
     page: "/leave-request";
@@ -77,6 +84,7 @@ type RouteModules = {
   "../routes/Dashboard": unknown;
   "../routes/AdminPage": unknown;
   "../routes/ManagementPage": unknown;
+  "../routes/ViewRequests": unknown;
   "../routes/LeaveRequest": unknown;
   "../routes/NotFound": unknown;
 };
