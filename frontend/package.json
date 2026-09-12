@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "dev": "react-router dev",
     "build": "react-router build",
     "start": "vite preview"
@@ -14,12 +14,13 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
     "@react-router/node": "^7.18.3",
     "@react-router/serve": "^7.18.3",
+    "isbot": "^5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-router": "^7.18.3",
-    "isbot": "^5"
+    "vitest": "^5.0.0"
   },
   "devDependencies": {
     "@react-router/dev": "^7.18.3",
