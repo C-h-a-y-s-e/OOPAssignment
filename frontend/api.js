@@ -10,10 +10,12 @@ export async function fetchUserDetails(email, token) {
     const result = await response.json();
 
     if (!response.ok) {
-        throw new Error(
+        const error = new Error(
             result.error?.message ||
                 `Could not retrieve user profile (${response.status})`,
         );
+        error.status = response.status;
+        throw error;
     }
 
     return result.data;

@@ -68,6 +68,10 @@ export default function ManagementPage() {
                 }
                 setRequests(result.data);
             } catch (loadError) {
+                if (loadError.status === HTTP_STATUS.UNAUTHORIZED) {
+                    navigate("/dashboard", { replace: true });
+                    return;
+                }
                 setError(loadError.message || "Could not load requests");
             } finally {
                 setLoading(false);
