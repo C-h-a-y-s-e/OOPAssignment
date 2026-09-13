@@ -140,7 +140,6 @@ export default function Dashboard() {
           <p>Leave balance</p>
           <strong>{userBalance ?? "Loading..."} days</strong>
         </div>
-        <nav className="sidebar-nav"><button className="nav-button active" onClick={() => navigate("/dashboard")}>Home</button></nav>
         <nav className="sidebar-nav">
           <button className="nav-button requests-nav-button" onClick={() => navigate("/view-requests")}>My requests</button>
         </nav>
