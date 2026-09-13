@@ -1,6 +1,7 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router";
 import { API_BASE_URL, fetchUserDetails } from '../api';
+import { HTTP_STATUS } from "../StatusCodes.js";
 //usenavigate allows changing of webpage
 
 function Calendar() {
@@ -93,6 +94,8 @@ export default function Dashboard() {
   const [userFullName, setUserFullName] = React.useState("");
   const [userRole, setUserRole] = React.useState("");
   const [userBalance, setUserBalance] = React.useState(null);
+  const [balanceLoading, setBalanceLoading] = React.useState(true);
+  const [balanceError, setBalanceError] = React.useState("");
 
   if (!token) {
     return <Navigate to="/login" replace />;
@@ -101,6 +104,9 @@ export default function Dashboard() {
   React.useEffect(() => {
     const token = localStorage.getItem("authToken");
     if (!token || !userEmail) return;
+
+    setBalanceLoading(true);
+    setBalanceError("");
 
     fetchUserDetails(userEmail, token)
       .then(async (user) => {
@@ -113,17 +119,27 @@ export default function Dashboard() {
         );
         const balanceResult = await balanceResponse.json();
         if (!balanceResponse.ok) {
-          throw new Error(
+          const error = new Error(
             balanceResult.error?.message || "Could not retrieve leave balance",
           );
+          error.status = balanceResponse.status;
+          throw error;
         }
         setUserBalance(balanceResult.data.leaveBalance);
       })
-      .catch(() => {
+      .catch((loadError) => {
+        if (loadError.status === HTTP_STATUS.UNAUTHORIZED) {
+          navigate("/login", { replace: true });
+          return;
+        }
         setUserFullName("");
         setUserBalance(null);
+        setBalanceError(loadError.message || "Could not retrieve leave balance");
+      })
+      .finally(() => {
+        setBalanceLoading(false);
       });
-  }, [userEmail]);
+  }, [navigate, userEmail]);
 
   const handleLogout = () => {
     localStorage.removeItem("authToken");
@@ -138,7 +154,13 @@ export default function Dashboard() {
         <div className="user-section"><p className="user-fullname">{userFullName || userEmail}</p></div>
         <div className="user-balance">
           <p>Leave balance</p>
-          <strong>{userBalance ?? "Loading..."} days</strong>
+          <strong>
+            {balanceLoading
+              ? "Loading..."
+              : balanceError
+                ? balanceError
+                : `${userBalance} days`}
+          </strong>
         </div>
         <nav className="sidebar-nav">
           <button className="nav-button requests-nav-button" onClick={() => navigate("/view-requests")}>My requests</button>
